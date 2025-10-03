@@ -8,7 +8,7 @@ const logger = require('../utils/logger');
 const UrlResolverService = require('./urlResolverService');
 const { ApprovalContextService } = require('./hubspot'); // NEW: Using toolkit-based service
 const TimesheetService = require('./timesheetService');
-const PdfIntegrationService = require('./pdfIntegrationService');
+const { PDFServiceClient } = require('./pdf'); // NEW: Using toolkit-pdf
 const WF26PdfGenerationService = require('./wf26PdfGenerationService');
 const InvoiceBillNumberService = require('./invoiceBillNumberService');
 const EmailService = require('./email/EmailService');
@@ -20,7 +20,7 @@ class ApprovalService {
     this.urlResolver = new UrlResolverService();
     this.contextService = new ApprovalContextService(); // NEW: Replaces hubspotService
     this.timesheetService = new TimesheetService(this.contextService);
-    this.pdfIntegration = new PdfIntegrationService();
+    this.pdfServiceClient = new PDFServiceClient(); // NEW: Using toolkit-pdf
     this.wf26PdfGeneration = new WF26PdfGenerationService();
     this.invoiceBillNumberService = new InvoiceBillNumberService(this.contextService);
 

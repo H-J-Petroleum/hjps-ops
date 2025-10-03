@@ -17,12 +17,12 @@
  */
 
 const logger = require('../utils/logger');
-const PdfIntegrationService = require('./pdfIntegrationService');
+const { PDFServiceClient } = require('./pdf');
 
 class WF26PdfGenerationService {
   constructor() {
     this.logger = logger;
-    this.pdfIntegrationService = new PdfIntegrationService();
+    this.pdfServiceClient = new PDFServiceClient();
   }
 
   /**
@@ -38,8 +38,8 @@ class WF26PdfGenerationService {
         pdfType: 'customer'
       });
 
-      // Use the existing PDF generator service
-      const result = await this.pdfIntegrationService.generatePDF({
+      // Use the toolkit-based PDF service client
+      const result = await this.pdfServiceClient.generatePDF({
         approvalId,
         pdfType: 'customer'
       });
@@ -81,8 +81,8 @@ class WF26PdfGenerationService {
         pdfType: 'consultant'
       });
 
-      // Use the existing PDF generator service
-      const result = await this.pdfIntegrationService.generatePDF({
+      // Use the toolkit-based PDF service client
+      const result = await this.pdfServiceClient.generatePDF({
         approvalId,
         pdfType: 'consultant'
       });

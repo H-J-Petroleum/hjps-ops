@@ -1,11 +1,11 @@
 # hjps-ops Toolkit Migration - COMPLETE ✅
 
 **Date Completed:** 2025-10-03
-**Migration Status:** Phase 2 Complete - HubSpot Integration Migrated
+**Migration Status:** Phase 3 Complete - HubSpot & PDF Integration Migrated
 
 ## Executive Summary
 
-Successfully completed migration of the hjps-ops approval-api from custom HubSpot service to `@hjps/toolkit-hubspot` and `@hjps/toolkit-pdf` packages. This migration eliminates ~1,133 lines of duplicate code and establishes shared governance for HubSpot interactions.
+Successfully completed migration of the hjps-ops approval-api from custom services to `@hjps/toolkit-hubspot` and `@hjps/toolkit-pdf` packages. This migration eliminates ~1,550 lines of duplicate code and establishes shared governance for both HubSpot and PDF interactions.
 
 ## Completed Work
 
@@ -119,21 +119,56 @@ approvalService
 
 ## Files Modified
 
-### New Files Created
+### ✅ Phase 3: PDF Integration Migration (DONE)
+
+#### New Services Created
+
+**1. PDFServiceClient.js** (316 lines)
+- Wrapper around `@hjps/toolkit-pdf` client
+- Provides backward-compatible CommonJS interface
+- Lazy-loads ES module toolkit using dynamic import
+- Includes all PDF generation methods:
+  - `generatePDF()` - Generate PDF with approval/timesheet data
+  - `getPDFStatus()` - Check PDF generation status
+  - `retryPDFGeneration()` - Retry failed generations
+  - `checkHealth()` - PDF service health check
+  - `validatePDFRequest()` - Request validation
+  - `prepareApprovalData()` - Data preparation
+  - `prepareTimesheetData()` - Timesheet formatting with toolkit ValueFormattingService
+
+**2. pdf/index.js** (7 lines)
+- Exports PDF services
+
+#### Services Updated
+
+**1. wf26PdfGenerationService.js**
+- ✅ Updated to use PDFServiceClient instead of PdfIntegrationService
+- ✅ Both customer and consultant PDF generation migrated
+
+**2. approvalService.js**
+- ✅ Replaced PdfIntegrationService with PDFServiceClient
+- ✅ Updated imports to use toolkit-pdf
+
+### New Files Created (Phase 2 & 3)
 ```
 packages/approval-api/src/services/hubspot/
 ├── HubSpotClient.js                  (449 lines) ✅
 ├── ContextEnricher.js                (357 lines) ✅
 ├── ApprovalContextService.js         (226 lines) ✅
 └── index.js                          (11 lines) ✅
+
+packages/approval-api/src/services/pdf/
+├── PDFServiceClient.js               (316 lines) ✅
+└── index.js                          (7 lines) ✅
 ```
 
 ### Existing Files Modified
 ```
 packages/approval-api/src/services/
-├── approvalService.js                (✅ 15+ updates)
-├── timesheetService.js               (✅ 6 updates)
-└── invoiceBillNumberService.js       (✅ 5 updates)
+├── approvalService.js                (✅ 20+ updates - Phase 2 & 3)
+├── wf26PdfGenerationService.js       (✅ 4 updates - Phase 3)
+├── timesheetService.js               (✅ 6 updates - Phase 2)
+└── invoiceBillNumberService.js       (✅ 5 updates - Phase 2)
 
 packages/approval-api/
 └── package.json                      (✅ Added toolkit dependencies)
