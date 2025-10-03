@@ -1,0 +1,21 @@
+{
+  "workflow_ids": [
+    "1680618036",
+    "1682422902"
+  ],
+  "activation_requirements": [
+    "Foundations validation flag missing_important_info must be cleared before enabling approval workflows.",
+    "Confirm email templates and portal URLs referenced in Phase 03 docs are still valid before activation."
+  ],
+  "url_mappings": {
+    "link_for_consultant": {
+      "expected_format": "https://portal.hjpetroleum.com/timesheets/{token}",
+      "source": "WF-01",
+      "consumers": [
+        "Approval workflows for notification links"
+      ],
+      "notes": "Workflow configuration must validate this URL prior to sending emails."
+    }
+  },
+  "last_updated": "2025-09-18"
+}

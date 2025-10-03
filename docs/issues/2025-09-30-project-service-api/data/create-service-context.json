@@ -1,0 +1,18 @@
+{
+  "dryRun": true,
+  "dealId": "16647461296",
+  "service": {
+    "hj_service_name": "Construction Supervisor III",
+    "hj_billing_frequency": "Day",
+    "hj_daily_price": "990",
+    "hj_hj_daily_price": "1100",
+    "hj_hourly_price": "0",
+    "hj_hj_hourly_price": "0",
+    "hj_per_each_price": "0",
+    "hj_hj_per_each_price": "0",
+    "hj_per_mile_price": "0",
+    "hj_hj_per_mile_price": "0",
+    "hj_fee_one_time_price": "0",
+    "hj_hj_fee_one_time_price": "0"
+  }
+}

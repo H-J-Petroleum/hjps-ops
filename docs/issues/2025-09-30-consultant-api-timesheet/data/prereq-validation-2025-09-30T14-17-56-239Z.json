@@ -1,0 +1,749 @@
+{
+  "consultantContactId": 299151,
+  "projectIdentifier": "hjp-15911-37197",
+  "timestamp": "2025-09-30T14:17:34.906Z",
+  "recruitingDeal": {
+    "id": "13341510837",
+    "properties": {
+      "pipeline": "8926629",
+      "dealstage": "30861861",
+      "consultant_full_name": "Justin Lott",
+      "consultant_unique_id": "299151",
+      "consultant_email": "j***@gmail.com",
+      "link_for_consultant": "https://hjpetro-1230608.hs-sites.com/insert-timesheet-step-0?consultant_id=302673&consultant_email=justin.e.lott@gmail.com&consultant_name=Justin%20Lott",
+      "assign_consultant_to_a_new_sales_deal": "<p><a style=\"font-size: 16px; font-weight: bold; text-transform: none; text-decoration: none; color: #0091ae; margin-top: 0px; margin-bottom: 0px;\" href=\"https://hjpetro-1230608.hs-sites.com/assign-a-consultant-to-a-new-sales-deal-step1?consultant_deal_id=13341510837&consultant_unique_id=299151&consultant_name=Justin%20Lott&consultant_email=justin.e.lott@gmail.com&consultant_discipine=Drilling,%20Construction\" rel=\"nofollow noopener\">Click Above</a></p>",
+      "title_job": "Construction Supervisor ",
+      "test": "Category Details",
+      "test_link": "3"
+    }
+  },
+  "salesDeal": {
+    "id": "16647461296",
+    "properties": {
+      "pipeline": "default",
+      "dealstage": "closedwon",
+      "hj_customer_id": "12006423589",
+      "hj_customer_name": "Vital Energy",
+      "hj_operator_id": "12006423589",
+      "hj_operator_name": "Vital Energy",
+      "owner_email": "j***@hjpetro.com",
+      "create_associate_well": "<p><a style=\"font-size: 16px; font-weight: bold; text-transform: none; text-decoration: none; color: #0091ae; margin-top: 0px; margin-bottom: 0px;\" href=\"https://hjpetro-1230608.hs-sites.com//create-associate-well?deal_id=16647461296&amp;deal_name=Vital%20-%20Drilling%20Construction%20Supervisor%20(Charlie%20Replacement)&amp;owner_email=jpoe@hjpetro.com&amp;operator_name=Vital%20Energy&amp;operator_id=12006423589\" rel=\"nofollow noopener\">Click Above</a></p>",
+      "missing_important_info": "No"
+    }
+  },
+  "project": {
+    "id": "12768502194",
+    "properties": {
+      "hj_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_project_is_locked": null,
+      "hj_approver_email": "t***@vitalenergy.com",
+      "hj_sales_deal_owner_email": "j***@hjpetro.com"
+    }
+  },
+  "wells": [
+    {
+      "id": "12768391451",
+      "name": "Black Bear 8A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023067"
+    },
+    {
+      "id": "12768508730",
+      "name": "Black Bear 6A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023065"
+    },
+    {
+      "id": "12768726947",
+      "name": "Black Bear 7A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023066"
+    },
+    {
+      "id": "13113972393",
+      "name": "Mosaic State Unit 33-34 9A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024005"
+    },
+    {
+      "id": "13164167314",
+      "name": "Big Tree West C 6A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023086"
+    },
+    {
+      "id": "13164167329",
+      "name": "Big Tree West D 8B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023089"
+    },
+    {
+      "id": "13164213671",
+      "name": "Big Tree West D 7LS",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023087"
+    },
+    {
+      "id": "13164213686",
+      "name": "Big Tree West D 9A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023085"
+    },
+    {
+      "id": "13187020842",
+      "name": "Big Tree 4B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023092"
+    },
+    {
+      "id": "13187020849",
+      "name": "Cook 12D",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023057"
+    },
+    {
+      "id": "13187024000",
+      "name": "Big Tree 2H",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023090"
+    },
+    {
+      "id": "13249371966",
+      "name": "UL 19 – 1BW",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024015"
+    },
+    {
+      "id": "13249481352",
+      "name": "Waggoner Center 1BW",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024021"
+    },
+    {
+      "id": "13251648418",
+      "name": "Big Tree 3LS",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3023091"
+    },
+    {
+      "id": "13372451948",
+      "name": "DC State Lyssa 49-18-7 G 7TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024019"
+    },
+    {
+      "id": "13373516109",
+      "name": "DC Duiker State B 7TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024009"
+    },
+    {
+      "id": "13373673832",
+      "name": "DC Duiker State D 9B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024011"
+    },
+    {
+      "id": "13373680212",
+      "name": "DC Lynx D 5A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024007"
+    },
+    {
+      "id": "13373704973",
+      "name": "DC State Lyssa 49-18-7 H 8SB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024020"
+    },
+    {
+      "id": "13373713174",
+      "name": "DC Duiker State E 10A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024012"
+    },
+    {
+      "id": "13373809458",
+      "name": "DC Duiker State C 8A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024010"
+    },
+    {
+      "id": "14100656474",
+      "name": "UL Blk 18 7TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024014"
+    },
+    {
+      "id": "14270698363",
+      "name": "Mosaic State Unit 33-34 11B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024006"
+    },
+    {
+      "id": "15536286863",
+      "name": "Emily Boss A 3TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "No",
+      "afe": "3024028"
+    },
+    {
+      "id": "16121387526",
+      "name": "Emily Boss C 4TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "No",
+      "afe": "3024029"
+    },
+    {
+      "id": "16235281048",
+      "name": "Emily Boss D 5TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "No",
+      "afe": "3024030"
+    },
+    {
+      "id": "16246321197",
+      "name": "White West 30-31 4TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024025"
+    },
+    {
+      "id": "16247902892",
+      "name": "Grissom West 31-42 Unit 3TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024026"
+    },
+    {
+      "id": "16267841033",
+      "name": "Mosaic State Unit 33-34 10TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024001"
+    },
+    {
+      "id": "16267842904",
+      "name": "DC Lynx E 6B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024008"
+    },
+    {
+      "id": "19729913231",
+      "name": "Dire Wolf 5A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024053"
+    },
+    {
+      "id": "19734078722",
+      "name": "Dire Wolf 7B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024055"
+    },
+    {
+      "id": "19735762181",
+      "name": "Dire Wolf 6TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024054"
+    },
+    {
+      "id": "20203235866",
+      "name": "D-Day 106-105 Unit 3B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024044"
+    },
+    {
+      "id": "20203235877",
+      "name": "D-Day 106-105 Unit 4B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024045"
+    },
+    {
+      "id": "20830051372",
+      "name": "Durlene A 3B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024022"
+    },
+    {
+      "id": "20830051384",
+      "name": "Durlene C 5B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024023"
+    },
+    {
+      "id": "20830051389",
+      "name": "Durlene B 4A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024027"
+    },
+    {
+      "id": "20830051393",
+      "name": "Durlene G 6B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024024"
+    },
+    {
+      "id": "23207320908",
+      "name": "DC Fat Chance State G 4B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024052"
+    },
+    {
+      "id": "23307933306",
+      "name": "DC Fat Chance State F 3A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024041"
+    },
+    {
+      "id": "24188307577",
+      "name": "DC UL Navy South H 16B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024064"
+    },
+    {
+      "id": "24188771090",
+      "name": "DC UL Army South B 2TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024067"
+    },
+    {
+      "id": "24189392133",
+      "name": "DC UL Army South C 5A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024068"
+    },
+    {
+      "id": "24190009887",
+      "name": "DC UL Army South D 8B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024063"
+    },
+    {
+      "id": "24191632141",
+      "name": "DC UL Navy South F 12B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024065"
+    },
+    {
+      "id": "24192841024",
+      "name": "DC UL Army South D 7TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024066"
+    },
+    {
+      "id": "24193304433",
+      "name": "DC UL Army South B 3B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024062"
+    },
+    {
+      "id": "24196283518",
+      "name": "DC UL Army South E 9A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024069"
+    },
+    {
+      "id": "24197761455",
+      "name": "DC UL Army South G 13A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024070"
+    },
+    {
+      "id": "26334145918",
+      "name": "KLIPSPRINGER STATE A 3B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025015"
+    },
+    {
+      "id": "26335543131",
+      "name": "Klipspringer State B 4A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025016"
+    },
+    {
+      "id": "27033765507",
+      "name": "DC 8 Mile D 4B - 1",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024103"
+    },
+    {
+      "id": "27035947950",
+      "name": "DC 8 Mile M 12A_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024099"
+    },
+    {
+      "id": "27036258412",
+      "name": "DC 8 Mile H 8A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024107"
+    },
+    {
+      "id": "27039054180",
+      "name": "DC 8 Mile N 13S_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024111"
+    },
+    {
+      "id": "27039673927",
+      "name": "DC 8 Mile J 9S",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024108"
+    },
+    {
+      "id": "27040758424",
+      "name": "DC 8 Mile C 3J",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024102"
+    },
+    {
+      "id": "27044314526",
+      "name": "DC 8 Mile K 10J_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024109"
+    },
+    {
+      "id": "27046496266",
+      "name": "DC 8 Mile L 11B_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024110"
+    },
+    {
+      "id": "27046804744",
+      "name": "DC 8 Mile F 6J_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024105"
+    },
+    {
+      "id": "27051137394",
+      "name": "DC 8 Mile A 1S_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024100"
+    },
+    {
+      "id": "27051445287",
+      "name": "DC 8 Mile E 5A_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024104"
+    },
+    {
+      "id": "27062347931",
+      "name": "DC 8 Mile G 7B_",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024106"
+    },
+    {
+      "id": "29834277695",
+      "name": "Cox 22 Q 15A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025013"
+    },
+    {
+      "id": "29834439953",
+      "name": "Cox 22 P 14S",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025012"
+    },
+    {
+      "id": "29846847528",
+      "name": "Cox 22 M 12A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025010"
+    },
+    {
+      "id": "29860964377",
+      "name": "Cox 22 J 9A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025007"
+    },
+    {
+      "id": "29864471087",
+      "name": "Cox 22 L 11S",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025009"
+    },
+    {
+      "id": "29864907915",
+      "name": "Cox 22 K 10C",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025008"
+    },
+    {
+      "id": "29865083222",
+      "name": "Cox 22 N 13C",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025011"
+    },
+    {
+      "id": "29867385644",
+      "name": "Cox 22 R 16C",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025014"
+    },
+    {
+      "id": "34367022511",
+      "name": "Woods 3A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024056"
+    },
+    {
+      "id": "34367180215",
+      "name": "Woods 5TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024058"
+    },
+    {
+      "id": "34367480249",
+      "name": "Woods 4A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3024057"
+    },
+    {
+      "id": "34369130663",
+      "name": "SCHWARTZ Q 7A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025023"
+    },
+    {
+      "id": "34369234217",
+      "name": "Schwartz J 1A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025018"
+    },
+    {
+      "id": "34381108394",
+      "name": "REBECCA 37-5 B 4J",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025030"
+    },
+    {
+      "id": "34381265503",
+      "name": "KLIPSPRINGER STATE B 4A",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025016"
+    },
+    {
+      "id": "34388164110",
+      "name": "BLACK BEAR STATE H 13TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025035"
+    },
+    {
+      "id": "34390006416",
+      "name": "REBECCA 37-5 E 6J",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025032"
+    },
+    {
+      "id": "34390006417",
+      "name": "BLACK BEAR STATE A 9TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025033"
+    },
+    {
+      "id": "34393732017",
+      "name": "REBECCA 37-5 C 5MS",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025029"
+    },
+    {
+      "id": "34396007253",
+      "name": "GRISSOM WHITE E 12B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025037"
+    },
+    {
+      "id": "34396928552",
+      "name": "GRISSOM WHITE D 11TB",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025036"
+    },
+    {
+      "id": "34411035220",
+      "name": "KLIPSPRINGER STATE A 3B",
+      "operator": "Vital Energy",
+      "operator_id": "12006423589",
+      "is_active": "Yes",
+      "afe": "3025015"
+    }
+  ],
+  "consultantRecord": {
+    "id": "24198689425",
+    "properties": {
+      "consultant_full_name": "Justin Lott",
+      "consultant_deal_id": "13341510837",
+      "consultant_role": "Construction Supervisor",
+      "job_service": "Construction Supervisor III",
+      "well": "DC UL Army South B 3B",
+      "hourly_role_price": "0.0",
+      "daily_role_price": "990.0",
+      "per_each_price": "0.0",
+      "per_mile_price": "0.0",
+      "hj_project_id": "hjp-15911-37197",
+      "hj_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)"
+    }
+  }
+}

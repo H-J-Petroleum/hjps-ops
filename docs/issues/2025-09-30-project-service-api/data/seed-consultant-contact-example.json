@@ -1,0 +1,15 @@
+{
+  "dryRun": true,
+  "contactId": "299151",
+  "properties": {
+    "firstname": "Justin",
+    "lastname": "Lott",
+    "email": "justin.e.lott@gmail.com",
+    "phone": "+19363289631",
+    "submitted_as_timesheet_contact": "No"
+  },
+  "recruitingDeal": {
+    "dealId": "13341510837",
+    "associationTypeId": 4
+  }
+}

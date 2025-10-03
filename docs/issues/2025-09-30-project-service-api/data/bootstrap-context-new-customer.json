@@ -1,0 +1,184 @@
+{
+  "dryRun": true,
+  "cleanupTemp": true,
+  "stages": {},
+  "company": {
+    "customer": {
+      "companyId": "REPLACE_ME_CUSTOMER_COMPANY_ID",
+      "properties": {
+        "name": "Sample Customer",
+        "msa_terms": "Net 30",
+        "hj_taxable": "N",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77002",
+        "domain": "customer-example.com",
+        "phone": ""
+      },
+      "createContact": {
+        "contactId": "REPLACE_ME_PRIMARY_CONTACT_ID",
+        "properties": {
+          "firstname": "Primary",
+          "lastname": "Contact",
+          "email": "primary@example.com",
+          "phone": "+13334445555"
+        },
+        "associationTypeId": 19,
+        "mapping": {
+          "dealId": "hj_primary_customer_contact_id",
+          "dealEmail": "hj_primary_contact_email",
+          "dealName": "hj_primary_customer_contact_name"
+        }
+      }
+    },
+    "operator": {
+      "companyId": "REPLACE_ME_OPERATOR_COMPANY_ID",
+      "properties": {
+        "name": "Sample Operator",
+        "msa_terms": "Net 30",
+        "hj_taxable": "N",
+        "city": "Midland",
+        "state": "TX",
+        "zip": "79701",
+        "domain": "operator-example.com",
+        "phone": ""
+      },
+      "createContact": {
+        "contactId": "REPLACE_ME_APPROVER_CONTACT_ID",
+        "properties": {
+          "firstname": "Approver",
+          "lastname": "Contact",
+          "email": "approver@example.com",
+          "phone": "+14445556666"
+        },
+        "associationTypeId": 20,
+        "mapping": {
+          "dealId": "approver_unique_id",
+          "dealEmail": "approver_contact_email",
+          "dealName": "approver_full_name"
+        }
+      }
+    }
+  },
+  "salesDeal": {
+    "dealId": "REPLACE_ME_SALES_DEAL_ID",
+    "properties": {
+      "dealname": "Sample Project",
+      "hubspot_owner_id": "REPLACE_ME_OWNER_ID",
+      "owner_name": "Owner Name",
+      "owner_email": "owner@example.com",
+      "owner_contact_id": "REPLACE_ME_OWNER_CONTACT_ID",
+      "hj_customer_name": "Sample Customer",
+      "hj_customer_id": "REPLACE_ME_CUSTOMER_COMPANY_ID",
+      "hj_operator_name": "Sample Operator",
+      "hj_operator_id": "REPLACE_ME_OPERATOR_COMPANY_ID",
+      "hj_primary_customer_contact_name": "Primary Contact",
+      "hj_primary_contact_email": "primary@example.com",
+      "hj_primary_customer_contact_id": "REPLACE_ME_PRIMARY_CONTACT_ID",
+      "approver_full_name": "Approver Name",
+      "approver_contact_email": "approver@example.com",
+      "approver_unique_id": "REPLACE_ME_APPROVER_CONTACT_ID",
+      "hj_approver_is": "HJPetro",
+      "terms": "Net 30",
+      "taxable": "N",
+      "class": "Sample Class"
+    },
+    "associations": {
+      "customer": [
+        { "companyId": "REPLACE_ME_CUSTOMER_COMPANY_ID", "associationTypeId": 207 }
+      ],
+      "operator": [
+        { "companyId": "REPLACE_ME_OPERATOR_COMPANY_ID", "associationTypeId": 205 }
+      ],
+      "contacts": [
+        { "contactId": "REPLACE_ME_APPROVER_CONTACT_ID", "associationTypeId": 20 },
+        { "contactId": "REPLACE_ME_PRIMARY_CONTACT_ID", "associationTypeId": 19 }
+      ]
+    }
+  },
+  "consultant": {
+    "contactId": "REPLACE_ME_CONSULTANT_CONTACT_ID",
+    "properties": {
+      "firstname": "Sample",
+      "lastname": "Consultant",
+      "email": "consultant@example.com",
+      "phone": "+10000000000",
+      "submitted_as_timesheet_contact": "No"
+    },
+    "recruitingDeal": {
+      "dealId": "REPLACE_ME_RECRUITING_DEAL_ID",
+      "associationTypeId": 4
+    }
+  },
+  "project": {
+    "projectName": "Sample Project",
+    "projectId": null,
+    "skipIfExists": false
+  },
+  "projectConsultants": {
+    "projectId": null,
+    "projectProperties": {
+      "hj_project_id": null,
+      "hj_project_name": "Sample Project",
+      "hj_customer": "Sample Customer",
+      "hj_operator": "Sample Operator"
+    },
+    "consultants": ["REPLACE_ME_CONSULTANT_CONTACT_ID"],
+    "updateContactProperties": true
+  },
+  "service": {
+    "dealId": "REPLACE_ME_SALES_DEAL_ID",
+    "properties": {
+      "hj_service_name": "Sample Service",
+      "hj_billing_frequency": "Day",
+      "hj_daily_price": "1000",
+      "hj_hj_daily_price": "1100",
+      "hj_hourly_price": "0",
+      "hj_hj_hourly_price": "0",
+      "hj_per_each_price": "0",
+      "hj_hj_per_each_price": "0",
+      "hj_per_mile_price": "0",
+      "hj_hj_per_mile_price": "0",
+      "hj_fee_one_time_price": "0",
+      "hj_hj_fee_one_time_price": "0"
+    }
+  },
+  "serviceAssociation": {
+    "dealId": "REPLACE_ME_SALES_DEAL_ID",
+    "serviceIds": [],
+    "associationTypeId": 145
+  },
+  "scope": {
+    "properties": {
+      "consultant_id": "REPLACE_ME_CONSULTANT_CONTACT_ID",
+      "consultant_full_name": "Sample Consultant",
+      "consultant_email": "consultant@example.com",
+      "consultant_role": "Sample Role",
+      "consultant_title_job": "Sample Role",
+      "consultantContactId": "REPLACE_ME_CONSULTANT_CONTACT_ID",
+      "job_service": "Sample Service",
+      "well": "Sample Well",
+      "hj_project_id": null,
+      "hj_project_name": "Sample Project",
+      "hj_project_billing_frequency": "Day",
+      "hj_customer": "Sample Customer",
+      "hj_operator": "Sample Operator",
+      "daily_role_price": "1000",
+      "hourly_role_price": "0",
+      "per_each_price": "0",
+      "per_mile_price": "0",
+      "fee_one_time_price": "0",
+      "hj_hj_daily_price": "1100",
+      "hj_hj_hourly_price": "0",
+      "hj_hj_per_each_price": "0",
+      "hj_hj_per_mile_price": "0",
+      "hj_hj_fee_one_time_price": "0",
+      "hj_approved": "Submitted for Approval",
+      "sales_deal_id": "REPLACE_ME_SALES_DEAL_ID",
+      "consultant_deal_id": "REPLACE_ME_RECRUITING_DEAL_ID",
+      "payment_deal_id": "REPLACE_ME_PAYMENT_DEAL_ID",
+      "hj_unique_approval_request": "REPLACE_ME_SCOPE_REQUEST_ID",
+      "scope_of_work_approval_comment": ""
+    }
+  }
+}

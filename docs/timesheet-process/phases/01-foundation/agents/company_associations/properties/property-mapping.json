@@ -1,0 +1,37 @@
+{
+  "objects": {
+    "hj_wells": {
+      "hj_well_operator_id": "Operator company ID provided via Create Well form; WF-04 uses to create association type 126.",
+      "hj_well_deal_id": "Sales deal ID stored on the well to link back during WF-04.",
+      "hj_well_name": "Well name entered on the form; used in confirmation modules."
+    },
+    "deal": {
+      "create_associate_well": "URL link surfaced from project configuration onto the deal; launches well creation UI."
+    },
+    "contact": {
+      "associate_existing_wells_ids_array": "Comma-separated list of well IDs captured on the Associate Existing Wells form.",
+      "associate_existing_wells_sales_deal_id": "Hidden property populated by Associate Existing Wells form; WF-05 reads this to know target deal."
+    }
+  },
+  "validation_rules": [
+    "Form submissions must populate associate_existing_wells_sales_deal_id and associate_existing_wells_ids_array before WF-05 executes.",
+    "HJ Wells records require hj_well_operator_id and hj_well_deal_id so WF-04 can create associations.",
+    "create_associate_well link must match the active CMS URL; update WF-03 action when routes change."
+  ],
+  "data_flow": {
+    "WF-04": "Reads well operator/deal IDs and creates company/well, deal/well associations.",
+    "WF-05": "Iterates over well ID arrays on the contact to associate existing wells to the sales deal.",
+    "WF-03": "Provides the well-creation link displayed in CMS modules."
+  },
+  "url_mappings": {
+    "create_associate_well": {
+      "expected_format": "https://portal.hjpetroleum.com/wells/new?dealId={deal_id}",
+      "source": "WF-03",
+      "consumers": [
+        "Create Well CMS flow"
+      ],
+      "notes": "Update when CMS route or parameters change; otherwise WF-04 receives incorrect IDs."
+    }
+  },
+  "last_updated": "2025-09-18"
+}

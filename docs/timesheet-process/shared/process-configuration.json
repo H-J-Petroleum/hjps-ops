@@ -1,0 +1,101 @@
+{
+  "processKey": "timesheet_process",
+  "displayName": "Timesheet Management",
+  "rootPath": "analysis/timesheet_process",
+  "phaseOrder": [
+    "foundation",
+    "timesheet_creation",
+    "approval",
+    "billing"
+  ],
+  "phases": {
+    "foundation": {
+      "displayName": "Foundation",
+      "directory": "phases/01-foundation/agents",
+      "description": "Core setup for project configuration, approvers, data relationships, and workflow baselines.",
+      "agents": [
+        "project_configuration",
+        "approver_assignment",
+        "company_associations",
+        "workflow_configuration",
+        "data_relationships"
+      ],
+      "dependencies": {
+        "project_configuration": [],
+        "approver_assignment": ["project_configuration"],
+        "company_associations": ["project_configuration"],
+        "workflow_configuration": [
+          "project_configuration",
+          "approver_assignment",
+          "company_associations"
+        ],
+        "data_relationships": [
+          "project_configuration",
+          "approver_assignment",
+          "company_associations",
+          "workflow_configuration"
+        ]
+      }
+    },
+    "timesheet_creation": {
+      "displayName": "Timesheet Creation",
+      "directory": "phases/02-timesheet-creation/agents",
+      "description": "Capture daily time entries, validation, and submission preparation.",
+      "agents": [
+        "project_selection",
+        "timesheet_entry",
+        "data_validation",
+        "submission_preparation"
+      ],
+      "dependencies": {
+        "project_selection": [],
+        "timesheet_entry": ["project_selection"],
+        "data_validation": ["timesheet_entry"],
+        "submission_preparation": ["data_validation"]
+      }
+    },
+    "approval": {
+      "displayName": "Approval",
+      "directory": "phases/03-approval/agents",
+      "description": "Approval routing, feedback loops, and re-approval handling.",
+      "agents": [
+        "request_for_approval",
+        "approve_reject",
+        "re_approval_request"
+      ],
+      "dependencies": {
+        "request_for_approval": [],
+        "approve_reject": ["request_for_approval"],
+        "re_approval_request": ["approve_reject"]
+      }
+    },
+    "billing": {
+      "displayName": "Billing",
+      "directory": "phases/04-billing/agents",
+      "description": "Export, invoicing, payment, and reconciliation steps.",
+      "agents": [
+        "data_export",
+        "invoice_generation",
+        "payment_processing"
+      ],
+      "dependencies": {
+        "data_export": [],
+        "invoice_generation": ["data_export"],
+        "payment_processing": ["invoice_generation"]
+      }
+    }
+  },
+  "crossCuttingAgents": [
+    "asset_discovery",
+    "cross_reference",
+    "validation",
+    "quality_assurance"
+  ],
+  "dataSources": {
+    "workflows": "data/raw/workflows",
+    "properties": "scripts/data/raw/hubspot-export/properties.json",
+    "forms": "data/raw/forms",
+    "modules": "data/raw/themes/Timesheets-Theme/modules",
+    "context": "analysis/timesheet_process/shared/context-index.json"
+  }
+}

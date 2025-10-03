@@ -1,0 +1,127 @@
+{
+  "approvalId": "35141636865",
+  "approval": {
+    "id": "35141636865",
+    "properties": {
+      "approval_approval_status": "Submitted",
+      "approval_approve_reject": "Pending",
+      "approval_consultant_email": "sandbox.consultant@example.com",
+      "approval_consultant_id": "157918412058",
+      "approval_consultant_name": "Sandbox Consultant",
+      "approval_customer_comment": null,
+      "approval_processed_date": null,
+      "approval_project_id": "hjp-sandbox-202509232331-c4a9",
+      "approval_project_name": "Sandbox Project hjp-sandbox-202509232331-c4a9",
+      "approval_timesheet_ids_array": "35114242724,35092945181",
+      "consultant_field_ticket_id": null,
+      "consultant_field_ticket_pdf___01": "U2FuZGJveCBDb25zdWx0YW50IFBERiBmb3IgaG",
+      "consultant_field_ticket_pdf___02": "pwLXNhbmRib3gtMjAyNTA5MjMyMzMxLWM0YTk=",
+      "consultant_field_ticket_pdf___03": null,
+      "consultant_field_ticket_pdf___04": null,
+      "consultant_field_ticket_pdf___05": null,
+      "consultant_field_ticket_url": null,
+      "contact_hs_object_id": "157918412058",
+      "field_ticket_id": null,
+      "field_ticket_pdf___01": "U2FuZGJveCBQREYgZm9yIGhqcC1zYW",
+      "field_ticket_pdf___02": "5kYm94LTIwMjUwOTIzMjMzMS1jNGE5",
+      "field_ticket_pdf___03": null,
+      "field_ticket_pdf___04": null,
+      "field_ticket_pdf___05": null,
+      "field_ticket_url": null,
+      "hs_createdate": "2025-09-23T23:31:29.109Z",
+      "hs_lastmodifieddate": "2025-09-23T23:31:30.091Z",
+      "hs_object_id": "35141636865",
+      "quote_customer_primary_contact_id": "0701",
+      "response_approval_consultant_id": "157918412058",
+      "response_approval_consultant_name": "Sandbox Consultant",
+      "response_approval_customer": "Sandbox Customer Co",
+      "response_approval_customer_comment": "Seeded via sandbox-seed-approval.js",
+      "response_approval_customer_id": "sandbox-customer",
+      "response_approval_deal_owner_email": null,
+      "response_approval_from_date": "2025-09-22",
+      "response_approval_operator": "Sandbox Operator",
+      "response_approval_owner_id": "sandbox-owner",
+      "response_approval_project_id": "hjp-sandbox-202509232331-c4a9",
+      "response_approval_request_id": "hjp-sandbox-202509232331-c4a9-1758670291025",
+      "response_approval_sales_deal_id": null,
+      "response_approval_timesheet_ids_array": "35114242724,35092945181",
+      "response_approval_until_date": "2025-09-23"
+    }
+  },
+  "consultant": {
+    "id": "157918412058",
+    "properties": {
+      "createdate": "2025-09-23T23:30:46.679Z",
+      "email": "sandbox.consultant@example.com",
+      "firstname": "Sandbox",
+      "hs_object_id": "157918412058",
+      "hubspot_owner_id": null,
+      "lastmodifieddate": "2025-09-23T23:30:55.347Z",
+      "lastname": "Consultant"
+    }
+  },
+  "project": {
+    "id": "35140090940",
+    "properties": {
+      "hj_customer_id": "sandbox-customer",
+      "hj_project_id": "hjp-sandbox-202509232331-c4a9",
+      "hj_project_name": "Sandbox Project hjp-sandbox-202509232331-c4a9",
+      "hj_sales_deal_owner_email": "sandbox.owner@example.com",
+      "hj_sales_deal_owner_name": "Sandbox Owner",
+      "hs_createdate": "2025-09-23T23:31:27.440Z",
+      "hs_lastmodifieddate": "2025-09-23T23:31:28.154Z",
+      "hs_object_id": "35140090940"
+    }
+  },
+  "timesheets": [
+    {
+      "id": "35114242724",
+      "properties": {
+        "bill_number": null,
+        "hs_createdate": "2025-09-23T23:31:28.208Z",
+        "hs_lastmodifieddate": "2025-09-23T23:31:29.273Z",
+        "hs_object_id": "35114242724",
+        "invoice_number": null,
+        "line_item_description": "Sandbox timesheet entry 1",
+        "processed_date": null,
+        "timesheet_approval_comment": null,
+        "timesheet_approval_status": "Submitted",
+        "timesheet_consultant_email": "sandbox.consultant@example.com",
+        "timesheet_consultant_full_name": "Sandbox Consultant",
+        "timesheet_consultant_id": "157918412058",
+        "timesheet_end_date": "2025-09-23",
+        "timesheet_project_id": "hjp-sandbox-202509232331-c4a9",
+        "timesheet_project_name": "Sandbox Project hjp-sandbox-202509232331-c4a9",
+        "timesheet_quantity": "8",
+        "timesheet_start_date": "2025-09-23"
+      }
+    },
+    {
+      "id": "35092945181",
+      "properties": {
+        "bill_number": null,
+        "hs_createdate": "2025-09-23T23:31:28.707Z",
+        "hs_lastmodifieddate": "2025-09-23T23:31:29.446Z",
+        "hs_object_id": "35092945181",
+        "invoice_number": null,
+        "line_item_description": "Sandbox timesheet entry 2",
+        "processed_date": null,
+        "timesheet_approval_comment": null,
+        "timesheet_approval_status": "Submitted",
+        "timesheet_consultant_email": "sandbox.consultant@example.com",
+        "timesheet_consultant_full_name": "Sandbox Consultant",
+        "timesheet_consultant_id": "157918412058",
+        "timesheet_end_date": "2025-09-22",
+        "timesheet_project_id": "hjp-sandbox-202509232331-c4a9",
+        "timesheet_project_name": "Sandbox Project hjp-sandbox-202509232331-c4a9",
+        "timesheet_quantity": "8",
+        "timesheet_start_date": "2025-09-22"
+      }
+    }
+  ],
+  "objectIds": {
+    "approval": "2-50490319",
+    "project": "2-50490320",
+    "timesheet": "2-50490321"
+  }
+}

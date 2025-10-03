@@ -1,0 +1,29 @@
+{
+  "name": "pdf-generator",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --config ../../shared/config/.eslintrc.js src/",
+    "lint:fix": "eslint --config ../../shared/config/.eslintrc.js --fix src/",
+    "test": "jest --config ../../shared/config/jest.config.js packages/pdf-generator/tests",
+    "test:watch": "jest --config ../../shared/config/jest.config.js --watch packages/pdf-generator/tests",
+    "test:coverage": "jest --config ../../shared/config/jest.config.js --coverage packages/pdf-generator/tests"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.645.0",
+    "@aws-sdk/s3-request-presigner": "^3.645.0",
+    "axios": "^1.12.2",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.1.5",
+    "form-data": "^4.0.4",
+    "helmet": "^7.1.0",
+    "pdfkit": "^0.15.0",
+    "pdfkit-table": "^0.1.99"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.3"
+  }
+}

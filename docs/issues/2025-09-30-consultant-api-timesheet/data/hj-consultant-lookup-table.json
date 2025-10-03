@@ -1,0 +1,142 @@
+[
+  {
+    "well": "Black Bear 13TB",
+    "afe": "3025035",
+    "dayId": "34375253601",
+    "dayRate": 990,
+    "mileageId": "34395544576",
+    "mileageRate": 1.25,
+    "perDiemId": "34404568363",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Black Bear 9TB",
+    "afe": "3025033",
+    "dayId": "34378831450",
+    "dayRate": 990,
+    "mileageId": "34383436800",
+    "mileageRate": 1.25,
+    "perDiemId": "34387232382",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Grissom White 3025036",
+    "afe": "3025036",
+    "dayId": "34383899230",
+    "dayRate": 990,
+    "mileageId": "34392794748",
+    "mileageRate": 1.25,
+    "perDiemId": "34405179781",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Grissom White 3025037",
+    "afe": "3025037",
+    "dayId": "34392794749",
+    "dayRate": 990,
+    "mileageId": "34383436801",
+    "mileageRate": 1.25,
+    "perDiemId": "34385217538",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Klipspringer 3B",
+    "afe": "3025015",
+    "dayId": "34393259563",
+    "dayRate": 990,
+    "mileageId": "34382971465",
+    "mileageRate": 1.25,
+    "perDiemId": "34381884481",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Klipspringer 4A",
+    "afe": "3025016",
+    "dayId": "34380223064",
+    "dayRate": 990,
+    "mileageId": "34395544577",
+    "mileageRate": 1.25,
+    "perDiemId": "34391088241",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Rebecca B 4J",
+    "afe": "3025030",
+    "dayId": "34394349667",
+    "dayRate": 990,
+    "mileageId": "34386924850",
+    "mileageRate": 1.25,
+    "perDiemId": "34404568364",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Rebecca C 5MS",
+    "afe": "3025029",
+    "dayId": "34386612592",
+    "dayRate": 990,
+    "mileageId": "34377243463",
+    "mileageRate": 1.25,
+    "perDiemId": "34388005430",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Rebecca E 6J",
+    "afe": "3025032",
+    "dayId": "34392946745",
+    "dayRate": 990,
+    "mileageId": "34381421847",
+    "mileageRate": 1.25,
+    "perDiemId": "34405796375",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Schwartz J 1A",
+    "afe": "3025018",
+    "dayId": "34389854552",
+    "dayRate": 990,
+    "mileageId": "34379916290",
+    "mileageRate": 1.25,
+    "perDiemId": "34380955742",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Schwartz Q 7A",
+    "afe": "3025023",
+    "dayId": "34386612594",
+    "dayRate": 990,
+    "mileageId": "34389854551",
+    "mileageRate": 1.25,
+    "perDiemId": "34383899233",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Woods 3A",
+    "afe": "3024056",
+    "dayId": "34379140457",
+    "dayRate": 990,
+    "mileageId": "34391710827",
+    "mileageRate": 1.25,
+    "perDiemId": "34411189636",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Woods 4A",
+    "afe": "3024057",
+    "dayId": "34380223067",
+    "dayRate": 990,
+    "mileageId": "34396930216",
+    "mileageRate": 1.25,
+    "perDiemId": "34396315548",
+    "perDiemRate": 75
+  },
+  {
+    "well": "Woods 5TB",
+    "afe": "3024058",
+    "dayId": "34390781853",
+    "dayRate": 990,
+    "mileageId": "34387542028",
+    "mileageRate": 1.25,
+    "perDiemId": "34392174758",
+    "perDiemRate": 75
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "association_types": {
+    "4": "Deal \u2194 Consultant (created in WF-06)",
+    "126": "Company \u2194 HJ Well (WF-04)",
+    "128": "Deal \u2194 HJ Well (WF-04/WF-05)",
+    "197": "Deal \u2194 HJ Project (primary project)",
+    "205": "Project \u2194 Operator company",
+    "207": "Project \u2194 Customer company",
+    "209": "Project \u2194 Consultant contact"
+  },
+  "schema_sources": {
+    "deals": "data/raw/ai-context/ai-context-export/data-model/deals_schema.json",
+    "hj_projects": "data/raw/ai-context/ai-context-export/data-model/hj_projects-schema-2-26103074.json",
+    "hj_wells": "data/raw/ai-context/ai-context-export/data-model/hj_wells-schema-2-26102958.json",
+    "contacts": "data/raw/ai-context/ai-context-export/data-model/contacts_schema.json"
+  },
+  "validation_rules": [
+    "Association IDs above must be revalidated after HubSpot schema updates (rerun extract_project_configuration_context.py).",
+    "When introducing new associations, document them here and update WF-03/WF-04/WF-05 accordingly.",
+    "Maintain referential integrity: projects should have both customer and operator associations before approvals run."
+  ],
+  "url_mappings": {},
+  "last_updated": "2025-09-18"
+}

@@ -1,0 +1,21 @@
+
+You are an expert data architect documenting HubSpot object relationships.
+
+Generate a comprehensive properties/property-mapping.json for the project_configuration sub-process in the 01_foundation phase.
+
+Process Knowledge:
+- Key Objects: hj_projects, contacts, companies, deals
+- Key Properties: hj_project_name, hj_approver_email, hj_approver_is, hj_project_status
+
+Schema Data Available:
+No schema data available
+
+Reference the phases/03-approval property mapping as a template. Create comprehensive property mapping that includes:
+
+1. Object Properties - All properties for each object with types and descriptions
+2. Data Flow - How data flows between objects
+3. Validation Rules - Business rules and constraints
+4. Associations - Object relationships and cardinality
+5. Property Dependencies - Which properties depend on others
+
+Make it detailed, accurate, and based on real schema data like the phases/03-approval property mapping.

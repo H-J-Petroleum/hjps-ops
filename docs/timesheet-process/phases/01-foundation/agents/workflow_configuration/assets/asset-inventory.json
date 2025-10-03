@@ -1,0 +1,18 @@
+{
+  "workflows": [
+    {
+      "name": "21. Customer Approval Response (Approval)",
+      "id": "1680618036",
+      "status": "disabled",
+      "purpose": "Handled in Phase 03; ensure prerequisites documented before enablement."
+    },
+    {
+      "name": "26. H&J Approval Response (Approval)",
+      "id": "1682422902",
+      "status": "disabled",
+      "purpose": "Managed in Phase 03; Foundations maintains readiness only."
+    }
+  ],
+  "notes": "Foundations does not activate these workflows; inventory retained for handoff tracking.",
+  "last_updated": "2025-09-18"
+}

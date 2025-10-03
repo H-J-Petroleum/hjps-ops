@@ -1,0 +1,50 @@
+{
+  "dealId": "16647461296",
+  "dryRun": true,
+  "steps": [
+    {
+      "action": "patch",
+      "properties": {
+        "dealname": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+        "hubspot_owner_id": "151497314",
+        "owner_name": "Jon-Lucas Poe",
+        "owner_email": "jpoe@hjpetro.com",
+        "owner_contact_id": "12351",
+        "hj_customer_name": "Vital Energy",
+        "hj_customer_id": "12006423589",
+        "hj_operator_name": "Vital Energy",
+        "hj_operator_id": "12006423589",
+        "hj_primary_customer_contact_name": "T. C Willis",
+        "hj_primary_contact_email": "tc.willis@vitalenergy.com",
+        "hj_primary_customer_contact_id": "437851",
+        "approver_full_name": "Matt Hood",
+        "approver_contact_email": "mhood@hjpetro.com",
+        "approver_unique_id": "6503",
+        "hj_approver_is": "HJPetro",
+        "terms": "Net 30",
+        "taxable": "N",
+        "class": "Vital Energy"
+      }
+    },
+    {
+      "action": "associateCustomer",
+      "companyId": "12006423589",
+      "associationTypeId": 207
+    },
+    {
+      "action": "associateOperator",
+      "companyId": "12006423589",
+      "associationTypeId": 205
+    },
+    {
+      "action": "associateContact",
+      "contactId": "6503",
+      "associationTypeId": 20
+    },
+    {
+      "action": "associateContact",
+      "contactId": "437851",
+      "associationTypeId": 19
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "projectObjectId": "12768502194",
+  "projectId": "hjp-15911-37197",
+  "contacts": [
+    {
+      "contactId": "299151",
+      "status": "skipped (dry-run)"
+    }
+  ],
+  "dryRun": true,
+  "generatedAt": "2025-09-30T19:48:01.206Z"
+}

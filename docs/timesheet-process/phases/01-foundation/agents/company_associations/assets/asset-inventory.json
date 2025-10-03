@@ -1,0 +1,37 @@
+{
+  "forms": [
+    {
+      "name": "Create Well",
+      "id": "b682c714-e395-4677-bbfb-1a32fad5f04b",
+      "purpose": "Creates new HJ Wells records and sets operator/deal IDs consumed by WF-04."
+    },
+    {
+      "name": "Associate Existing Wells",
+      "id": "3876c3f0-6363-4958-a3be-500a64bd6431",
+      "purpose": "Captures lists of existing wells to link to a sales deal through WF-05."
+    }
+  ],
+  "modules": [
+    {
+      "name": "hjp-create-associate-well.module",
+      "purpose": "Launches the Create Well form, prepopulating operator/deal context from WF-03 output."
+    },
+    {
+      "name": "hjp-created-well.module",
+      "purpose": "Displays confirmation and next steps after wells are created/associated."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "04. Associate Created Well to Sales Deal",
+      "id": "567358311",
+      "purpose": "Links newly created well to operator company (type 126) and sales deal (type 128)."
+    },
+    {
+      "name": "05. Associate Existing Wells to Sales Deal",
+      "id": "567358566",
+      "purpose": "Iterates through well IDs collected on the contact form to create deal ↔ well associations."
+    }
+  ],
+  "last_updated": "2025-09-18"
+}

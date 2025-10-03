@@ -1,0 +1,23 @@
+{
+  "schema_exports": [
+    {
+      "path": "data/raw/ai-context/ai-context-export/data-model/hj_projects-schema-2-26103074.json",
+      "purpose": "Project object schema with property definitions used for association validation."
+    },
+    {
+      "path": "data/raw/ai-context/ai-context-export/data-model/hj_wells-schema-2-26102958.json",
+      "purpose": "Well object schema including association field IDs."
+    },
+    {
+      "path": "data/raw/ai-context/ai-context-export/data-model/deals_schema.json",
+      "purpose": "Deal schema powering WF-03 validations."
+    }
+  ],
+  "scripts": [
+    {
+      "path": "analysis/timesheet_process/shared/extract_project_configuration_context.py",
+      "purpose": "Aggregates schema and association info into generated context files."
+    }
+  ],
+  "last_updated": "2025-09-18"
+}

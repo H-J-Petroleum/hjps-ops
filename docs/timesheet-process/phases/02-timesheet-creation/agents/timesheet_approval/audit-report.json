@@ -1,0 +1,729 @@
+{
+  "generatedAt": "2025-09-19T22:28:12.603Z",
+  "moduleCount": 14,
+  "summary": {
+    "modulesWithInlineStyles": 14,
+    "modulesMissingModuleCss": 14,
+    "modulesMissingModuleJs": 13,
+    "avgExternalScripts": 1.8571428571428572,
+    "avgCrmObjectsCalls": 2.5714285714285716,
+    "avgQueryParams": 6.071428571428571
+  },
+  "modules": [
+    {
+      "module": "hjp-consultants-line-item-request-approval-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-01.module",
+      "stage": "consultant_request",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/2.3.5/jspdf.plugin.autotable.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "owner_email",
+        "approval_request_submitted",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 17748,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533797,
+        "label": "HJP - Consultant Line Items Request Approval",
+        "icon": "fontawesome-5.14.0:User%20Check:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "Several external scripts loaded inside module.html; move to shared asset bundle",
+        "Base64 payload detected; consider moving to separate asset or API response"
+      ]
+    },
+    {
+      "module": "hjp-consultants-line-item-request-approval-02",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-02.module",
+      "stage": "consultant_request",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets",
+        "quote"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "owner_email",
+        "approval_request_submitted",
+        "approver",
+        "all_approved"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 9812,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919858136,
+        "label": "HJP - Consultant Line Items Request Approval -02",
+        "icon": "fontawesome-5.14.0:User%20Check:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters"
+      ]
+    },
+    {
+      "module": "hjp-customer-approval-response-customer-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-customer-01.module",
+      "stage": "customer_response",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "owner_email",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 23007,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533798,
+        "label": "HJP - Customer Approval Response - For Customer",
+        "icon": "fontawesome-5.14.0:User%20Circle:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters"
+      ]
+    },
+    {
+      "module": "hjp-customer-approval-response-hjpetro-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-hjpetro-01.module",
+      "stage": "customer_response",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "owner_email",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 15966,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96920867314,
+        "label": "HJP - Customer Approval Response - For H&J Petro",
+        "icon": "fontawesome-5.14.0:Building",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters"
+      ]
+    },
+    {
+      "module": "hjp-field-ticket-for-approval-01-secure",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01-secure.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "//js.hs-scripts.com/1230608.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "sales_deal_id",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 4527,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": null,
+      "meta": null,
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML"
+      ]
+    },
+    {
+      "module": "hjp-field-ticket-for-approval-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "//js.hs-scripts.com/1230608.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "sales_deal_id",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 4733,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96920867313,
+        "label": "HJP - Field Ticket for Approval - Step 01",
+        "icon": "fontawesome-5.14.0:User%20Tie:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters"
+      ]
+    },
+    {
+      "module": "hjp-field-ticket-for-approval-02",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-02.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js",
+        "//js.hs-scripts.com/1230608.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "approval_status",
+        "approver_name",
+        "approver_last_name",
+        "approver_email",
+        "timesheet_contact",
+        "email_to_submit",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 2196,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919858140,
+        "label": "HJP - Field Ticket for Approval - Step 02",
+        "icon": "fontawesome-5.14.0:Alternate%20File:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "High number of query parameters; consider structured module fields or shared data layer",
+        "Several external scripts loaded inside module.html; move to shared asset bundle",
+        "Base64 payload detected; consider moving to separate asset or API response"
+      ]
+    },
+    {
+      "module": "hjp-field-ticket-for-approval-03",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-03.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js",
+        "//js.hs-scripts.com/1230608.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "approver_is",
+        "approval_status",
+        "approver_email",
+        "timesheet_contact",
+        "email_to_submit"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 2196,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533808,
+        "label": "HJP - Field Ticket for Approval - Step 03",
+        "icon": "fontawesome-5.14.0:Alternate%20File",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "High number of query parameters; consider structured module fields or shared data layer",
+        "Several external scripts loaded inside module.html; move to shared asset bundle",
+        "Base64 payload detected; consider moving to separate asset or API response"
+      ]
+    },
+    {
+      "module": "hjp-field-ticket-for-approval-autosubmit-test",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-autosubmit-test.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.1/jspdf.plugin.autotable.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 17912,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533806,
+        "label": "HJP - Field Ticket for Approval - Autosubmit-test",
+        "icon": "fontawesome-5.14.0:User%20Tie:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "Several external scripts loaded inside module.html; move to shared asset bundle"
+      ]
+    },
+    {
+      "module": "hjp-filed-ticket-for-approval-04-thank-you",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-filed-ticket-for-approval-04-thank-you.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [],
+      "queryParams": [
+        "consultant_name",
+        "from_date",
+        "until_date",
+        "customer",
+        "operator",
+        "approval_status"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 2306,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533795,
+        "label": "HJP - Field Ticket for Approval - Step 04 - ThankYou",
+        "icon": "fontawesome-5.14.0:Heart",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters"
+      ]
+    },
+    {
+      "module": "hjp-h-and-j-field-ticket-for-approval-01-secure",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01-secure.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "contact",
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "sales_deal_id",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 4527,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": null,
+      "meta": null,
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "Multiple crm_objects calls; evaluate for consolidation or helper macros"
+      ]
+    },
+    {
+      "module": "hjp-h-and-j-field-ticket-for-approval-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01.module",
+      "stage": "field_ticket_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "contact",
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "project_id",
+        "approval_request_id",
+        "customer_email",
+        "consultant_id",
+        "sales_deal_id",
+        "approver_is"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 4733,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533807,
+        "label": "HJP - H&J-Field Ticket for Approval - Step 01",
+        "icon": "fontawesome-5.14.0:User%20Tie:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "Multiple crm_objects calls; evaluate for consolidation or helper macros"
+      ]
+    },
+    {
+      "module": "hjp-line-items-approval-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-01.module",
+      "stage": "line_items_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [],
+      "forms": [],
+      "inlineStyleBytes": 18665,
+      "hasModuleCss": false,
+      "hasModuleJs": true,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 3
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919858133,
+        "label": "HJP -Line items Approval - 01",
+        "icon": "fontawesome-5.14.0:User%20Check:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty"
+      ]
+    },
+    {
+      "module": "hjp-line-items-approval-re-01",
+      "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-re-01.module",
+      "stage": "line_items_flow",
+      "externalScripts": [
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      ],
+      "crmObjects": [
+        "hj_projects",
+        "hj_approvals",
+        "hj_timesheets"
+      ],
+      "queryParams": [
+        "consultant_id",
+        "consultant_email",
+        "timesheet_contact",
+        "email_to_submit",
+        "project_id",
+        "approval_request_id",
+        "approval_record_id",
+        "approval_request_submitted",
+        "object_number"
+      ],
+      "forms": [],
+      "inlineStyleBytes": 20210,
+      "hasModuleCss": false,
+      "hasModuleJs": false,
+      "hasInlineStyle": true,
+      "fieldsSummary": {
+        "type": "array",
+        "length": 0
+      },
+      "meta": {
+        "global": false,
+        "content_types": [
+          "LANDING_PAGE",
+          "SITE_PAGE",
+          "BLOG_LISTING",
+          "BLOG_POST"
+        ],
+        "host_template_types": [
+          "PAGE",
+          "BLOG_POST",
+          "BLOG_LISTING"
+        ],
+        "module_id": 96919533810,
+        "label": "HJP - Line Items Re-Approval - 01",
+        "icon": "fontawesome-5.14.0:User%20Plus:SOLID",
+        "is_available_for_new_content": true
+      },
+      "potentialIssues": [
+        "All styling is inline; module.css is empty",
+        "module.js is empty; logic embedded directly inside HTML",
+        "fields.json is empty; module relies entirely on query parameters",
+        "High number of query parameters; consider structured module fields or shared data layer"
+      ]
+    }
+  ]
+}

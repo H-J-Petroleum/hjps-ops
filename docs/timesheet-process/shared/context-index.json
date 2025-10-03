@@ -1,0 +1,2285 @@
+{
+  "generated_at": "2025-09-18T23:55:22.446218-05:00",
+  "timesheet_root": "analysis/timesheet_process",
+  "phases": [
+    {
+      "name": "shared",
+      "path": "analysis/timesheet_process/shared",
+      "subdirectories": [
+        {
+          "name": "agents",
+          "path": "analysis/timesheet_process/shared/agents",
+          "file_count": 14,
+          "modified": "2025-09-18T23:25:57.368856-05:00"
+        },
+        {
+          "name": "assets",
+          "path": "analysis/timesheet_process/shared/assets",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.889338-05:00"
+        },
+        {
+          "name": "backend",
+          "path": "analysis/timesheet_process/shared/backend",
+          "file_count": 1,
+          "modified": "2025-09-18T18:54:50.897422-05:00"
+        },
+        {
+          "name": "cross-references",
+          "path": "analysis/timesheet_process/shared/cross-references",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.892341-05:00"
+        },
+        {
+          "name": "frontend",
+          "path": "analysis/timesheet_process/shared/frontend",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.889338-05:00"
+        },
+        {
+          "name": "issues",
+          "path": "analysis/timesheet_process/shared/issues",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.891337-05:00"
+        },
+        {
+          "name": "properties",
+          "path": "analysis/timesheet_process/shared/properties",
+          "file_count": 1,
+          "modified": "2025-09-18T18:54:50.899423-05:00"
+        },
+        {
+          "name": "tools",
+          "path": "analysis/timesheet_process/shared/tools",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.892341-05:00"
+        },
+        {
+          "name": "workflows",
+          "path": "analysis/timesheet_process/shared/workflows",
+          "file_count": 0,
+          "modified": "2025-09-18T18:54:50.891337-05:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "agent-communication-protocol.md",
+          "path": "analysis/timesheet_process/shared/agent-communication-protocol.md",
+          "size": 4692,
+          "modified": "2025-09-18T14:41:41.814915-05:00"
+        },
+        {
+          "name": "agent-configurations.ps1",
+          "path": "analysis/timesheet_process/shared/agent-configurations.ps1",
+          "size": 12872,
+          "modified": "2025-09-18T15:07:28.969319-05:00"
+        },
+        {
+          "name": "agent-conflict-detector.psm1",
+          "path": "analysis/timesheet_process/shared/agent-conflict-detector.psm1",
+          "size": 11642,
+          "modified": "2025-09-18T15:12:13.077605-05:00"
+        },
+        {
+          "name": "agent-conflict-resolution.md",
+          "path": "analysis/timesheet_process/shared/agent-conflict-resolution.md",
+          "size": 5974,
+          "modified": "2025-09-18T14:41:41.814915-05:00"
+        },
+        {
+          "name": "agent-conflict-resolver.psm1",
+          "path": "analysis/timesheet_process/shared/agent-conflict-resolver.psm1",
+          "size": 13365,
+          "modified": "2025-09-18T15:12:13.083116-05:00"
+        },
+        {
+          "name": "agent-execution-template.ps1",
+          "path": "analysis/timesheet_process/shared/agent-execution-template.ps1",
+          "size": 8335,
+          "modified": "2025-09-18T15:07:28.969319-05:00"
+        },
+        {
+          "name": "agent-orchestration-framework.md",
+          "path": "analysis/timesheet_process/shared/agent-orchestration-framework.md",
+          "size": 4458,
+          "modified": "2025-09-18T14:45:03.960297-05:00"
+        },
+        {
+          "name": "agent-quick-start.md",
+          "path": "analysis/timesheet_process/shared/agent-quick-start.md",
+          "size": 3586,
+          "modified": "2025-09-18T14:44:49.243979-05:00"
+        },
+        {
+          "name": "agent-status.json",
+          "path": "analysis/timesheet_process/shared/agent-status.json",
+          "size": 595,
+          "modified": "2025-09-18T18:55:06.209738-05:00"
+        },
+        {
+          "name": "agent-template.md",
+          "path": "analysis/timesheet_process/shared/agent-template.md",
+          "size": 4016,
+          "modified": "2025-09-18T14:33:49.643826-05:00"
+        },
+        {
+          "name": "agent-utilities.psm1",
+          "path": "analysis/timesheet_process/shared/agent-utilities.psm1",
+          "size": 8481,
+          "modified": "2025-09-18T15:07:28.96494-05:00"
+        },
+        {
+          "name": "agent.md",
+          "path": "analysis/timesheet_process/shared/agent.md",
+          "size": 1430,
+          "modified": "2025-09-18T22:49:46.759297-05:00"
+        },
+        {
+          "name": "ai-powered-agent.py",
+          "path": "analysis/timesheet_process/shared/ai-powered-agent.py",
+          "size": 20446,
+          "modified": "2025-09-18T19:51:35.914552-05:00"
+        },
+        {
+          "name": "ai-run-qa-checklist.md",
+          "path": "analysis/timesheet_process/shared/ai-run-qa-checklist.md",
+          "size": 1444,
+          "modified": "2025-09-18T21:57:08.014571-05:00"
+        },
+        {
+          "name": "context-index-usage.md",
+          "path": "analysis/timesheet_process/shared/context-index-usage.md",
+          "size": 2348,
+          "modified": "2025-09-18T20:08:56.75934-05:00"
+        },
+        {
+          "name": "context-index.json",
+          "path": "analysis/timesheet_process/shared/context-index.json",
+          "size": 81591,
+          "modified": "2025-09-18T23:55:08.957011-05:00"
+        },
+        {
+          "name": "context_index.py",
+          "path": "analysis/timesheet_process/shared/context_index.py",
+          "size": 6230,
+          "modified": "2025-09-18T19:51:32.535902-05:00"
+        },
+        {
+          "name": "enhanced-generic-agent-fixed.ps1",
+          "path": "analysis/timesheet_process/shared/enhanced-generic-agent-fixed.ps1",
+          "size": 30601,
+          "modified": "2025-09-18T20:00:07.569627-05:00"
+        },
+        {
+          "name": "enhanced-generic-agent.ps1",
+          "path": "analysis/timesheet_process/shared/enhanced-generic-agent.ps1",
+          "size": 30600,
+          "modified": "2025-09-18T20:00:07.576624-05:00"
+        },
+        {
+          "name": "execute-ai-prompts.py",
+          "path": "analysis/timesheet_process/shared/execute-ai-prompts.py",
+          "size": 4860,
+          "modified": "2025-09-18T19:07:02.872885-05:00"
+        },
+        {
+          "name": "extract_project_configuration_context.py",
+          "path": "analysis/timesheet_process/shared/extract_project_configuration_context.py",
+          "size": 9151,
+          "modified": "2025-09-18T22:08:24.73524-05:00"
+        },
+        {
+          "name": "foundations-build-notes.md",
+          "path": "analysis/timesheet_process/shared/foundations-build-notes.md",
+          "size": 2824,
+          "modified": "2025-09-18T23:30:26.100083-05:00"
+        },
+        {
+          "name": "generic-agent-execution-simple.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution-simple.ps1",
+          "size": 15918,
+          "modified": "2025-09-18T19:07:02.868375-05:00"
+        },
+        {
+          "name": "generic-agent-execution-working.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution-working.ps1",
+          "size": 19301,
+          "modified": "2025-09-18T19:07:02.869375-05:00"
+        },
+        {
+          "name": "generic-agent-execution.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution.ps1",
+          "size": 15361,
+          "modified": "2025-09-18T19:07:02.867373-05:00"
+        },
+        {
+          "name": "generic-agent-simple.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-simple.ps1",
+          "size": 15039,
+          "modified": "2025-09-18T19:07:02.87088-05:00"
+        },
+        {
+          "name": "local-data-guide.md",
+          "path": "analysis/timesheet_process/shared/local-data-guide.md",
+          "size": 2624,
+          "modified": "2025-09-18T19:57:45.521819-05:00"
+        },
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/shared/overview.md",
+          "size": 1067,
+          "modified": "2025-09-18T18:55:06.203683-05:00"
+        },
+        {
+          "name": "prompt-pack-schema.json",
+          "path": "analysis/timesheet_process/shared/prompt-pack-schema.json",
+          "size": 5083,
+          "modified": "2025-09-18T19:42:17.00624-05:00"
+        },
+        {
+          "name": "prompt_pack_builder.py",
+          "path": "analysis/timesheet_process/shared/prompt_pack_builder.py",
+          "size": 15227,
+          "modified": "2025-09-18T19:43:25.008823-05:00"
+        }
+      ]
+    },
+    {
+      "name": "01_foundation",
+      "path": "analysis/timesheet_process/phases/01-foundation",
+      "subdirectories": [
+        {
+          "name": "approver_assignment",
+          "path": "analysis/timesheet_process/phases/01-foundation/approver_assignment",
+          "file_count": 11,
+          "modified": "2025-09-18T23:26:47.872475-05:00"
+        },
+        {
+          "name": "company_associations",
+          "path": "analysis/timesheet_process/phases/01-foundation/company_associations",
+          "file_count": 8,
+          "modified": "2025-09-18T23:53:51.86139-05:00"
+        },
+        {
+          "name": "data_relationships",
+          "path": "analysis/timesheet_process/phases/01-foundation/data_relationships",
+          "file_count": 3,
+          "modified": "2025-09-18T23:26:48.149161-05:00"
+        },
+        {
+          "name": "project_configuration",
+          "path": "analysis/timesheet_process/phases/01-foundation/project_configuration",
+          "file_count": 13,
+          "modified": "2025-09-18T23:26:48.268244-05:00"
+        },
+        {
+          "name": "workflow_configuration",
+          "path": "analysis/timesheet_process/phases/01-foundation/workflow_configuration",
+          "file_count": 3,
+          "modified": "2025-09-18T23:26:48.409462-05:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "foundation-phase-status.md",
+          "path": "analysis/timesheet_process/phases/01-foundation/foundation-phase-status.md",
+          "size": 2018,
+          "modified": "2025-09-18T23:34:25.711449-05:00"
+        },
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/phases/01-foundation/overview.md",
+          "size": 5037,
+          "modified": "2025-09-18T23:21:44.534771-05:00"
+        },
+        {
+          "name": "STATUS.md",
+          "path": "analysis/timesheet_process/phases/01-foundation/STATUS.md",
+          "size": 1622,
+          "modified": "2025-09-18T23:27:46.950653-05:00"
+        }
+      ]
+    },
+    {
+      "name": "02_timesheet_creation",
+      "path": "analysis/timesheet_process/phases/02-timesheet-creation",
+      "subdirectories": [
+        {
+          "name": "approver_assignment",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/approver_assignment",
+          "file_count": 3,
+          "modified": "2025-09-18T15:06:29.241881-05:00"
+        },
+        {
+          "name": "company_associations",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/company_associations",
+          "file_count": 3,
+          "modified": "2025-09-18T15:06:29.220528-05:00"
+        },
+        {
+          "name": "data_relationships",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/data_relationships",
+          "file_count": 3,
+          "modified": "2025-09-18T15:06:29.211479-05:00"
+        },
+        {
+          "name": "project_configuration",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/project_configuration",
+          "file_count": 3,
+          "modified": "2025-09-18T15:06:29.227591-05:00"
+        },
+        {
+          "name": "workflow_configuration",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/workflow_configuration",
+          "file_count": 3,
+          "modified": "2025-09-18T15:06:29.234877-05:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/phases/02-timesheet-creation/overview.md",
+          "size": 2442,
+          "modified": "2025-09-18T13:37:21.194119-05:00"
+        }
+      ]
+    },
+    {
+      "name": "03_approval",
+      "path": "analysis/timesheet_process/phases/03-approval",
+      "subdirectories": [
+        {
+          "name": "approve_reject",
+          "path": "analysis/timesheet_process/phases/03-approval/agents/approve_reject",
+          "file_count": 12,
+          "modified": "2025-09-18T14:44:29.897087-05:00"
+        },
+        {
+          "name": "assets",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/assets",
+          "file_count": 2,
+          "modified": "2025-09-18T14:03:03.15615-05:00"
+        },
+        {
+          "name": "backend",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/backend",
+          "file_count": 6,
+          "modified": "2025-09-18T15:27:05.375322-05:00"
+        },
+        {
+          "name": "cross-references",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/cross-references",
+          "file_count": 4,
+          "modified": "2025-09-18T13:03:37.821377-05:00"
+        },
+        {
+          "name": "issues",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/issues",
+          "file_count": 1,
+          "modified": "2025-09-18T13:05:00.578053-05:00"
+        },
+        {
+          "name": "properties",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/properties",
+          "file_count": 2,
+          "modified": "2025-09-18T13:03:26.89295-05:00"
+        },
+        {
+          "name": "re_approval_request",
+          "path": "analysis/timesheet_process/phases/03-approval/agents/re_approval_request",
+          "file_count": 5,
+          "modified": "2025-09-18T14:44:29.898086-05:00"
+        },
+        {
+          "name": "request_for_approval",
+          "path": "analysis/timesheet_process/phases/03-approval/agents/request_for_approval",
+          "file_count": 11,
+          "modified": "2025-09-18T14:44:29.898086-05:00"
+        },
+        {
+          "name": "tools",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/tools",
+          "file_count": 2,
+          "modified": "2025-09-18T12:18:04.7093-05:00"
+        },
+        {
+          "name": "workflows",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/workflows",
+          "file_count": 1,
+          "modified": "2025-09-18T13:03:55.86475-05:00"
+        }
+      ],
+      "files": [
+        {
+          "name": "agent-execution.ps1",
+          "path": "analysis/timesheet_process/phases/03-approval/agent-execution.ps1",
+          "size": 1496,
+          "modified": "2025-09-18T14:44:29.896087-05:00"
+        },
+        {
+          "name": "agent.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/agent.md",
+          "size": 7188,
+          "modified": "2025-09-18T12:18:22.61909-05:00"
+        },
+        {
+          "name": "ARCHITECTURAL-REDESIGN-PLAN.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/ARCHITECTURAL-REDESIGN-PLAN.md",
+          "size": 9545,
+          "modified": "2025-09-18T13:13:24.336426-05:00"
+        },
+        {
+          "name": "BACKEND-IMPLEMENTATION-PLAN.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/BACKEND-IMPLEMENTATION-PLAN.md",
+          "size": 19668,
+          "modified": "2025-09-18T13:18:06.014397-05:00"
+        },
+        {
+          "name": "DATA-ARCHITECTURE.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/DATA-ARCHITECTURE.md",
+          "size": 3405,
+          "modified": "2025-09-23T22:19:18.456Z"
+        },
+        {
+          "name": "DOCUMENTATION-COMPLETE.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/DOCUMENTATION-COMPLETE.md",
+          "size": 7352,
+          "modified": "2025-09-18T13:06:25.304772-05:00"
+        },
+        {
+          "name": "hardening-points.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/hardening-points.md",
+          "size": 7586,
+          "modified": "2025-09-18T13:27:09.454833-05:00"
+        },
+        {
+          "name": "IMPROVEMENT-PLAN.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/IMPROVEMENT-PLAN.md",
+          "size": 1803,
+          "modified": "2025-09-23T22:19:57.351Z"
+        },
+        {
+          "name": "METHODS-COMPARISON.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/METHODS-COMPARISON.md",
+          "size": 1440,
+          "modified": "2025-09-23T22:20:14.657Z"
+        },
+        {
+          "name": "MIGRATION-STRATEGY.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/MIGRATION-STRATEGY.md",
+          "size": 10000,
+          "modified": "2025-09-18T13:13:24.336426-05:00"
+        },
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/overview.md",
+          "size": 2770,
+          "modified": "2025-09-18T14:07:07.707-05:00"
+        },
+        {
+          "name": "sprint-plan-revision.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/sprint-plan-revision.md",
+          "size": 6437,
+          "modified": "2025-09-18T13:06:25.301266-05:00"
+        },
+        {
+          "name": "STANDARD-STRUCTURE-TEMPLATE.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/STANDARD-STRUCTURE-TEMPLATE.md",
+          "size": 4565,
+          "modified": "2025-09-18T13:58:13.232078-05:00"
+        },
+        {
+          "name": "STATUS.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/STATUS.md",
+          "size": 1554,
+          "modified": "2025-09-23T22:26:32.859Z"
+        },
+        {
+          "name": "TECHNICAL-SPECIFICATION.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/notes/TECHNICAL-SPECIFICATION.md",
+          "size": 15624,
+          "modified": "2025-09-18T13:13:24.336426-05:00"
+        },
+        {
+          "name": "TRACE.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/TRACE.md",
+          "size": 4333,
+          "modified": "2025-09-23T22:26:40.719Z"
+        },
+        {
+          "name": "UI-UX-RECOMMENDATIONS.md",
+          "path": "analysis/timesheet_process/phases/03-approval/docs/UI-UX-RECOMMENDATIONS.md",
+          "size": 1333,
+          "modified": "2025-09-23T22:20:21.906Z"
+        }
+      ]
+    },
+    {
+      "name": "04_billing",
+      "path": "analysis/timesheet_process/04_billing",
+      "subdirectories": [],
+      "files": [
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/04_billing/overview.md",
+          "size": 2546,
+          "modified": "2025-09-18T13:32:25.071885-05:00"
+        }
+      ]
+    }
+  ],
+  "shared_assets": {
+    "name": "shared",
+    "path": "analysis/timesheet_process/shared",
+    "subdirectories": [
+      {
+        "name": "agents",
+        "path": "analysis/timesheet_process/shared/agents",
+        "file_count": 14,
+        "modified": "2025-09-18T23:25:57.368856-05:00"
+      },
+      {
+        "name": "assets",
+        "path": "analysis/timesheet_process/shared/assets",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.889338-05:00"
+      },
+      {
+        "name": "backend",
+        "path": "analysis/timesheet_process/shared/backend",
+        "file_count": 1,
+        "modified": "2025-09-18T18:54:50.897422-05:00"
+      },
+      {
+        "name": "cross-references",
+        "path": "analysis/timesheet_process/shared/cross-references",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.892341-05:00"
+      },
+      {
+        "name": "frontend",
+        "path": "analysis/timesheet_process/shared/frontend",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.889338-05:00"
+      },
+      {
+        "name": "issues",
+        "path": "analysis/timesheet_process/shared/issues",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.891337-05:00"
+      },
+      {
+        "name": "properties",
+        "path": "analysis/timesheet_process/shared/properties",
+        "file_count": 1,
+        "modified": "2025-09-18T18:54:50.899423-05:00"
+      },
+      {
+        "name": "tools",
+        "path": "analysis/timesheet_process/shared/tools",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.892341-05:00"
+      },
+      {
+        "name": "workflows",
+        "path": "analysis/timesheet_process/shared/workflows",
+        "file_count": 0,
+        "modified": "2025-09-18T18:54:50.891337-05:00"
+      }
+    ],
+    "files": [
+      {
+        "name": "agent-communication-protocol.md",
+        "path": "analysis/timesheet_process/shared/agent-communication-protocol.md",
+        "size": 4692,
+        "modified": "2025-09-18T14:41:41.814915-05:00"
+      },
+      {
+        "name": "agent-configurations.ps1",
+        "path": "analysis/timesheet_process/shared/agent-configurations.ps1",
+        "size": 12872,
+        "modified": "2025-09-18T15:07:28.969319-05:00"
+      },
+      {
+        "name": "agent-conflict-detector.psm1",
+        "path": "analysis/timesheet_process/shared/agent-conflict-detector.psm1",
+        "size": 11642,
+        "modified": "2025-09-18T15:12:13.077605-05:00"
+      },
+      {
+        "name": "agent-conflict-resolution.md",
+        "path": "analysis/timesheet_process/shared/agent-conflict-resolution.md",
+        "size": 5974,
+        "modified": "2025-09-18T14:41:41.814915-05:00"
+      },
+      {
+        "name": "agent-conflict-resolver.psm1",
+        "path": "analysis/timesheet_process/shared/agent-conflict-resolver.psm1",
+        "size": 13365,
+        "modified": "2025-09-18T15:12:13.083116-05:00"
+      },
+      {
+        "name": "agent-execution-template.ps1",
+        "path": "analysis/timesheet_process/shared/agent-execution-template.ps1",
+        "size": 8335,
+        "modified": "2025-09-18T15:07:28.969319-05:00"
+      },
+      {
+        "name": "agent-orchestration-framework.md",
+        "path": "analysis/timesheet_process/shared/agent-orchestration-framework.md",
+        "size": 4458,
+        "modified": "2025-09-18T14:45:03.960297-05:00"
+      },
+      {
+        "name": "agent-quick-start.md",
+        "path": "analysis/timesheet_process/shared/agent-quick-start.md",
+        "size": 3586,
+        "modified": "2025-09-18T14:44:49.243979-05:00"
+      },
+      {
+        "name": "agent-status.json",
+        "path": "analysis/timesheet_process/shared/agent-status.json",
+        "size": 595,
+        "modified": "2025-09-18T18:55:06.209738-05:00"
+      },
+      {
+        "name": "agent-template.md",
+        "path": "analysis/timesheet_process/shared/agent-template.md",
+        "size": 4016,
+        "modified": "2025-09-18T14:33:49.643826-05:00"
+      },
+      {
+        "name": "agent-utilities.psm1",
+        "path": "analysis/timesheet_process/shared/agent-utilities.psm1",
+        "size": 8481,
+        "modified": "2025-09-18T15:07:28.96494-05:00"
+      },
+      {
+        "name": "agent.md",
+        "path": "analysis/timesheet_process/shared/agent.md",
+        "size": 1430,
+        "modified": "2025-09-18T22:49:46.759297-05:00"
+      },
+      {
+        "name": "ai-powered-agent.py",
+        "path": "analysis/timesheet_process/shared/ai-powered-agent.py",
+        "size": 20446,
+        "modified": "2025-09-18T19:51:35.914552-05:00"
+      },
+      {
+        "name": "ai-run-qa-checklist.md",
+        "path": "analysis/timesheet_process/shared/ai-run-qa-checklist.md",
+        "size": 1444,
+        "modified": "2025-09-18T21:57:08.014571-05:00"
+      },
+      {
+        "name": "context-index-usage.md",
+        "path": "analysis/timesheet_process/shared/context-index-usage.md",
+        "size": 2348,
+        "modified": "2025-09-18T20:08:56.75934-05:00"
+      },
+      {
+        "name": "context-index.json",
+        "path": "analysis/timesheet_process/shared/context-index.json",
+        "size": 81591,
+        "modified": "2025-09-18T23:55:08.957011-05:00"
+      },
+      {
+        "name": "context_index.py",
+        "path": "analysis/timesheet_process/shared/context_index.py",
+        "size": 6230,
+        "modified": "2025-09-18T19:51:32.535902-05:00"
+      },
+      {
+        "name": "enhanced-generic-agent-fixed.ps1",
+        "path": "analysis/timesheet_process/shared/enhanced-generic-agent-fixed.ps1",
+        "size": 30601,
+        "modified": "2025-09-18T20:00:07.569627-05:00"
+      },
+      {
+        "name": "enhanced-generic-agent.ps1",
+        "path": "analysis/timesheet_process/shared/enhanced-generic-agent.ps1",
+        "size": 30600,
+        "modified": "2025-09-18T20:00:07.576624-05:00"
+      },
+      {
+        "name": "execute-ai-prompts.py",
+        "path": "analysis/timesheet_process/shared/execute-ai-prompts.py",
+        "size": 4860,
+        "modified": "2025-09-18T19:07:02.872885-05:00"
+      },
+      {
+        "name": "extract_project_configuration_context.py",
+        "path": "analysis/timesheet_process/shared/extract_project_configuration_context.py",
+        "size": 9151,
+        "modified": "2025-09-18T22:08:24.73524-05:00"
+      },
+      {
+        "name": "foundations-build-notes.md",
+        "path": "analysis/timesheet_process/shared/foundations-build-notes.md",
+        "size": 2824,
+        "modified": "2025-09-18T23:30:26.100083-05:00"
+      },
+      {
+        "name": "generic-agent-execution-simple.ps1",
+        "path": "analysis/timesheet_process/shared/generic-agent-execution-simple.ps1",
+        "size": 15918,
+        "modified": "2025-09-18T19:07:02.868375-05:00"
+      },
+      {
+        "name": "generic-agent-execution-working.ps1",
+        "path": "analysis/timesheet_process/shared/generic-agent-execution-working.ps1",
+        "size": 19301,
+        "modified": "2025-09-18T19:07:02.869375-05:00"
+      },
+      {
+        "name": "generic-agent-execution.ps1",
+        "path": "analysis/timesheet_process/shared/generic-agent-execution.ps1",
+        "size": 15361,
+        "modified": "2025-09-18T19:07:02.867373-05:00"
+      },
+      {
+        "name": "generic-agent-simple.ps1",
+        "path": "analysis/timesheet_process/shared/generic-agent-simple.ps1",
+        "size": 15039,
+        "modified": "2025-09-18T19:07:02.87088-05:00"
+      },
+      {
+        "name": "local-data-guide.md",
+        "path": "analysis/timesheet_process/shared/local-data-guide.md",
+        "size": 2624,
+        "modified": "2025-09-18T19:57:45.521819-05:00"
+      },
+      {
+        "name": "overview.md",
+        "path": "analysis/timesheet_process/shared/overview.md",
+        "size": 1067,
+        "modified": "2025-09-18T18:55:06.203683-05:00"
+      },
+      {
+        "name": "prompt-pack-schema.json",
+        "path": "analysis/timesheet_process/shared/prompt-pack-schema.json",
+        "size": 5083,
+        "modified": "2025-09-18T19:42:17.00624-05:00"
+      },
+      {
+        "name": "prompt_pack_builder.py",
+        "path": "analysis/timesheet_process/shared/prompt_pack_builder.py",
+        "size": 15227,
+        "modified": "2025-09-18T19:43:25.008823-05:00"
+      }
+    ],
+    "highlights": {
+      "python_tools": [
+        {
+          "name": "ai-powered-agent.py",
+          "path": "analysis/timesheet_process/shared/ai-powered-agent.py",
+          "size": 20446,
+          "modified": "2025-09-18T19:51:35.914552-05:00"
+        },
+        {
+          "name": "context_index.py",
+          "path": "analysis/timesheet_process/shared/context_index.py",
+          "size": 6230,
+          "modified": "2025-09-18T19:51:32.535902-05:00"
+        },
+        {
+          "name": "execute-ai-prompts.py",
+          "path": "analysis/timesheet_process/shared/execute-ai-prompts.py",
+          "size": 4860,
+          "modified": "2025-09-18T19:07:02.872885-05:00"
+        },
+        {
+          "name": "extract_project_configuration_context.py",
+          "path": "analysis/timesheet_process/shared/extract_project_configuration_context.py",
+          "size": 9151,
+          "modified": "2025-09-18T22:08:24.73524-05:00"
+        },
+        {
+          "name": "prompt_pack_builder.py",
+          "path": "analysis/timesheet_process/shared/prompt_pack_builder.py",
+          "size": 15227,
+          "modified": "2025-09-18T19:43:25.008823-05:00"
+        }
+      ],
+      "powershell_tools": [
+        {
+          "name": "agent-configurations.ps1",
+          "path": "analysis/timesheet_process/shared/agent-configurations.ps1",
+          "size": 12872,
+          "modified": "2025-09-18T15:07:28.969319-05:00"
+        },
+        {
+          "name": "agent-conflict-detector.psm1",
+          "path": "analysis/timesheet_process/shared/agent-conflict-detector.psm1",
+          "size": 11642,
+          "modified": "2025-09-18T15:12:13.077605-05:00"
+        },
+        {
+          "name": "agent-conflict-resolver.psm1",
+          "path": "analysis/timesheet_process/shared/agent-conflict-resolver.psm1",
+          "size": 13365,
+          "modified": "2025-09-18T15:12:13.083116-05:00"
+        },
+        {
+          "name": "agent-execution-template.ps1",
+          "path": "analysis/timesheet_process/shared/agent-execution-template.ps1",
+          "size": 8335,
+          "modified": "2025-09-18T15:07:28.969319-05:00"
+        },
+        {
+          "name": "agent-utilities.psm1",
+          "path": "analysis/timesheet_process/shared/agent-utilities.psm1",
+          "size": 8481,
+          "modified": "2025-09-18T15:07:28.96494-05:00"
+        },
+        {
+          "name": "enhanced-generic-agent-fixed.ps1",
+          "path": "analysis/timesheet_process/shared/enhanced-generic-agent-fixed.ps1",
+          "size": 30601,
+          "modified": "2025-09-18T20:00:07.569627-05:00"
+        },
+        {
+          "name": "enhanced-generic-agent.ps1",
+          "path": "analysis/timesheet_process/shared/enhanced-generic-agent.ps1",
+          "size": 30600,
+          "modified": "2025-09-18T20:00:07.576624-05:00"
+        },
+        {
+          "name": "generic-agent-execution-simple.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution-simple.ps1",
+          "size": 15918,
+          "modified": "2025-09-18T19:07:02.868375-05:00"
+        },
+        {
+          "name": "generic-agent-execution-working.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution-working.ps1",
+          "size": 19301,
+          "modified": "2025-09-18T19:07:02.869375-05:00"
+        },
+        {
+          "name": "generic-agent-execution.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-execution.ps1",
+          "size": 15361,
+          "modified": "2025-09-18T19:07:02.867373-05:00"
+        },
+        {
+          "name": "generic-agent-simple.ps1",
+          "path": "analysis/timesheet_process/shared/generic-agent-simple.ps1",
+          "size": 15039,
+          "modified": "2025-09-18T19:07:02.87088-05:00"
+        }
+      ],
+      "guides": [
+        {
+          "name": "agent-communication-protocol.md",
+          "path": "analysis/timesheet_process/shared/agent-communication-protocol.md",
+          "size": 4692,
+          "modified": "2025-09-18T14:41:41.814915-05:00"
+        },
+        {
+          "name": "agent-conflict-resolution.md",
+          "path": "analysis/timesheet_process/shared/agent-conflict-resolution.md",
+          "size": 5974,
+          "modified": "2025-09-18T14:41:41.814915-05:00"
+        },
+        {
+          "name": "agent-orchestration-framework.md",
+          "path": "analysis/timesheet_process/shared/agent-orchestration-framework.md",
+          "size": 4458,
+          "modified": "2025-09-18T14:45:03.960297-05:00"
+        },
+        {
+          "name": "agent-quick-start.md",
+          "path": "analysis/timesheet_process/shared/agent-quick-start.md",
+          "size": 3586,
+          "modified": "2025-09-18T14:44:49.243979-05:00"
+        },
+        {
+          "name": "agent-template.md",
+          "path": "analysis/timesheet_process/shared/agent-template.md",
+          "size": 4016,
+          "modified": "2025-09-18T14:33:49.643826-05:00"
+        },
+        {
+          "name": "agent.md",
+          "path": "analysis/timesheet_process/shared/agent.md",
+          "size": 1430,
+          "modified": "2025-09-18T22:49:46.759297-05:00"
+        },
+        {
+          "name": "ai-run-qa-checklist.md",
+          "path": "analysis/timesheet_process/shared/ai-run-qa-checklist.md",
+          "size": 1444,
+          "modified": "2025-09-18T21:57:08.014571-05:00"
+        },
+        {
+          "name": "context-index-usage.md",
+          "path": "analysis/timesheet_process/shared/context-index-usage.md",
+          "size": 2348,
+          "modified": "2025-09-18T20:08:56.75934-05:00"
+        },
+        {
+          "name": "foundations-build-notes.md",
+          "path": "analysis/timesheet_process/shared/foundations-build-notes.md",
+          "size": 2824,
+          "modified": "2025-09-18T23:30:26.100083-05:00"
+        },
+        {
+          "name": "local-data-guide.md",
+          "path": "analysis/timesheet_process/shared/local-data-guide.md",
+          "size": 2624,
+          "modified": "2025-09-18T19:57:45.521819-05:00"
+        },
+        {
+          "name": "overview.md",
+          "path": "analysis/timesheet_process/shared/overview.md",
+          "size": 1067,
+          "modified": "2025-09-18T18:55:06.203683-05:00"
+        }
+      ]
+    }
+  },
+  "data_sources": {
+    "schemas": [
+      {
+        "name": "calls-properties-0-48.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/calls-properties-0-48.json",
+        "size": 83251,
+        "modified": "2025-09-16T17:56:24.820864-05:00"
+      },
+      {
+        "name": "companies_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/companies_schema.json",
+        "size": 605259,
+        "modified": "2025-09-07T20:26:41.240866-05:00"
+      },
+      {
+        "name": "contacts_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/contacts_schema.json",
+        "size": 1305030,
+        "modified": "2025-09-07T20:26:40.650692-05:00"
+      },
+      {
+        "name": "deals_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/deals_schema.json",
+        "size": 1075308,
+        "modified": "2025-09-07T20:26:41.89023-05:00"
+      },
+      {
+        "name": "download-summary.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/download-summary.json",
+        "size": 1273,
+        "modified": "2025-09-16T17:53:50.306649-05:00"
+      },
+      {
+        "name": "emails-properties-0-46.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/emails-properties-0-46.json",
+        "size": 37872,
+        "modified": "2025-09-16T17:56:25.071548-05:00"
+      },
+      {
+        "name": "hj_approvals-schema-2-26103010.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_approvals-schema-2-26103010.json",
+        "size": 119573,
+        "modified": "2025-09-16T17:53:46.918557-05:00"
+      },
+      {
+        "name": "hj_approvals_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_approvals_schema.json",
+        "size": 322,
+        "modified": "2025-09-07T20:26:39.966373-05:00"
+      },
+      {
+        "name": "hj_consultants-schema-2-26103040.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_consultants-schema-2-26103040.json",
+        "size": 58905,
+        "modified": "2025-09-16T17:59:01.770088-05:00"
+      },
+      {
+        "name": "hj_consultants_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_consultants_schema.json",
+        "size": 326,
+        "modified": "2025-09-07T20:26:39.12895-05:00"
+      },
+      {
+        "name": "hj_projects-schema-2-26103074.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_projects-schema-2-26103074.json",
+        "size": 54134,
+        "modified": "2025-09-16T17:53:44.875731-05:00"
+      },
+      {
+        "name": "hj_projects_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_projects_schema.json",
+        "size": 320,
+        "modified": "2025-09-07T20:26:38.679164-05:00"
+      },
+      {
+        "name": "hj_services-schema-2-26103040.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_services-schema-2-26103040.json",
+        "size": 58905,
+        "modified": "2025-09-16T17:53:48.956826-05:00"
+      },
+      {
+        "name": "hj_services_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_services_schema.json",
+        "size": 320,
+        "modified": "2025-09-07T20:26:39.544659-05:00"
+      },
+      {
+        "name": "hj_timesheets-schema-2-26173281.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_timesheets-schema-2-26173281.json",
+        "size": 84129,
+        "modified": "2025-09-16T17:53:45.968918-05:00"
+      },
+      {
+        "name": "hj_timesheets_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_timesheets_schema.json",
+        "size": 324,
+        "modified": "2025-09-07T20:26:37.750283-05:00"
+      },
+      {
+        "name": "hj_wells-schema-2-26102958.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_wells-schema-2-26102958.json",
+        "size": 40017,
+        "modified": "2025-09-16T17:53:47.934096-05:00"
+      },
+      {
+        "name": "hj_wells_schema.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/hj_wells_schema.json",
+        "size": 314,
+        "modified": "2025-09-07T20:26:38.224113-05:00"
+      },
+      {
+        "name": "line_items-properties-0-8.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/line_items-properties-0-8.json",
+        "size": 94697,
+        "modified": "2025-09-16T17:56:23.701853-05:00"
+      },
+      {
+        "name": "meetings-properties-0-47.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/meetings-properties-0-47.json",
+        "size": 76997,
+        "modified": "2025-09-16T17:56:25.331916-05:00"
+      },
+      {
+        "name": "notes-properties-0-4.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/notes-properties-0-4.json",
+        "size": 271286,
+        "modified": "2025-09-16T17:56:24.251271-05:00"
+      },
+      {
+        "name": "products-properties-0-7.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/products-properties-0-7.json",
+        "size": 48820,
+        "modified": "2025-09-16T17:56:23.960479-05:00"
+      },
+      {
+        "name": "tickets-properties-0-5.json",
+        "path": "data/raw/ai-context/ai-context-export/data-model/tickets-properties-0-5.json",
+        "size": 217039,
+        "modified": "2025-09-16T17:56:23.406015-05:00"
+      }
+    ],
+    "workflows": [
+      {
+        "name": "complete-export-summary.json",
+        "path": "data/raw/workflows/complete-export-summary.json",
+        "size": 215,
+        "modified": "2025-09-18T22:56:22.639683-05:00"
+      },
+      {
+        "name": "v2-workflows-list.json",
+        "path": "data/raw/workflows/v2-workflows-list.json",
+        "size": 692853,
+        "modified": "2025-09-18T22:53:13.214187-05:00"
+      },
+      {
+        "name": "v3-workflows-list.json",
+        "path": "data/raw/workflows/v3-workflows-list.json",
+        "size": 299578,
+        "modified": "2025-09-18T22:52:31.858021-05:00"
+      },
+      {
+        "name": "v4-flow-248894370.json",
+        "path": "data/raw/workflows/v4-flow-248894370.json",
+        "size": 2457,
+        "modified": "2025-09-18T22:52:32.964009-05:00"
+      },
+      {
+        "name": "v4-flow-260403472.json",
+        "path": "data/raw/workflows/v4-flow-260403472.json",
+        "size": 1971,
+        "modified": "2025-09-18T22:52:33.379172-05:00"
+      },
+      {
+        "name": "v4-flow-274878252.json",
+        "path": "data/raw/workflows/v4-flow-274878252.json",
+        "size": 2095,
+        "modified": "2025-09-18T22:52:33.697613-05:00"
+      },
+      {
+        "name": "v4-flow-274881031.json",
+        "path": "data/raw/workflows/v4-flow-274881031.json",
+        "size": 6002,
+        "modified": "2025-09-18T22:52:34.042526-05:00"
+      },
+      {
+        "name": "v4-flow-278203271.json",
+        "path": "data/raw/workflows/v4-flow-278203271.json",
+        "size": 4123,
+        "modified": "2025-09-18T22:52:34.42778-05:00"
+      },
+      {
+        "name": "v4-flow-284873353.json",
+        "path": "data/raw/workflows/v4-flow-284873353.json",
+        "size": 5902,
+        "modified": "2025-09-18T22:52:34.776643-05:00"
+      },
+      {
+        "name": "v4-flow-290297430.json",
+        "path": "data/raw/workflows/v4-flow-290297430.json",
+        "size": 4854,
+        "modified": "2025-09-18T22:52:35.137006-05:00"
+      },
+      {
+        "name": "v4-flow-290337302.json",
+        "path": "data/raw/workflows/v4-flow-290337302.json",
+        "size": 8980,
+        "modified": "2025-09-18T22:52:35.60971-05:00"
+      },
+      {
+        "name": "v4-flow-316248601.json",
+        "path": "data/raw/workflows/v4-flow-316248601.json",
+        "size": 6772,
+        "modified": "2025-09-18T22:52:35.98206-05:00"
+      },
+      {
+        "name": "v4-flow-317928587.json",
+        "path": "data/raw/workflows/v4-flow-317928587.json",
+        "size": 2461,
+        "modified": "2025-09-18T22:52:36.384984-05:00"
+      },
+      {
+        "name": "v4-flow-383101099.json",
+        "path": "data/raw/workflows/v4-flow-383101099.json",
+        "size": 2527,
+        "modified": "2025-09-18T22:52:36.660331-05:00"
+      },
+      {
+        "name": "v4-flow-452810845.json",
+        "path": "data/raw/workflows/v4-flow-452810845.json",
+        "size": 2226,
+        "modified": "2025-09-18T22:52:36.962661-05:00"
+      },
+      {
+        "name": "v4-flow-454886673.json",
+        "path": "data/raw/workflows/v4-flow-454886673.json",
+        "size": 2787,
+        "modified": "2025-09-18T22:52:37.275813-05:00"
+      },
+      {
+        "name": "v4-flow-456380547.json",
+        "path": "data/raw/workflows/v4-flow-456380547.json",
+        "size": 6985,
+        "modified": "2025-09-18T22:52:37.655536-05:00"
+      },
+      {
+        "name": "v4-flow-456383909.json",
+        "path": "data/raw/workflows/v4-flow-456383909.json",
+        "size": 6893,
+        "modified": "2025-09-18T22:52:38.091313-05:00"
+      },
+      {
+        "name": "v4-flow-456393560.json",
+        "path": "data/raw/workflows/v4-flow-456393560.json",
+        "size": 7046,
+        "modified": "2025-09-18T22:52:38.461535-05:00"
+      },
+      {
+        "name": "v4-flow-472448006.json",
+        "path": "data/raw/workflows/v4-flow-472448006.json",
+        "size": 4177,
+        "modified": "2025-09-18T22:52:38.870128-05:00"
+      },
+      {
+        "name": "v4-flow-472454754.json",
+        "path": "data/raw/workflows/v4-flow-472454754.json",
+        "size": 3992,
+        "modified": "2025-09-18T22:52:39.270657-05:00"
+      },
+      {
+        "name": "v4-flow-472454770.json",
+        "path": "data/raw/workflows/v4-flow-472454770.json",
+        "size": 4057,
+        "modified": "2025-09-18T22:52:39.683857-05:00"
+      },
+      {
+        "name": "v4-flow-472460645.json",
+        "path": "data/raw/workflows/v4-flow-472460645.json",
+        "size": 3960,
+        "modified": "2025-09-18T22:52:40.057851-05:00"
+      },
+      {
+        "name": "v4-flow-472502843.json",
+        "path": "data/raw/workflows/v4-flow-472502843.json",
+        "size": 4324,
+        "modified": "2025-09-18T22:52:40.454937-05:00"
+      },
+      {
+        "name": "v4-flow-480442245.json",
+        "path": "data/raw/workflows/v4-flow-480442245.json",
+        "size": 14151,
+        "modified": "2025-09-18T22:52:40.870461-05:00"
+      },
+      {
+        "name": "v4-flow-480923163.json",
+        "path": "data/raw/workflows/v4-flow-480923163.json",
+        "size": 14615,
+        "modified": "2025-09-18T22:52:41.285923-05:00"
+      },
+      {
+        "name": "v4-flow-481093415.json",
+        "path": "data/raw/workflows/v4-flow-481093415.json",
+        "size": 7408,
+        "modified": "2025-09-18T22:52:41.798821-05:00"
+      },
+      {
+        "name": "v4-flow-481094477.json",
+        "path": "data/raw/workflows/v4-flow-481094477.json",
+        "size": 8117,
+        "modified": "2025-09-18T22:52:42.289493-05:00"
+      },
+      {
+        "name": "v4-flow-481113720.json",
+        "path": "data/raw/workflows/v4-flow-481113720.json",
+        "size": 7478,
+        "modified": "2025-09-18T22:52:42.733719-05:00"
+      },
+      {
+        "name": "v4-flow-488960059.json",
+        "path": "data/raw/workflows/v4-flow-488960059.json",
+        "size": 5766,
+        "modified": "2025-09-18T22:52:43.070065-05:00"
+      },
+      {
+        "name": "v4-flow-488963659.json",
+        "path": "data/raw/workflows/v4-flow-488963659.json",
+        "size": 3366,
+        "modified": "2025-09-18T22:52:43.491727-05:00"
+      },
+      {
+        "name": "v4-flow-488970340.json",
+        "path": "data/raw/workflows/v4-flow-488970340.json",
+        "size": 8805,
+        "modified": "2025-09-18T22:52:43.80084-05:00"
+      },
+      {
+        "name": "v4-flow-488987822.json",
+        "path": "data/raw/workflows/v4-flow-488987822.json",
+        "size": 3380,
+        "modified": "2025-09-18T22:52:44.18779-05:00"
+      },
+      {
+        "name": "v4-flow-489059407.json",
+        "path": "data/raw/workflows/v4-flow-489059407.json",
+        "size": 3410,
+        "modified": "2025-09-18T22:52:44.6009-05:00"
+      },
+      {
+        "name": "v4-flow-489059440.json",
+        "path": "data/raw/workflows/v4-flow-489059440.json",
+        "size": 2974,
+        "modified": "2025-09-18T22:52:45.062482-05:00"
+      },
+      {
+        "name": "v4-flow-489060793.json",
+        "path": "data/raw/workflows/v4-flow-489060793.json",
+        "size": 3045,
+        "modified": "2025-09-18T22:52:45.593053-05:00"
+      },
+      {
+        "name": "v4-flow-489062011.json",
+        "path": "data/raw/workflows/v4-flow-489062011.json",
+        "size": 2955,
+        "modified": "2025-09-18T22:52:46.060579-05:00"
+      },
+      {
+        "name": "v4-flow-489062019.json",
+        "path": "data/raw/workflows/v4-flow-489062019.json",
+        "size": 2992,
+        "modified": "2025-09-18T22:52:46.443657-05:00"
+      },
+      {
+        "name": "v4-flow-489071284.json",
+        "path": "data/raw/workflows/v4-flow-489071284.json",
+        "size": 2964,
+        "modified": "2025-09-18T22:52:46.847289-05:00"
+      },
+      {
+        "name": "v4-flow-489071378.json",
+        "path": "data/raw/workflows/v4-flow-489071378.json",
+        "size": 2964,
+        "modified": "2025-09-18T22:52:47.315037-05:00"
+      },
+      {
+        "name": "v4-flow-489148082.json",
+        "path": "data/raw/workflows/v4-flow-489148082.json",
+        "size": 8808,
+        "modified": "2025-09-18T22:52:47.595491-05:00"
+      },
+      {
+        "name": "v4-flow-489233682.json",
+        "path": "data/raw/workflows/v4-flow-489233682.json",
+        "size": 2939,
+        "modified": "2025-09-18T22:52:48.10334-05:00"
+      },
+      {
+        "name": "v4-flow-489234959.json",
+        "path": "data/raw/workflows/v4-flow-489234959.json",
+        "size": 2968,
+        "modified": "2025-09-18T22:52:48.541894-05:00"
+      },
+      {
+        "name": "v4-flow-489234960.json",
+        "path": "data/raw/workflows/v4-flow-489234960.json",
+        "size": 2984,
+        "modified": "2025-09-18T22:52:48.923151-05:00"
+      },
+      {
+        "name": "v4-flow-493663755.json",
+        "path": "data/raw/workflows/v4-flow-493663755.json",
+        "size": 17488,
+        "modified": "2025-09-18T22:52:49.362796-05:00"
+      },
+      {
+        "name": "v4-flow-493749658.json",
+        "path": "data/raw/workflows/v4-flow-493749658.json",
+        "size": 5764,
+        "modified": "2025-09-18T22:52:49.684066-05:00"
+      },
+      {
+        "name": "v4-flow-493750905.json",
+        "path": "data/raw/workflows/v4-flow-493750905.json",
+        "size": 5766,
+        "modified": "2025-09-18T22:52:50.010113-05:00"
+      },
+      {
+        "name": "v4-flow-493755143.json",
+        "path": "data/raw/workflows/v4-flow-493755143.json",
+        "size": 5747,
+        "modified": "2025-09-18T22:52:50.315421-05:00"
+      },
+      {
+        "name": "v4-flow-519222328.json",
+        "path": "data/raw/workflows/v4-flow-519222328.json",
+        "size": 2812,
+        "modified": "2025-09-18T22:52:50.587351-05:00"
+      },
+      {
+        "name": "v4-flow-520012308.json",
+        "path": "data/raw/workflows/v4-flow-520012308.json",
+        "size": 9887,
+        "modified": "2025-09-18T22:52:50.952551-05:00"
+      },
+      {
+        "name": "v4-flow-536631472.json",
+        "path": "data/raw/workflows/v4-flow-536631472.json",
+        "size": 2508,
+        "modified": "2025-09-18T22:52:51.271232-05:00"
+      },
+      {
+        "name": "v4-flow-536806523.json",
+        "path": "data/raw/workflows/v4-flow-536806523.json",
+        "size": 2155,
+        "modified": "2025-09-18T22:52:51.571301-05:00"
+      },
+      {
+        "name": "v4-flow-536829834.json",
+        "path": "data/raw/workflows/v4-flow-536829834.json",
+        "size": 11941,
+        "modified": "2025-09-18T22:52:51.897071-05:00"
+      },
+      {
+        "name": "v4-flow-536883362.json",
+        "path": "data/raw/workflows/v4-flow-536883362.json",
+        "size": 9505,
+        "modified": "2025-09-18T22:52:52.267159-05:00"
+      },
+      {
+        "name": "v4-flow-536888982.json",
+        "path": "data/raw/workflows/v4-flow-536888982.json",
+        "size": 9503,
+        "modified": "2025-09-18T22:52:52.607486-05:00"
+      },
+      {
+        "name": "v4-flow-536889442.json",
+        "path": "data/raw/workflows/v4-flow-536889442.json",
+        "size": 5481,
+        "modified": "2025-09-18T22:52:53.023057-05:00"
+      },
+      {
+        "name": "v4-flow-536972452.json",
+        "path": "data/raw/workflows/v4-flow-536972452.json",
+        "size": 2703,
+        "modified": "2025-09-18T22:52:53.387222-05:00"
+      },
+      {
+        "name": "v4-flow-537084217.json",
+        "path": "data/raw/workflows/v4-flow-537084217.json",
+        "size": 3381,
+        "modified": "2025-09-18T22:52:53.809238-05:00"
+      },
+      {
+        "name": "v4-flow-539049881.json",
+        "path": "data/raw/workflows/v4-flow-539049881.json",
+        "size": 7176,
+        "modified": "2025-09-18T22:52:54.215474-05:00"
+      },
+      {
+        "name": "v4-flow-539478919.json",
+        "path": "data/raw/workflows/v4-flow-539478919.json",
+        "size": 11746,
+        "modified": "2025-09-18T22:52:54.624249-05:00"
+      },
+      {
+        "name": "v4-flow-539480627.json",
+        "path": "data/raw/workflows/v4-flow-539480627.json",
+        "size": 7109,
+        "modified": "2025-09-18T22:52:55.005656-05:00"
+      },
+      {
+        "name": "v4-flow-539488820.json",
+        "path": "data/raw/workflows/v4-flow-539488820.json",
+        "size": 5696,
+        "modified": "2025-09-18T22:52:55.380144-05:00"
+      },
+      {
+        "name": "v4-flow-539488825.json",
+        "path": "data/raw/workflows/v4-flow-539488825.json",
+        "size": 5682,
+        "modified": "2025-09-18T22:52:55.769422-05:00"
+      },
+      {
+        "name": "v4-flow-539493740.json",
+        "path": "data/raw/workflows/v4-flow-539493740.json",
+        "size": 7010,
+        "modified": "2025-09-18T22:52:56.145897-05:00"
+      },
+      {
+        "name": "v4-flow-539493747.json",
+        "path": "data/raw/workflows/v4-flow-539493747.json",
+        "size": 5685,
+        "modified": "2025-09-18T22:52:56.550411-05:00"
+      },
+      {
+        "name": "v4-flow-539497893.json",
+        "path": "data/raw/workflows/v4-flow-539497893.json",
+        "size": 5672,
+        "modified": "2025-09-18T22:52:56.92755-05:00"
+      },
+      {
+        "name": "v4-flow-539526174.json",
+        "path": "data/raw/workflows/v4-flow-539526174.json",
+        "size": 5662,
+        "modified": "2025-09-18T22:52:57.305361-05:00"
+      },
+      {
+        "name": "v4-flow-539526175.json",
+        "path": "data/raw/workflows/v4-flow-539526175.json",
+        "size": 5636,
+        "modified": "2025-09-18T22:52:57.680269-05:00"
+      },
+      {
+        "name": "v4-flow-540278788.json",
+        "path": "data/raw/workflows/v4-flow-540278788.json",
+        "size": 2682,
+        "modified": "2025-09-18T22:52:58.049882-05:00"
+      },
+      {
+        "name": "v4-flow-542288496.json",
+        "path": "data/raw/workflows/v4-flow-542288496.json",
+        "size": 3096,
+        "modified": "2025-09-18T22:52:58.375137-05:00"
+      },
+      {
+        "name": "v4-flow-552916013.json",
+        "path": "data/raw/workflows/v4-flow-552916013.json",
+        "size": 44173,
+        "modified": "2025-09-18T22:52:58.75433-05:00"
+      },
+      {
+        "name": "v4-flow-554356255.json",
+        "path": "data/raw/workflows/v4-flow-554356255.json",
+        "size": 33121,
+        "modified": "2025-09-18T22:52:59.062886-05:00"
+      },
+      {
+        "name": "v4-flow-557268153.json",
+        "path": "data/raw/workflows/v4-flow-557268153.json",
+        "size": 4606,
+        "modified": "2025-09-18T22:52:59.347251-05:00"
+      },
+      {
+        "name": "v4-flow-559685906.json",
+        "path": "data/raw/workflows/v4-flow-559685906.json",
+        "size": 2954,
+        "modified": "2025-09-18T22:52:59.64859-05:00"
+      },
+      {
+        "name": "v4-flow-559706930.json",
+        "path": "data/raw/workflows/v4-flow-559706930.json",
+        "size": 2904,
+        "modified": "2025-09-18T22:53:00.036378-05:00"
+      },
+      {
+        "name": "v4-flow-559707007.json",
+        "path": "data/raw/workflows/v4-flow-559707007.json",
+        "size": 2921,
+        "modified": "2025-09-18T22:53:00.334444-05:00"
+      },
+      {
+        "name": "v4-flow-559708814.json",
+        "path": "data/raw/workflows/v4-flow-559708814.json",
+        "size": 2888,
+        "modified": "2025-09-18T22:53:00.605183-05:00"
+      },
+      {
+        "name": "v4-flow-560277364.json",
+        "path": "data/raw/workflows/v4-flow-560277364.json",
+        "size": 3389,
+        "modified": "2025-09-18T22:53:00.934647-05:00"
+      },
+      {
+        "name": "v4-flow-560277893.json",
+        "path": "data/raw/workflows/v4-flow-560277893.json",
+        "size": 3381,
+        "modified": "2025-09-18T22:53:01.234088-05:00"
+      },
+      {
+        "name": "v4-flow-562565454.json",
+        "path": "data/raw/workflows/v4-flow-562565454.json",
+        "size": 10093,
+        "modified": "2025-09-18T22:53:01.544473-05:00"
+      },
+      {
+        "name": "v4-flow-563298834.json",
+        "path": "data/raw/workflows/v4-flow-563298834.json",
+        "size": 2671,
+        "modified": "2025-09-18T22:53:01.89154-05:00"
+      },
+      {
+        "name": "v4-flow-564308769.json",
+        "path": "data/raw/workflows/v4-flow-564308769.json",
+        "size": 3453,
+        "modified": "2025-09-18T22:53:02.284768-05:00"
+      },
+      {
+        "name": "v4-flow-566301499.json",
+        "path": "data/raw/workflows/v4-flow-566301499.json",
+        "size": 1983,
+        "modified": "2025-09-18T22:53:02.667557-05:00"
+      },
+      {
+        "name": "v4-flow-566896782.json",
+        "path": "data/raw/workflows/v4-flow-566896782.json",
+        "size": 5397,
+        "modified": "2025-09-18T22:53:03.044289-05:00"
+      },
+      {
+        "name": "v4-flow-566896784.json",
+        "path": "data/raw/workflows/v4-flow-566896784.json",
+        "size": 5501,
+        "modified": "2025-09-18T22:53:03.409893-05:00"
+      },
+      {
+        "name": "v4-flow-566896788.json",
+        "path": "data/raw/workflows/v4-flow-566896788.json",
+        "size": 916,
+        "modified": "2025-09-18T22:53:03.709603-05:00"
+      },
+      {
+        "name": "v4-flow-566911569.json",
+        "path": "data/raw/workflows/v4-flow-566911569.json",
+        "size": 8549,
+        "modified": "2025-09-18T22:53:04.088655-05:00"
+      },
+      {
+        "name": "v4-flow-566911793.json",
+        "path": "data/raw/workflows/v4-flow-566911793.json",
+        "size": 8227,
+        "modified": "2025-09-18T22:53:04.50445-05:00"
+      },
+      {
+        "name": "v4-flow-566911921.json",
+        "path": "data/raw/workflows/v4-flow-566911921.json",
+        "size": 1886,
+        "modified": "2025-09-18T22:53:04.835718-05:00"
+      },
+      {
+        "name": "v4-flow-567136303.json",
+        "path": "data/raw/workflows/v4-flow-567136303.json",
+        "size": 2400,
+        "modified": "2025-09-18T22:53:05.164324-05:00"
+      },
+      {
+        "name": "v4-flow-567275018.json",
+        "path": "data/raw/workflows/v4-flow-567275018.json",
+        "size": 16536,
+        "modified": "2025-09-18T22:53:05.496478-05:00"
+      },
+      {
+        "name": "v4-flow-567292077.json",
+        "path": "data/raw/workflows/v4-flow-567292077.json",
+        "size": 6044,
+        "modified": "2025-09-18T22:53:05.854344-05:00"
+      },
+      {
+        "name": "v4-flow-567293267.json",
+        "path": "data/raw/workflows/v4-flow-567293267.json",
+        "size": 10996,
+        "modified": "2025-09-18T22:53:06.25562-05:00"
+      },
+      {
+        "name": "v4-flow-567293814.json",
+        "path": "data/raw/workflows/v4-flow-567293814.json",
+        "size": 51857,
+        "modified": "2025-09-18T22:53:06.613467-05:00"
+      },
+      {
+        "name": "v4-flow-567296849.json",
+        "path": "data/raw/workflows/v4-flow-567296849.json",
+        "size": 4909,
+        "modified": "2025-09-18T22:53:06.953357-05:00"
+      },
+      {
+        "name": "v4-flow-567358311.json",
+        "path": "data/raw/workflows/v4-flow-567358311.json",
+        "size": 7165,
+        "modified": "2025-09-18T22:53:07.329536-05:00"
+      },
+      {
+        "name": "v4-flow-567358566.json",
+        "path": "data/raw/workflows/v4-flow-567358566.json",
+        "size": 4177,
+        "modified": "2025-09-18T22:53:07.700114-05:00"
+      },
+      {
+        "name": "v4-flow-567363849.json",
+        "path": "data/raw/workflows/v4-flow-567363849.json",
+        "size": 8759,
+        "modified": "2025-09-18T22:53:08.103566-05:00"
+      },
+      {
+        "name": "v4-flow-567393145.json",
+        "path": "data/raw/workflows/v4-flow-567393145.json",
+        "size": 11138,
+        "modified": "2025-09-18T22:53:08.510232-05:00"
+      },
+      {
+        "name": "v4-flow-567402589.json",
+        "path": "data/raw/workflows/v4-flow-567402589.json",
+        "size": 18651,
+        "modified": "2025-09-18T22:53:08.896047-05:00"
+      },
+      {
+        "name": "v4-flow-567406596.json",
+        "path": "data/raw/workflows/v4-flow-567406596.json",
+        "size": 7825,
+        "modified": "2025-09-18T22:53:09.280652-05:00"
+      },
+      {
+        "name": "v4-flow-567438978.json",
+        "path": "data/raw/workflows/v4-flow-567438978.json",
+        "size": 73520,
+        "modified": "2025-09-18T22:53:09.655896-05:00"
+      },
+      {
+        "name": "v4-flow-567462966.json",
+        "path": "data/raw/workflows/v4-flow-567462966.json",
+        "size": 21659,
+        "modified": "2025-09-18T22:53:10.018956-05:00"
+      },
+      {
+        "name": "v4-flows-complete.json",
+        "path": "data/raw/workflows/v4-flows-complete.json",
+        "size": 90219,
+        "modified": "2025-09-18T22:56:22.631168-05:00"
+      },
+      {
+        "name": "v4-flows-list.json",
+        "path": "data/raw/workflows/v4-flows-list.json",
+        "size": 37245,
+        "modified": "2025-09-18T22:52:32.569844-05:00"
+      },
+      {
+        "name": "workflow-13-567500453-v4.json",
+        "path": "data/raw/workflows/workflow-13-567500453-v4.json",
+        "size": 81573,
+        "modified": "2025-09-11T14:28:03.606334-05:00"
+      },
+      {
+        "name": "workflow-15-567466561-v4.json",
+        "path": "data/raw/workflows/workflow-15-567466561-v4.json",
+        "size": 22273,
+        "modified": "2025-09-11T14:35:48.186841-05:00"
+      },
+      {
+        "name": "workflow-1680618036.json",
+        "path": "data/raw/workflows/workflow-1680618036.json",
+        "size": 6,
+        "modified": "2025-09-18T22:55:23.424954-05:00"
+      },
+      {
+        "name": "workflow-1688757914-v4.json",
+        "path": "data/raw/workflows/workflow-1688757914-v4.json",
+        "size": 13018,
+        "modified": "2025-09-11T14:18:07.557153-05:00"
+      },
+      {
+        "name": "workflow-1688757914.json",
+        "path": "data/raw/workflows/workflow-1688757914.json",
+        "size": 6,
+        "modified": "2025-09-11T14:17:23.838388-05:00"
+      },
+      {
+        "name": "workflow-19-567463273-v4.json",
+        "path": "data/raw/workflows/workflow-19-567463273-v4.json",
+        "size": 28349,
+        "modified": "2025-09-11T14:35:48.532859-05:00"
+      },
+      {
+        "name": "workflow-21-567470762-v4.json",
+        "path": "data/raw/workflows/workflow-21-567470762-v4.json",
+        "size": 76687,
+        "modified": "2025-09-11T14:30:15.60013-05:00"
+      },
+      {
+        "name": "workflow-22-568341761-v4.json",
+        "path": "data/raw/workflows/workflow-22-568341761-v4.json",
+        "size": 5436,
+        "modified": "2025-09-11T14:30:16.04463-05:00"
+      },
+      {
+        "name": "workflow-567275018-v4.json",
+        "path": "data/raw/workflows/workflow-567275018-v4.json",
+        "size": 16376,
+        "modified": "2025-09-11T13:20:14.95677-05:00"
+      },
+      {
+        "name": "workflow-567293814-v4.json",
+        "path": "data/raw/workflows/workflow-567293814-v4.json",
+        "size": 51805,
+        "modified": "2025-09-11T13:20:15.380839-05:00"
+      },
+      {
+        "name": "workflow-567293814.json",
+        "path": "data/raw/workflows/workflow-567293814.json",
+        "size": 6,
+        "modified": "2025-09-11T13:16:03.569002-05:00"
+      },
+      {
+        "name": "workflow-567497868-v4.json",
+        "path": "data/raw/workflows/workflow-567497868-v4.json",
+        "size": 22621,
+        "modified": "2025-09-11T14:23:11.616488-05:00"
+      },
+      {
+        "name": "workflow-A-1672372536-v4.json",
+        "path": "data/raw/workflows/workflow-A-1672372536-v4.json",
+        "size": 4450,
+        "modified": "2025-09-11T14:59:52.423615-05:00"
+      },
+      {
+        "name": "workflow-B-574371696-v4.json",
+        "path": "data/raw/workflows/workflow-B-574371696-v4.json",
+        "size": 12255,
+        "modified": "2025-09-11T14:59:52.781655-05:00"
+      },
+      {
+        "name": "workflow-knowledge-summary.json",
+        "path": "data/raw/workflows/workflow-knowledge-summary.json",
+        "size": 20518,
+        "modified": "2025-09-18T22:53:13.232651-05:00"
+      }
+    ],
+    "modules": [
+      {
+        "name": "Form Module.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/Form Module.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.67538-05:00"
+      },
+      {
+        "name": "cb-contact-us-header.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-contact-us-header.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.689381-05:00"
+      },
+      {
+        "name": "cb-content-with-background-image.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-content-with-background-image.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.688378-05:00"
+      },
+      {
+        "name": "cb-footer-contact.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-footer-contact.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.686381-05:00"
+      },
+      {
+        "name": "cb-footer-menu.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-footer-menu.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.685381-05:00"
+      },
+      {
+        "name": "cb-footer-settings.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-footer-settings.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.68338-05:00"
+      },
+      {
+        "name": "cb-logo.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-logo.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.682381-05:00"
+      },
+      {
+        "name": "cb-main-header.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-main-header.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.680378-05:00"
+      },
+      {
+        "name": "cb-menu.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-menu.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.679379-05:00"
+      },
+      {
+        "name": "cb-search-input.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-search-input.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.678378-05:00"
+      },
+      {
+        "name": "cb-top-bar-settings.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/cb-top-bar-settings.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.67638-05:00"
+      },
+      {
+        "name": "hj-email-comments-to-buyer.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hj-email-comments-to-buyer.module",
+        "file_count": 3,
+        "modified": "2025-09-16T18:08:43.674381-05:00"
+      },
+      {
+        "name": "hj-footer-contact.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hj-footer-contact.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.672379-05:00"
+      },
+      {
+        "name": "hj-footer-location.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hj-footer-location.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.67138-05:00"
+      },
+      {
+        "name": "hjp-approve-scope-of-work-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-approve-scope-of-work-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.669223-05:00"
+      },
+      {
+        "name": "hjp-approve-scope-of-work.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-approve-scope-of-work.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.668223-05:00"
+      },
+      {
+        "name": "hjp-assign-consultant-to-new-deal-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-assign-consultant-to-new-deal-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.666223-05:00"
+      },
+      {
+        "name": "hjp-assign-consultant-to-new-deal-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-assign-consultant-to-new-deal-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.665226-05:00"
+      },
+      {
+        "name": "hjp-assign-consultant-to-new-deal-03.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-assign-consultant-to-new-deal-03.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.664223-05:00"
+      },
+      {
+        "name": "hjp-bill-invoice-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-bill-invoice-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.662224-05:00"
+      },
+      {
+        "name": "hjp-bill-invoice-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-bill-invoice-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.660223-05:00"
+      },
+      {
+        "name": "hjp-bill-invoice-03-invoice-created.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-bill-invoice-03-invoice-created.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.659226-05:00"
+      },
+      {
+        "name": "hjp-bill-invoice-04-bill-created.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-bill-invoice-04-bill-created.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.658223-05:00"
+      },
+      {
+        "name": "hjp-bill-invoice-consultant-02-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-bill-invoice-consultant-02-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.656223-05:00"
+      },
+      {
+        "name": "hjp-consultant-notified.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultant-notified.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.655225-05:00"
+      },
+      {
+        "name": "hjp-consultants-line-item-request-approval-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.653218-05:00"
+      },
+      {
+        "name": "hjp-consultants-line-item-request-approval-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.651218-05:00"
+      },
+      {
+        "name": "hjp-create-associate-well.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-create-associate-well.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.650218-05:00"
+      },
+      {
+        "name": "hjp-created-well.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-created-well.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.648217-05:00"
+      },
+      {
+        "name": "hjp-customer-approval-response-customer-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-customer-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.647217-05:00"
+      },
+      {
+        "name": "hjp-customer-approval-response-hjpetro-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-hjpetro-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.646218-05:00"
+      },
+      {
+        "name": "hjp-delete-timesheet-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-delete-timesheet-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.644217-05:00"
+      },
+      {
+        "name": "hjp-export-invoice-customer.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-export-invoice-customer.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.643218-05:00"
+      },
+      {
+        "name": "hjp-field-ticket-for-approval-01-secure.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01-secure.module",
+        "file_count": 1,
+        "modified": "2025-09-17T10:54:34.705349-05:00"
+      },
+      {
+        "name": "hjp-field-ticket-for-approval-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01.module",
+        "file_count": 5,
+        "modified": "2025-09-17T10:54:45.602875-05:00"
+      },
+      {
+        "name": "hjp-field-ticket-for-approval-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.640217-05:00"
+      },
+      {
+        "name": "hjp-field-ticket-for-approval-03.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-03.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.638217-05:00"
+      },
+      {
+        "name": "hjp-field-ticket-for-approval-autosubmit-test.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-autosubmit-test.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.637218-05:00"
+      },
+      {
+        "name": "hjp-filed-ticket-for-approval-04-thank-you.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-filed-ticket-for-approval-04-thank-you.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.636216-05:00"
+      },
+      {
+        "name": "hjp-h-and-j-field-ticket-for-approval-01-secure.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01-secure.module",
+        "file_count": 1,
+        "modified": "2025-09-17T10:54:34.711853-05:00"
+      },
+      {
+        "name": "hjp-h-and-j-field-ticket-for-approval-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01.module",
+        "file_count": 5,
+        "modified": "2025-09-17T10:54:45.603875-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-0-select-project.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-0-select-project.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.633217-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.631217-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-02-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-02-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.630217-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-02-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-02-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.629218-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-03.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-03.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.627217-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-04.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-04.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.626218-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-05-overview.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-05-overview.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.624217-05:00"
+      },
+      {
+        "name": "hjp-insert-timesheet-06-my-timesheets.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-insert-timesheet-06-my-timesheets.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.623217-05:00"
+      },
+      {
+        "name": "hjp-line-items-approval-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.621217-05:00"
+      },
+      {
+        "name": "hjp-line-items-approval-re-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-re-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.620217-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-01-FIRST-KEEP IT.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-01-FIRST-KEEP IT.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.619216-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.617217-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.616219-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-03-NIGHTSHIFT.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-03-NIGHTSHIFT.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.614216-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-03.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-03.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.613217-05:00"
+      },
+      {
+        "name": "hjp-new-timesheet-entry-04-redirect.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-new-timesheet-entry-04-redirect.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.612217-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.610218-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.609218-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-03-overview.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-03-overview.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.60722-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-maxtrix.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-maxtrix.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.606217-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-overview.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-overview.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.605218-05:00"
+      },
+      {
+        "name": "hjp-prepare-consultants-start.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-prepare-consultants-start.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.603217-05:00"
+      },
+      {
+        "name": "hjp-test-limit.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-test-limit.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.602217-05:00"
+      },
+      {
+        "name": "hjp-update-rejected-timesheet-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-rejected-timesheet-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.600217-05:00"
+      },
+      {
+        "name": "hjp-update-rejected-timesheet-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-rejected-timesheet-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.599217-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-01.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-01.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.597217-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-02.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-02.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.596218-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-03.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-03.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.594219-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-04.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-04.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.59322-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-05-overview.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-05-overview.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.592218-05:00"
+      },
+      {
+        "name": "hjp-update-timesheet-06-last-step.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/hjp-update-timesheet-06-last-step.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.59022-05:00"
+      },
+      {
+        "name": "menu.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/menu.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.58922-05:00"
+      },
+      {
+        "name": "only-for-ss.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/only-for-ss.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.588217-05:00"
+      },
+      {
+        "name": "top-bar-contact.module",
+        "path": "data/raw/themes/Timesheets-Theme/modules/top-bar-contact.module",
+        "file_count": 5,
+        "modified": "2025-09-16T18:08:43.58622-05:00"
+      }
+    ]
+  },
+  "key_documents": [
+    {
+      "name": "PROCESS-FLOW-COMPLETE.md",
+      "path": "analysis/timesheet_process/PROCESS-FLOW-COMPLETE.md",
+      "size": 14180,
+      "modified": "2025-09-18T14:15:24.838138-05:00"
+    },
+    {
+      "name": "STRUCTURE-STATUS-SUMMARY.md",
+      "path": "analysis/timesheet_process/STRUCTURE-STATUS-SUMMARY.md",
+      "size": 5335,
+      "modified": "2025-09-18T23:29:25.7258-05:00"
+    },
+    {
+      "name": "README.md",
+      "path": "analysis/timesheet_process/README.md",
+      "size": 4805,
+      "modified": "2025-09-18T23:21:35.91688-05:00"
+    },
+    {
+      "name": "CONTEXT-RESET-SUMMARY.md",
+      "path": "analysis/timesheet_process/CONTEXT-RESET-SUMMARY.md",
+      "size": 5333,
+      "modified": "2025-09-18T13:26:28.255241-05:00"
+    }
+  ]
+}

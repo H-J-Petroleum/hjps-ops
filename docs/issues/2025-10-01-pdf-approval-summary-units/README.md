@@ -1,0 +1,25 @@
+# PDF Approval Summary Quantity & Currency Normalization (2025-10-01)
+
+## Issue Statement
+- Service Summary uses the `Total Days` header and Well Breakdown uses the `Days` column even when the aggregated services represent other units (miles, per-diem counts, lump sums), giving approvers misleading context (`src/pdf-generator/src/services/tableRenderingService.js:152`, `src/pdf-generator/src/services/tableRenderingService.js:179`).
+- Aggregated rows omit explicit unit labels, so entries like Mileage, Per Diem, or Construction Supervisor III do not show whether their quantity reflects miles or days even though the underlying timesheet records hold the unit via billing frequency and price descriptors (`src/pdf-generator/src/services/dataProcessingService.js:29`, `src/pdf-generator/src/services/dataProcessingService.js:82`).
+- Quantity and currency values render as raw numbers, creating inconsistent precision and omitting predictable rounding rules, while the existing currency helper is scoped to the utility class and cannot be reused outside the formatter module (`src/pdf-generator/src/services/tableRenderingService.js:161`, `src/pdf-generator/src/services/tableRenderingService.js:193`, `src/pdf-generator/src/utils/formatters.js:14`).
+
+## Potential Solutions
+1. **Data-first normalization service**: Extend the data processing flow to capture a canonical `unit` for each service and well aggregation by reading straight from the timesheet payload (`timesheet_billing_frequency`, `timesheet_hj_price_description`, etc.), format quantities with a reusable helper service that enforces smart precision (integers when whole, two decimals when fractional), and reuse an exported currency formatter to guarantee `$0.00` output. Update table headers to `Qty` and append unit captions in the aggregated labels. Pros: centralizes business rules, easier to test, unlocks reuse for future outputs. Cons: requires broader refactor in services plus new tests.
+2. **Presentation-only patch**: Inject display-specific logic in `TableRenderingService` to rename headers, manually append unit suffixes by peeking at the first row, and format numbers inline. Pros: localized change. Cons: duplicates logic, misses opportunities for reuse, and leaves data aggregations opaque for other consumers (e.g., approval API JSON export).
+
+## Final Solution
+Pursue the data-first normalization service.
+- **Reusable helper service**: Create `src/pdf-generator/src/services/valueFormattingService.js` exporting methods like `formatQuantity(raw, { unitHint })`, `formatCurrency(raw)` (wrapping `Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' })` but returning the `$` style output), and `deriveUnit(timesheet)` that inspects `timesheet_billing_frequency`, `timesheet_price_description`, and fallback mappings. Inject this service into both `DataProcessingService` and `TableRenderingService` so other modules (e.g., CSV exports) can reuse it.
+- **Accurate unit sourcing**: While aggregating, track every contributing row's unit; use the helper to select a consistent unit (prefer identical units, otherwise flag a warning and default to `unitless`). This respects the exact property that drove quantity/price creation instead of hard-coding lookups. Leverage descriptors like "H&J Price (Per day)" → `day`, "Mileage" → `mi`, or direct `timesheet_unit_label` if available.
+- **Header and label updates**: Rename Service Summary `Total Days` to `Qty` and Well Breakdown `Days` to `Qty`. When rendering service names, suffix them with the unit in parentheses (e.g., `Per Diem (days)`, `Mileage (mi)`) so the context is visible without expanding detail tables.
+- **Smart rounding & formatting**: Apply `formatQuantity` to aggregated totals so whole numbers render without decimals (`3,000`) and fractional values cap at two decimals (`7.25`). Ensure `formatCurrency` uses nearest-cent rounding with standard rules. Use the helper in detailed line items too for consistency.
+- **Testing & observability**: Add unit tests covering mixed-unit aggregation, rounding scenarios, and currency output (`DataProcessingService`, new `ValueFormattingService`, and existing formatter integration). Update logging to emit a warning whenever a service aggregates mixed units so operators can audit data hygiene.
+- **Evaluate existing libraries**: Review lightweight utilities like `dinero.js` or `currency.js` for enhanced currency math and `numbro`/`numeral` for consistent number formatting. If they reduce maintenance overhead without bloating the bundle, integrate them in the helper service; otherwise rely on `Intl.NumberFormat` built-ins for determinism.
+
+## Next Actions
+1. Scaffold `ValueFormattingService` with unit derivation, quantity, and currency helpers plus accompanying tests.
+2. Refactor `DataProcessingService` to store `{ qty, unit, formattedQty, formattedAmount }` and emit renamed headers.
+3. Update `TableRenderingService` to use the new data shapes, tweak headers to `Qty`, and append unit labels.
+4. Run `npm --prefix config test` (and add targeted specs if missing) to validate regressions before wiring the issue to implementation.

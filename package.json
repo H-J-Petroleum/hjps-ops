@@ -1,0 +1,22 @@
+{
+  "name": "hjps-ops-platform",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Operational services and tooling for H&J Petroleum",
+  "workspaces": [
+    "packages/approval-api",
+    "packages/pdf-generator",
+    "packages/hubspot-custom-code"
+  ],
+  "scripts": {
+    "lint": "eslint --config shared/config/.eslintrc.js \"packages/**/*.js\"",
+    "lint:fix": "eslint --config shared/config/.eslintrc.js --fix \"packages/**/*.js\"",
+    "test": "jest --config shared/config/jest.config.js",
+    "test:watch": "jest --config shared/config/jest.config.js --watch",
+    "test:coverage": "jest --config shared/config/jest.config.js --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "jest": "^29.7.0"
+  }
+}

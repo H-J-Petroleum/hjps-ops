@@ -1,0 +1,32 @@
+{
+  "contact": {
+    "approval_timesheet_ids_array": "Comma-delimited list of hj_timesheets IDs selected in the dashboard.",
+    "approval_project_id": "Project ID associated with the approval request.",
+    "approval_project_name": "Display name exposed to approvers.",
+    "approval_customer": "Customer label used in approval emails.",
+    "approval_operator": "Operator label used in approval emails.",
+    "approval_consultant_name": "Consultant full name included in request payload.",
+    "approval_from_date": "Start date captured in approval request form.",
+    "approval_until_date": "End date captured in approval request form.",
+    "approval_sales_deal_id": "Sales deal ID tied to the timesheet batch.",
+    "approver_email": "Primary approver email (Phase 01/03 dependency).",
+    "approver_full_name": "Approver full name for messaging.",
+    "approver_unique_id": "Approver contact ID used by approval workflows.",
+    "approver_is": "Association label or role description (e.g., Primary Approver).",
+    "submitted_as_timesheet_contact": "Indicates whether request originated from consultant or delegate.",
+    "approval_object_record_id": "Approval object record reference populated by re-approval form.",
+    "approval_processed_date": "Timestamp recorded when the approval was prepared for submission.",
+    "approval_timesheet_request_id": "Legacy property; new requests rely on Phase 03 generating request IDs.",
+    "approval_customer_comment": "Optional comment captured during re-approval."
+  },
+  "hj_timesheets": {
+    "timesheet_approval_status": "Line item status updated by Phase 03 workflows.",
+    "timesheet_approval_request_id": "Identifier linking line item to approval batch.",
+    "response_approval_timesheet_ids_array": "IDs returned by approval response workflows (stored on contact)."
+  },
+  "forms": {
+    "initial_request": "5dd64adc-00b2-4cfa-a69f-4cb068c5c55f",
+    "reapproval_request": "f45d58de-38c3-441e-b344-2e6c6187b272"
+  },
+  "last_updated": "2025-09-19"
+}

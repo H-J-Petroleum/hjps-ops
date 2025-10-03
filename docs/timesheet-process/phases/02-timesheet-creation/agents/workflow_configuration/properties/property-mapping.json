@@ -1,0 +1,46 @@
+{
+  "wf_11": {
+    "id": "567497868",
+    "secrets": [
+      "MyContacts",
+      "MyCustomObject"
+    ],
+    "critical_properties": [
+      "cg_project_id",
+      "cg_wells_array",
+      "cg_units_array",
+      "cg_quantities_array",
+      "cg_start_dates_array",
+      "cg_end_dates_array",
+      "cg_start_times_array",
+      "cg_end_times_array",
+      "cg_ordinal_numbers",
+      "quote_consultant_id",
+      "quote_consultant_name",
+      "quote_customer_id",
+      "submitted_as_timesheet_contact"
+    ],
+    "outputs": [
+      "timesheet_project_id",
+      "timesheet_payment_deal_id",
+      "timesheet_sales_deal_id",
+      "timesheet_consultant_id",
+      "timesheet_price",
+      "timesheet_hj_price",
+      "timesheet_quantity",
+      "timesheet_total_price",
+      "timesheet_hj_total_price",
+      "timesheet_unique_id",
+      "timesheet_approval_status"
+    ]
+  },
+  "wf_12": {
+    "id": "567296849",
+    "trigger_property": "timesheet_trigger_status",
+    "expected_values": [
+      "Delete Existing"
+    ],
+    "operation": "Delete hj_timesheets records via CRM API"
+  },
+  "last_verified": "2025-09-19"
+}

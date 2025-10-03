@@ -1,0 +1,13 @@
+{
+  "timesheet-creation": {
+    "next": "request-for-approval"
+  },
+  "request-for-approval": {
+    "previous": "timesheet-creation",
+    "next": "approval-processing"
+  },
+  "approval-processing": {
+    "previous": "request-for-approval",
+    "next": "approval-interfaces"
+  }
+}

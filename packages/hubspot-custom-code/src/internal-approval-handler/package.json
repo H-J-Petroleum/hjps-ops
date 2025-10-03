@@ -1,0 +1,13 @@
+{
+  "name": "internal-approval-handler",
+  "version": "0.1.0",
+  "description": "Custom code handler for the WF-26 internal approval workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@hjps/toolkit-hubspot": "file:../../../../../../hjps-toolkit/packages/toolkit-hubspot",
+    "axios": "^1.7.2"
+  }
+}

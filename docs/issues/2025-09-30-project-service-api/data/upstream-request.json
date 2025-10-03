@@ -1,0 +1,11 @@
+{
+  "salesDealId": "16647461296",
+  "recruitingDealId": "13341510837",
+  "contactIds": [
+    "299151"
+  ],
+  "options": {
+    "collectApproverContact": true,
+    "collectPrimaryContact": true
+  }
+}

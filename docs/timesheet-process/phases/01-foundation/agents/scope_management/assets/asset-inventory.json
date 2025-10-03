@@ -1,0 +1,55 @@
+{
+  "modules": [
+    {
+      "name": "hjp-prepare-consultants-start.module",
+      "purpose": "Entry point for scope authoring; gathers consultant context."
+    },
+    {
+      "name": "hjp-prepare-consultants-01.module",
+      "purpose": "Collects consultant readiness data prior to pricing."
+    },
+    {
+      "name": "hjp-prepare-consultants-02.module",
+      "purpose": "Captures pricing matrices (hourly, daily, one-time, per-each, per-mile)."
+    },
+    {
+      "name": "hjp-prepare-consultants-overview.module",
+      "purpose": "Displays compiled scope and submit CTA for approval request."
+    },
+    {
+      "name": "hjp-approve-scope-of-work.module",
+      "purpose": "Approver review interface (step 01)."
+    },
+    {
+      "name": "hjp-approve-scope-of-work-02.module",
+      "purpose": "Approver confirmation/decision interface (step 02)."
+    }
+  ],
+  "forms": [
+    {
+      "name": "Scope of Work - Request for Approval",
+      "purpose": "Submits scope package from consultant for approver review."
+    },
+    {
+      "name": "Scope of Work - Approval",
+      "purpose": "Captures approver decision, pricing confirmation, comments."
+    },
+    {
+      "name": "Scope of Work - Update/Delete",
+      "purpose": "Allows maintenance of existing scope entries."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "01. Update Recruiting Deal (Scope URL Generation)",
+      "id": "567275018",
+      "purpose": "Action 3 writes the scope creation button (`scope_of_work_and_pricing`)."
+    },
+    {
+      "name": "09. Scope of Work - Approval",
+      "id": "567402589",
+      "purpose": "Processes approval submissions, updates records, and notes."
+    }
+  ],
+  "last_updated": "2025-09-18"
+}

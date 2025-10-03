@@ -1,0 +1,46 @@
+{
+  "modules": [
+    {
+      "name": "hjp-assign-consultant-to-new-deal-01.module",
+      "purpose": "Launch point for consultant assignment; consumes WF-01 output URLs."
+    },
+    {
+      "name": "hjp-prepare-consultants-start.module",
+      "purpose": "Explains consultant onboarding tasks before project creation."
+    },
+    {
+      "name": "hjp-prepare-consultants-maxtrix.module",
+      "purpose": "Matrix view showing consultant coverage per project; verifies associations before approvals."
+    }
+  ],
+  "forms": [
+    {
+      "name": "Consultant Assignment Form",
+      "id": "f1784acd-d74d-441e-b5e5-c0c4fbbf2f5e",
+      "purpose": "Captures consultant and deal IDs so WF-06 can attach the consultant prior to project creation."
+    },
+    {
+      "name": "Create Well Form",
+      "id": "b682c714-e395-4677-bbfb-1a32fad5f04b",
+      "purpose": "Collects operator/deal context for new well creation during project setup."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "01. Update Recruiting Deal",
+      "id": "567275018",
+      "purpose": "Generates consultant metadata and URLs that seed project configuration."
+    },
+    {
+      "name": "03. Update Sales Deal & Create Custom Project Object",
+      "id": "567293814",
+      "purpose": "Validates associations and writes project-ready fields before creation."
+    },
+    {
+      "name": "Project Creation Workflow",
+      "id": "(workflow_configuration/project_creation)",
+      "purpose": "Creates the `hj_projects` record and copies validated deal metadata."
+    }
+  ],
+  "last_updated": "2025-09-18"
+}

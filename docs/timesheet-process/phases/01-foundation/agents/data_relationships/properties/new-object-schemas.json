@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2025-09-21T00:00:00Z",
+  "objects": [
+    {
+      "name": "hj_taxonomy",
+      "label": "HJ Taxonomy",
+      "description": "Normalized taxonomy for Industry → Domain → Discipline → Role → Level tuples used across recruiting, sales, and delivery.",
+      "properties": [
+        {"name": "taxonomy_id", "label": "Taxonomy ID", "type": "string", "fieldType": "text", "description": "Deterministic identifier (uuid)"},
+        {"name": "industry", "label": "Industry", "type": "string", "fieldType": "select", "description": "Top-level industry"},
+        {"name": "domain", "label": "Domain", "type": "string", "fieldType": "select", "description": "Functional domain within industry"},
+        {"name": "discipline", "label": "Discipline", "type": "string", "fieldType": "select", "description": "Technical discipline"},
+        {"name": "role", "label": "Role", "type": "string", "fieldType": "select", "description": "Role title"},
+        {"name": "level", "label": "Level", "type": "string", "fieldType": "select", "description": "Seniority level"},
+        {"name": "version", "label": "Version", "type": "number", "fieldType": "number", "description": "Schema version"},
+        {"name": "status", "label": "Status", "type": "enumeration", "fieldType": "select", "description": "Active / Deprecated"},
+        {"name": "notes", "label": "Notes", "type": "string", "fieldType": "textarea", "description": "Governance notes"}
+      ],
+      "associations": [
+        {"to": "person_role_profile", "cardinality": "one_to_many", "purpose": "Validated profile taxonomy"},
+        {"to": "opening", "cardinality": "one_to_many", "purpose": "Sales openings"},
+        {"to": "hj_placement", "cardinality": "one_to_many", "purpose": "Placement taxonomy"}
+      ]
+    },
+    {
+      "name": "hj_compliance_catalog",
+      "label": "HJ Compliance Catalog",
+      "description": "Master list of compliance requirements, lead times, and waiver rules.",
+      "properties": [
+        {"name": "catalog_id", "label": "Catalog ID", "type": "string", "fieldType": "text", "description": "Deterministic identifier"},
+        {"name": "name", "label": "Name", "type": "string", "fieldType": "text", "description": "Compliance item"},
+        {"name": "description", "label": "Description", "type": "string", "fieldType": "textarea", "description": "Details"},
+        {"name": "applies_to_taxonomy_levels", "label": "Applicable Levels", "type": "string", "fieldType": "textarea", "description": "JSON array describing coverage"},
+        {"name": "cost", "label": "Cost", "type": "number", "fieldType": "number", "description": "Typical cost"},
+        {"name": "lead_time_days", "label": "Lead Time (Days)", "type": "number", "fieldType": "number", "description": "Expected lead time"},
+        {"name": "frequency", "label": "Frequency", "type": "string", "fieldType": "select", "description": "Renewal cadence"},
+        {"name": "waiver_allowed", "label": "Waiver Allowed", "type": "enumeration", "fieldType": "booleancheckbox", "description": "Whether waivers permitted"},
+        {"name": "documents_required", "label": "Documents Required", "type": "string", "fieldType": "textarea", "description": "Supporting documents"}
+      ],
+      "associations": [
+        {"to": "hj_taxonomy", "cardinality": "many_to_many", "purpose": "Applicability"},
+        {"to": "hj_compliance_record", "cardinality": "one_to_many", "purpose": "Fulfillment records"}
+      ]
+    },
+    {
+      "name": "hj_placement",
+      "label": "HJ Placement",
+      "description": "Consultant placement lifecycle tying assignment, person, entity, compliance snapshot, and rate package.",
+      "properties": [
+        {"name": "placement_id", "label": "Placement ID", "type": "string", "fieldType": "text", "description": "Deterministic identifier"},
+        {"name": "assignment_id", "label": "Assignment ID", "type": "string", "fieldType": "text", "description": "Project assignment reference"},
+        {"name": "consultant_person_id", "label": "Consultant Person ID", "type": "string", "fieldType": "text", "description": "Person contact id"},
+        {"name": "consultant_entity_id", "label": "Consultant Entity ID", "type": "string", "fieldType": "text", "description": "Entity/company id"},
+        {"name": "person_role_profile_id", "label": "Person Role Profile ID", "type": "string", "fieldType": "text", "description": "Validated role profile"},
+        {"name": "taxonomy_id", "label": "Taxonomy ID", "type": "string", "fieldType": "text", "description": "Reference to hj_taxonomy"},
+        {"name": "project_id", "label": "Project ID", "type": "string", "fieldType": "text", "description": "Human readable project id"},
+        {"name": "project_object_id", "label": "Project Object ID", "type": "string", "fieldType": "text", "description": "Custom object numeric id"},
+        {"name": "sales_deal_id", "label": "Sales Deal ID", "type": "string", "fieldType": "text", "description": "Sales deal association"},
+        {"name": "recruiting_deal_id", "label": "Recruiting Deal ID", "type": "string", "fieldType": "text", "description": "Recruiting deal association"},
+        {"name": "placement_status", "label": "Placement Status", "type": "enumeration", "fieldType": "select", "description": "Bench / Pending / Active / Suspended / Completed"},
+        {"name": "status_reason", "label": "Status Reason", "type": "string", "fieldType": "textarea", "description": "Narrative status"},
+        {"name": "effective_start_date", "label": "Effective Start", "type": "datetime", "fieldType": "date", "description": "Start date"},
+        {"name": "effective_end_date", "label": "Effective End", "type": "datetime", "fieldType": "date", "description": "End date"},
+        {"name": "bench_readiness_score", "label": "Bench Readiness Score", "type": "number", "fieldType": "number", "description": "Readiness metric"},
+        {"name": "expected_availability_date", "label": "Expected Availability", "type": "datetime", "fieldType": "date", "description": "Next availability"},
+        {"name": "compliance_snapshot_id", "label": "Compliance Snapshot ID", "type": "string", "fieldType": "text", "description": "Latest snapshot record"},
+        {"name": "compliance_alert_status", "label": "Compliance Alert Status", "type": "enumeration", "fieldType": "select", "description": "OK / Warning / Critical"},
+        {"name": "rate_card_version", "label": "Rate Card Version", "type": "string", "fieldType": "text", "description": "Derived from scope approval"},
+        {"name": "day_rate", "label": "Day Rate", "type": "number", "fieldType": "number", "description": "Consultant day rate"},
+        {"name": "hour_rate", "label": "Hour Rate", "type": "number", "fieldType": "number", "description": "Consultant hour rate"},
+        {"name": "per_diem", "label": "Per Diem", "type": "number", "fieldType": "number", "description": "Per diem amount"},
+        {"name": "travel_policy", "label": "Travel Policy", "type": "string", "fieldType": "textarea", "description": "Travel rules"},
+        {"name": "billing_frequency", "label": "Billing Frequency", "type": "enumeration", "fieldType": "select", "description": "Billing cadence"},
+        {"name": "allowed_well_scope", "label": "Allowed Well Scope", "type": "string", "fieldType": "textarea", "description": "JSON list of wells/pads"},
+        {"name": "allowed_afe_codes", "label": "Allowed AFE Codes", "type": "string", "fieldType": "textarea", "description": "AFE codes permitted"},
+        {"name": "timesheet_portal_token", "label": "Timesheet Portal Token", "type": "string", "fieldType": "text", "description": "Encrypted token"},
+        {"name": "approval_link_signature", "label": "Approval Link Signature", "type": "string", "fieldType": "text", "description": "HMAC signature"},
+        {"name": "openlibre_envelope_id", "label": "OpenLibre Envelope ID", "type": "string", "fieldType": "text", "description": "Signature envelope"},
+        {"name": "openlibre_status", "label": "OpenLibre Status", "type": "enumeration", "fieldType": "select", "description": "Draft / Sent / Completed"},
+        {"name": "openlibre_signed_url", "label": "Signed Document URL", "type": "string", "fieldType": "text", "description": "Link to signed doc"},
+        {"name": "assignment_brief_url", "label": "Assignment Brief URL", "type": "string", "fieldType": "text", "description": "Internal brief"},
+        {"name": "escalation_owner_id", "label": "Escalation Owner", "type": "string", "fieldType": "text", "description": "HubSpot owner id for escalations"}
+      ],
+      "associations": [
+        {"to": "contact", "cardinality": "many_to_one", "purpose": "Consultant person"},
+        {"to": "company", "cardinality": "many_to_one", "purpose": "Consultant entity"},
+        {"to": "deal", "cardinality": "many_to_one", "purpose": "Recruiting deal"},
+        {"to": "deal", "cardinality": "many_to_one", "purpose": "Sales deal"},
+        {"to": "hj_projects", "cardinality": "many_to_one", "purpose": "Project"},
+        {"to": "hj_services", "cardinality": "many_to_many", "purpose": "Rate references"},
+        {"to": "hj_consultants", "cardinality": "one_to_many", "purpose": "Scope line versions"},
+        {"to": "hj_compliance_record", "cardinality": "one_to_many", "purpose": "Compliance snapshots"},
+        {"to": "hj_placement_approver", "cardinality": "one_to_many", "purpose": "Approver routing"},
+        {"to": "hj_timesheets", "cardinality": "one_to_many", "purpose": "Timesheet entries"},
+        {"to": "hj_approvals", "cardinality": "one_to_many", "purpose": "Approval records"}
+      ]
+    },
+    {
+      "name": "hj_compliance_record",
+      "label": "HJ Compliance Record",
+      "description": "Snapshot of a compliance requirement satisfied by a placement.",
+      "properties": [
+        {"name": "compliance_record_id", "label": "Compliance Record ID", "type": "string", "fieldType": "text", "description": "Deterministic identifier"},
+        {"name": "placement_id", "label": "Placement ID", "type": "string", "fieldType": "text", "description": "Parent placement"},
+        {"name": "catalog_id", "label": "Catalog ID", "type": "string", "fieldType": "text", "description": "Compliance catalog item"},
+        {"name": "consultant_person_id", "label": "Consultant Person ID", "type": "string", "fieldType": "text", "description": "Person contact id"},
+        {"name": "consultant_entity_id", "label": "Consultant Entity ID", "type": "string", "fieldType": "text", "description": "Entity id"},
+        {"name": "completed_date", "label": "Completed Date", "type": "datetime", "fieldType": "date", "description": "Completion date"},
+        {"name": "expires_date", "label": "Expires Date", "type": "datetime", "fieldType": "date", "description": "Expiration date"},
+        {"name": "status", "label": "Status", "type": "enumeration", "fieldType": "select", "description": "Valid / Expired / Pending"},
+        {"name": "waiver_status", "label": "Waiver Status", "type": "enumeration", "fieldType": "select", "description": "None / Requested / Approved"},
+        {"name": "document_url", "label": "Document URL", "type": "string", "fieldType": "text", "description": "Proof document"},
+        {"name": "verified_by", "label": "Verified By", "type": "string", "fieldType": "text", "description": "Verifier"},
+        {"name": "verification_method", "label": "Verification Method", "type": "string", "fieldType": "text", "description": "Method used"},
+        {"name": "notes", "label": "Notes", "type": "string", "fieldType": "textarea", "description": "Audit notes"}
+      ],
+      "associations": [
+        {"to": "hj_placement", "cardinality": "many_to_one", "purpose": "Placement"},
+        {"to": "hj_compliance_catalog", "cardinality": "many_to_one", "purpose": "Requirement"},
+        {"to": "contact", "cardinality": "many_to_one", "purpose": "Consultant person"},
+        {"to": "company", "cardinality": "many_to_one", "purpose": "Consultant entity"}
+      ]
+    },
+    {
+      "name": "hj_placement_approver",
+      "label": "HJ Placement Approver",
+      "description": "Approver assignments and routing logic per placement.",
+      "properties": [
+        {"name": "placement_approver_id", "label": "Placement Approver ID", "type": "string", "fieldType": "text", "description": "Deterministic identifier"},
+        {"name": "placement_id", "label": "Placement ID", "type": "string", "fieldType": "text", "description": "Parent placement"},
+        {"name": "approver_contact_id", "label": "Approver Contact ID", "type": "string", "fieldType": "text", "description": "Contact record"},
+        {"name": "approver_role", "label": "Approver Role", "type": "enumeration", "fieldType": "select", "description": "Customer / Internal / Operator"},
+        {"name": "scope_level", "label": "Scope Level", "type": "enumeration", "fieldType": "select", "description": "Project / Pad / Well / Person"},
+        {"name": "sequence_order", "label": "Sequence Order", "type": "number", "fieldType": "number", "description": "Sequential routing order"},
+        {"name": "routing_type", "label": "Routing Type", "type": "enumeration", "fieldType": "select", "description": "Parallel / Sequential"},
+        {"name": "required_flag", "label": "Required", "type": "enumeration", "fieldType": "booleancheckbox", "description": "Is approval mandatory"},
+        {"name": "notify_delegate", "label": "Notify Delegate", "type": "enumeration", "fieldType": "booleancheckbox", "description": "Send delegate alerts"},
+        {"name": "defaulted_from", "label": "Defaulted From", "type": "string", "fieldType": "text", "description": "Source of default (project/pad/well/person)"},
+        {"name": "status", "label": "Status", "type": "enumeration", "fieldType": "select", "description": "Pending / Approved / Rejected"},
+        {"name": "decision", "label": "Decision", "type": "string", "fieldType": "textarea", "description": "Decision notes"},
+        {"name": "decision_timestamp", "label": "Decision Timestamp", "type": "datetime", "fieldType": "datetime", "description": "Timestamp of decision"}
+      ],
+      "associations": [
+        {"to": "hj_placement", "cardinality": "many_to_one", "purpose": "Placement"},
+        {"to": "contact", "cardinality": "many_to_one", "purpose": "Approver contact"},
+        {"to": "hj_approvals", "cardinality": "one_to_many", "purpose": "Approval history"}
+      ]
+    }
+  ]
+}

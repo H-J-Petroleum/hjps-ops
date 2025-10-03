@@ -1,0 +1,12 @@
+{
+  "dealId": "16647461296",
+  "results": [
+    {
+      "serviceId": "12767572791",
+      "status": "skipped (dry-run)",
+      "associationTypeId": 145
+    }
+  ],
+  "dryRun": true,
+  "generatedAt": "2025-09-30T18:09:13.632Z"
+}

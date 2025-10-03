@@ -1,0 +1,49 @@
+{
+  "objects": {
+    "hj_timesheets": {
+      "timesheet_project_id": "Link to project custom object (2-26103074).",
+      "timesheet_project_name": "Readable project name displayed in portal and approvals.",
+      "timesheet_payment_deal_id": "Well/AFE identifier used downstream for billing.",
+      "timesheet_sales_deal_id": "Sales deal ID for revenue alignment.",
+      "timesheet_consultant_id": "Consultant contact ID (association 280).",
+      "timesheet_consultant_email": "Consultant email stored on the line item.",
+      "timesheet_role": "Role/position used for approvals and invoicing.",
+      "timesheet_job_service": "Job or service description.",
+      "timesheet_well": "Well name captured from consultant configuration.",
+      "timesheet_approval_status": "Status flag (Created/Submitted/Approved/Rejected/Re-Submitted).",
+      "timesheet_unique_id": "Deterministic ID {project_id}-{objectId}."
+    },
+    "hj_consultants": {
+      "hj_project_id": "Project ID used to match consultant records to submissions.",
+      "consultant_id": "Contact ID used for association lookup.",
+      "payment_deal_id": "Well/AFE record used for billing.",
+      "sales_deal_id": "Sales deal record referenced in approvals.",
+      "well": "Well name associated with the consultant/service.",
+      "consultant_role": "Role value mirrored into timesheets.",
+      "job_service": "Service description mirrored into timesheets.",
+      "hourly_role_price": "Consultant rate (hour).",
+      "daily_role_price": "Consultant rate (day).",
+      "per_mile_price": "Consultant rate (per mile).",
+      "per_each_price": "Consultant rate (per each).",
+      "fee_one_time_price": "Consultant rate (one-time fee)."
+    },
+    "contact": {
+      "cg_project_id": "Selected project ID staged for WF-11.",
+      "cg_wells_array": "Comma-separated wells included in submission.",
+      "cg_units_array": "Units (Hour/Day/etc) for each requested line.",
+      "cg_quantities_array": "Quantities aligned with cg_units_array.",
+      "cg_start_dates_array": "Start dates for each line item.",
+      "cg_end_dates_array": "End dates for each line item.",
+      "cg_start_times_array": "Start times when provided.",
+      "cg_end_times_array": "End times when provided.",
+      "cg_ordinal_numbers": "Sequence numbers used to detect duplicates.",
+      "quote_consultant_id": "Billing terms identifier reused in WF-11.",
+      "quote_consultant_name": "Billing type string reused in WF-11.",
+      "quote_customer_id": "Billing account reference.",
+      "submitted_as_timesheet_contact": "Flag indicating consultant vs delegate submission.",
+      "approval_timesheet_ids_array": "Timesheet IDs staged for approval handoff.",
+      "response_approval_timesheet_ids_array": "IDs populated by approval response workflows."
+    }
+  },
+  "last_updated": "2025-09-19"
+}

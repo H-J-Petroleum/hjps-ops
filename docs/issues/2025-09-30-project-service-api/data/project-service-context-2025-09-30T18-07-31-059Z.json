@@ -1,0 +1,127 @@
+{
+  "generatedAt": "2025-09-30T18:07:29.210Z",
+  "deal": {
+    "id": "16647461296",
+    "properties": {
+      "amount": "0",
+      "approver_contact_email": "mhood@hjpetro.com",
+      "approver_full_name": "Matt Hood",
+      "approver_unique_id": "6503",
+      "class": "Vital Energy",
+      "createdate": "2023-12-22T20:41:39.776Z",
+      "dealname": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_approver_is": "HJPetro",
+      "hj_customer_id": "12006423589",
+      "hj_customer_name": "Vital Energy",
+      "hj_operator_id": "12006423589",
+      "hj_operator_name": "Vital Energy",
+      "hj_primary_contact_email": "tc.willis@vitalenergy.com",
+      "hj_primary_customer_contact_id": "437851",
+      "hj_primary_customer_contact_name": "T. C Willis",
+      "hs_lastmodifieddate": "2025-09-30T18:05:19.804Z",
+      "hs_object_id": "16647461296",
+      "hubspot_owner_id": "151497314",
+      "owner_contact_id": "12351",
+      "owner_email": "jpoe@hjpetro.com",
+      "owner_name": "Jon-Lucas Poe",
+      "project_object_id": "12768502194",
+      "project_unique_id": "hjp-15911-37197",
+      "taxable": "N",
+      "terms": "Net 30"
+    }
+  },
+  "project": {
+    "id": "12768502194",
+    "properties": {
+      "hj_approver_email": "tc.willis@vitalenergy.com",
+      "hj_approver_id": "437851",
+      "hj_approver_is": "Primary Contact",
+      "hj_approver_name": "TC Willis",
+      "hj_class": "Vital Energy",
+      "hj_customer": "Vital Energy",
+      "hj_customer_id": "12006423589",
+      "hj_operator": "Vital Energy",
+      "hj_operator_id": "12006423589",
+      "hj_primary_contact_email": "tc.willis@vitalenergy.com",
+      "hj_primary_contact_id": "437851",
+      "hj_primary_contact_name": "TC Willis",
+      "hj_project_id": "hjp-15911-37197",
+      "hj_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_sales_deal_owner_contact_id": "12351",
+      "hj_sales_deal_owner_email": "jpoe@hjpetro.com",
+      "hj_sales_deal_owner_name": "Jon-Lucas Poe",
+      "hj_sales_deal_record_id": "16647461296",
+      "hj_taxable": "N",
+      "hj_terms": "Net 30",
+      "hs_createdate": "2024-04-08T20:08:21.496Z",
+      "hs_lastmodifieddate": "2025-07-17T14:01:30.793Z",
+      "hs_object_id": "12768502194",
+      "hubspot_owner_id": "151497314"
+    }
+  },
+  "contacts": [
+    {
+      "id": "299151",
+      "properties": {
+        "createdate": "2023-05-15T17:46:23.298Z",
+        "email": "justin.e.lott@gmail.com",
+        "firstname": "Justin",
+        "hs_object_id": "299151",
+        "lastmodifieddate": "2025-09-30T17:10:38.322Z",
+        "lastname": "Lott",
+        "main_contact_email": null,
+        "main_contact_id": null,
+        "phone": "+19363289631",
+        "submitted_as_timesheet_contact": "No"
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "12767572791",
+      "properties": {
+        "hj_billing_frequency": "Day",
+        "hj_daily_price": null,
+        "hj_fee_one_time_price": null,
+        "hj_hj_daily_price": "1100",
+        "hj_hj_fee_one_time_price": null,
+        "hj_hj_hourly_price": null,
+        "hj_hj_per_each_price": null,
+        "hj_hj_per_mile_price": null,
+        "hj_hourly_price": null,
+        "hj_per_each_price": null,
+        "hj_per_mile_price": null,
+        "hj_service_name": "Construction Supervisor III",
+        "hj_sku": null,
+        "hs_createdate": "2024-04-08T20:28:24.772Z",
+        "hs_lastmodifieddate": "2024-04-08T20:28:53.944Z",
+        "hs_object_id": "12767572791"
+      }
+    }
+  ],
+  "timesheets": [
+    {
+      "id": "35668239403",
+      "properties": {
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T17:10:38.893Z",
+        "hs_object_id": "35668239403",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_billing_frequency": "Day",
+        "timesheet_consultant_email": "justin.e.lott@gmail.com",
+        "timesheet_consultant_full_name": "Justin Lott",
+        "timesheet_consultant_id": "299151",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+        "timesheet_quantity": "0.35714",
+        "timesheet_role": "Construction Supervisor",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    }
+  ]
+}

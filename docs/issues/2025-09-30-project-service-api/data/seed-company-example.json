@@ -1,0 +1,14 @@
+{
+  "dryRun": true,
+  "companyId": "12006423589",
+  "properties": {
+    "name": "Vital Energy",
+    "msa_terms": "Net 30",
+    "hj_taxable": "N",
+    "city": "Tulsa",
+    "state": "OK",
+    "zip": "74120",
+    "domain": "vitalenergy.com",
+    "phone": ""
+  }
+}

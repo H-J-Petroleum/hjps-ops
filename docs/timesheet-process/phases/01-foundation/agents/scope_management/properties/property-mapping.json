@@ -1,0 +1,46 @@
+{
+  "objects": {
+    "deal": {
+      "scope_of_work_and_pricing": "HTML button linking to the scope creation portal (WF-01 Action 3)."
+    },
+    "contact": {
+      "sof_consultant_id": "Consultant unique ID carried through approval.",
+      "sof_consultant_name": "Consultant name displayed to approvers.",
+      "sof_project_id": "Project object ID tied to the scope.",
+      "sof_approval_unique_id": "Approval sequence identifier.",
+      "sof_deal_owner_email": "Deal owner email for notifications.",
+      "sof_deal_owner_id": "Deal owner HubSpot ID.",
+      "sof_sales_deal_id": "Sales deal ID for note association.",
+      "sof_hardcoded_response_message": "Workflow-defined approval message.",
+      "sof_comment_note": "Approver comment returned to consultant.",
+      "sof_record_ids_array": "List of consultant record IDs impacted by approval.",
+      "sof_approved_array": "Parallel list of Approved/Rejected markers.",
+      "sof_consultant_hourly_prices": "Hourly rates submitted in scope request.",
+      "sof_consultant_daily_prices": "Daily rates submitted in scope request.",
+      "sof_hj_hourly_prices": "Internal H&J hourly rates for comparison.",
+      "sof_hj_daily_prices": "Internal H&J daily rates for comparison.",
+      "sof_consultant_one_time_prices": "Consultant one-time fees.",
+      "sof_hj_one_time_prices": "Internal one-time fees.",
+      "sof_consultant_per_each_prices": "Consultant per-each pricing.",
+      "sof_hj_per_each_prices": "Internal per-each pricing.",
+      "sof_consultant_per_mile_prices": "Consultant mileage pricing.",
+      "sof_hj_per_mile_prices": "Internal mileage pricing.",
+      "sof_marketing_email_view_response_button": "Generated link displayed on approver contact record."
+    },
+    "hj_consultants": {
+      "hj_approved": "Approval status synced from WF-09.",
+      "hourly_role_price": "Approved consultant hourly rate.",
+      "daily_role_price": "Approved consultant daily rate.",
+      "hj_hj_hourly_price": "Approved H&J hourly baseline.",
+      "hj_hj_daily_price": "Approved H&J daily baseline.",
+      "fee_one_time_price": "Consultant one-time fee.",
+      "hj_hj_fee_one_time_price": "H&J one-time fee.",
+      "per_each_price": "Consultant per-each price.",
+      "hj_hj_per_each_price": "H&J per-each price.",
+      "per_mile_price": "Consultant per-mile price.",
+      "hj_hj_per_mile_price": "H&J per-mile price.",
+      "scope_of_work_approval_comment": "Approver comment persisted on the consultant record."
+    }
+  },
+  "last_updated": "2025-09-18"
+}

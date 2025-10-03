@@ -1,0 +1,240 @@
+{
+  "Black Bear 9TB": {
+    "Construction Supervisor III": {
+      "id": "34378831450",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34383436800",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Per Diem": {
+      "id": "34387232382",
+      "daily": 75,
+      "per_mile": 0
+    }
+  },
+  "Black Bear 13TB": {
+    "Construction Supervisor III": {
+      "id": "34375253601",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34404568363",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34395544576",
+      "daily": 0,
+      "per_mile": 1.25
+    }
+  },
+  "Grissom White 3025036": {
+    "Mileage": {
+      "id": "34392794748",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34383899230",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34405179781",
+      "daily": 75,
+      "per_mile": 0
+    }
+  },
+  "Klipspringer 4A": {
+    "Mileage": {
+      "id": "34395544577",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34380223064",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34391088241",
+      "daily": 75,
+      "per_mile": 0
+    }
+  },
+  "Grissom White 3025037": {
+    "Construction Supervisor III": {
+      "id": "34392794749",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34385217538",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34383436801",
+      "daily": 0,
+      "per_mile": 1.25
+    }
+  },
+  "Klipspringer 3B": {
+    "Mileage": {
+      "id": "34382971465",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Per Diem": {
+      "id": "34381884481",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Construction Supervisor III": {
+      "id": "34393259563",
+      "daily": 990,
+      "per_mile": 0
+    }
+  },
+  "Rebecca B 4J": {
+    "Per Diem": {
+      "id": "34404568364",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34386924850",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34394349667",
+      "daily": 990,
+      "per_mile": 0
+    }
+  },
+  "Rebecca E 6J": {
+    "Per Diem": {
+      "id": "34405796375",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Construction Supervisor III": {
+      "id": "34392946745",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34381421847",
+      "daily": 0,
+      "per_mile": 1.25
+    }
+  },
+  "Rebecca C 5MS": {
+    "Mileage": {
+      "id": "34377243463",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34386612592",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34388005430",
+      "daily": 75,
+      "per_mile": 0
+    }
+  },
+  "Schwartz J 1A": {
+    "Per Diem": {
+      "id": "34380955742",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Construction Supervisor III": {
+      "id": "34389854552",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34379916290",
+      "daily": 0,
+      "per_mile": 1.25
+    }
+  },
+  "Woods 3A": {
+    "Mileage": {
+      "id": "34391710827",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34379140457",
+      "daily": 990,
+      "per_mile": 0
+    },
+    "Per Diem": {
+      "id": "34411189636",
+      "daily": 75,
+      "per_mile": 0
+    }
+  },
+  "Schwartz Q 7A": {
+    "Mileage": {
+      "id": "34389854551",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Per Diem": {
+      "id": "34383899233",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Construction Supervisor III": {
+      "id": "34386612594",
+      "daily": 990,
+      "per_mile": 0
+    }
+  },
+  "Woods 5TB": {
+    "Per Diem": {
+      "id": "34392174758",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34387542028",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34390781853",
+      "daily": 990,
+      "per_mile": 0
+    }
+  },
+  "Woods 4A": {
+    "Per Diem": {
+      "id": "34396315548",
+      "daily": 75,
+      "per_mile": 0
+    },
+    "Mileage": {
+      "id": "34396930216",
+      "daily": 0,
+      "per_mile": 1.25
+    },
+    "Construction Supervisor III": {
+      "id": "34380223067",
+      "daily": 990,
+      "per_mile": 0
+    }
+  }
+}

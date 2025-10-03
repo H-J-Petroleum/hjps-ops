@@ -1,0 +1,159 @@
+{
+  "dryRun": true,
+  "cleanupTemp": true,
+  "stages": {},
+  "company": {
+    "customer": {
+      "companyId": "12006423589",
+      "properties": {
+        "name": "Vital Energy",
+        "msa_terms": "Net 30",
+        "hj_taxable": "N",
+        "city": "Tulsa",
+        "state": "OK",
+        "zip": "74120",
+        "domain": "vitalenergy.com",
+        "phone": ""
+      }
+    }
+  },
+  "salesDeal": {
+    "dealId": "16647461296",
+    "properties": {
+      "dealname": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hubspot_owner_id": "151497314",
+      "owner_name": "Jon-Lucas Poe",
+      "owner_email": "jpoe@hjpetro.com",
+      "owner_contact_id": "12351",
+      "hj_customer_name": "Vital Energy",
+      "hj_customer_id": "12006423589",
+      "hj_operator_name": "Vital Energy",
+      "hj_operator_id": "12006423589",
+      "hj_primary_customer_contact_name": "T. C Willis",
+      "hj_primary_contact_email": "tc.willis@vitalenergy.com",
+      "hj_primary_customer_contact_id": "437851",
+      "approver_full_name": "Matt Hood",
+      "approver_contact_email": "mhood@hjpetro.com",
+      "approver_unique_id": "6503",
+      "hj_approver_is": "HJPetro",
+      "terms": "Net 30",
+      "taxable": "N",
+      "class": "Vital Energy"
+    },
+    "associations": {
+      "customer": [
+        { "companyId": "12006423589", "associationTypeId": 207 }
+      ],
+      "operator": [
+        { "companyId": "12006423589", "associationTypeId": 205 }
+      ],
+      "contacts": [
+        { "contactId": "6503", "associationTypeId": 20 },
+        { "contactId": "437851", "associationTypeId": 19 }
+      ]
+    }
+  },
+  "consultant": {
+    "contactId": "299151",
+    "properties": {
+      "firstname": "Justin",
+      "lastname": "Lott",
+      "email": "justin.e.lott@gmail.com",
+      "phone": "+19363289631",
+      "submitted_as_timesheet_contact": "No"
+    },
+    "recruitingDeal": {
+      "dealId": "13341510837",
+      "associationTypeId": 4
+    }
+  },
+  "project": {
+    "projectName": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+    "projectId": null,
+    "skipIfExists": true
+  },
+  "projectConsultants": {
+    "projectId": "12768502194",
+    "projectProperties": {
+      "hj_project_id": "hjp-15911-37197",
+      "hj_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_customer": "Vital Energy",
+      "hj_operator": "Vital Energy"
+    },
+    "consultants": ["299151"],
+    "updateContactProperties": true
+  },
+  "service": {
+    "dealId": "16647461296",
+    "properties": {
+      "hj_service_name": "Construction Supervisor III",
+      "hj_billing_frequency": "Day",
+      "hj_daily_price": "990",
+      "hj_hj_daily_price": "1100",
+      "hj_hourly_price": "0",
+      "hj_hj_hourly_price": "0",
+      "hj_per_each_price": "0",
+      "hj_hj_per_each_price": "0",
+      "hj_per_mile_price": "0",
+      "hj_hj_per_mile_price": "0",
+      "hj_fee_one_time_price": "0",
+      "hj_hj_fee_one_time_price": "0"
+    }
+  },
+  "serviceAssociation": {
+    "dealId": "16647461296",
+    "serviceIds": ["12767572791"],
+    "associationTypeId": 145
+  },
+  "scope": {
+    "properties": {
+      "consultant_id": "299151",
+      "consultant_full_name": "Justin Lott",
+      "consultant_email": "justin.e.lott@gmail.com",
+      "consultant_role": "Construction Supervisor",
+      "consultant_title_job": "Construction Supervisor",
+      "consultantContactId": "299151",
+      "job_service": "Construction Supervisor III",
+      "well": "REBECCA 37-5 E 6J",
+      "hj_project_id": "hjp-15911-37197",
+      "hj_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_project_billing_frequency": "Day",
+      "hj_customer": "Vital Energy",
+      "hj_operator": "Vital Energy",
+      "daily_role_price": "990",
+      "hourly_role_price": "0",
+      "per_each_price": "0",
+      "per_mile_price": "0",
+      "fee_one_time_price": "0",
+      "hj_hj_daily_price": "1100",
+      "hj_hj_hourly_price": "0",
+      "hj_hj_per_each_price": "0",
+      "hj_hj_per_mile_price": "0",
+      "hj_hj_fee_one_time_price": "0",
+      "hj_approved": "Approved",
+      "sales_deal_id": "16647461296",
+      "consultant_deal_id": "13341510837",
+      "payment_deal_id": "3024062",
+      "hj_unique_approval_request": "sow-15911-37197-299151-1739911571385",
+      "scope_of_work_approval_comment": "none"
+    }
+  },
+  "snapshot": {
+    "upstreamRequest": {
+      "salesDealId": "16647461296",
+      "recruitingDealId": "13341510837",
+      "contactIds": ["299151"],
+      "options": {
+        "collectApproverContact": true,
+        "collectPrimaryContact": true
+      }
+    },
+    "projectContextRequest": {
+      "dealId": "16647461296",
+      "projectSearch": { "property": "hj_project_id", "value": "hjp-15911-37197" },
+      "contactIds": ["299151"],
+      "serviceSearch": { "property": "hj_service_name", "value": "Construction Supervisor III" },
+      "timesheetIds": ["35668239403"]
+    }
+  }
+}

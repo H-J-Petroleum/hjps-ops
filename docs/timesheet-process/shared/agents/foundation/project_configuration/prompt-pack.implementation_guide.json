@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "phase": "01_foundation",
+    "subprocess": "project_configuration",
+    "deliverable": "implementation_guide",
+    "deliverable_path": "analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md",
+    "summary": "Document backend implementation details for engineers, covering integrations, data flow, and testing guidance."
+  },
+  "inputs": {
+    "context_index_path": "analysis/timesheet_process/shared/context-index.json",
+    "context_items": [
+      {
+        "id": "reference_01",
+        "role": "reference",
+        "path": "analysis/timesheet_process/PROCESS-FLOW-COMPLETE.md",
+        "modified": "2025-09-18T14:15:24.838138-05:00",
+        "summary": "Complete Timesheet Process Flow",
+        "snippet": "# Complete Timesheet Process Flow\n\n*End-to-end process flow for the entire timesheet management system*\n\n## 🎯 **Process Overview**\n\nThe timesheet management system consists of 4 main phases that handle the complete lifecycle from timesheet creation to approval. Notifications are integrated throughout all phases, and billing exists largely outside of HubSpot.\n\n## 🔄 **Complete Process Flow**\n\n```\nPhase 1: Foundation (Project Setup)\n    ↓\nPhase 2: Timesheet Creation\n    ↓\nPhase 3: Approval Process\n    ↓\nPhase 4: Billing Process (External to HubSpot)\n```\n\n## 🔔 **Notifications Integration**\n\nNotifi\n…"
+      },
+      {
+        "id": "reference_02",
+        "role": "reference",
+        "path": "analysis/timesheet_process/STRUCTURE-STATUS-SUMMARY.md",
+        "modified": "2025-09-18T13:36:58.470397-05:00",
+        "summary": "📊 Timesheet Process Structure Status Summary",
+        "snippet": "# 📊 Timesheet Process Structure Status Summary\n\n*Current status of the timesheet process documentation structure*\n\n## 🎯 **Overall Status: COMPLETE ✅**\n\nThe timesheet process documentation structure is now complete and properly organized for backend-first implementation.\n\n## 📁 **Directory Structure Status**\n\n### **✅ Complete Directories**\n- **`01_foundation/`** - Project Foundation & Setup\n  - **Status:** Complete\n  - **Files:** `overview.md`\n  - **Next:** Add backend implementation files\n\n- **`02_timesheet_creation/`** - Timesheet Entry & Management\n  - **Status:** Complete\n  - **Files:** `ove\n…"
+      },
+      {
+        "id": "reference_03",
+        "role": "reference",
+        "path": "analysis/timesheet_process/README.md",
+        "modified": "2025-09-18T13:37:21.194119-05:00",
+        "summary": "🗺️ H&J Petroleum Timesheet Process Documentation",
+        "snippet": "# 🗺️ H&J Petroleum Timesheet Process Documentation\n\n*Comprehensive documentation structure for backend-first reconstruction with modern architecture*\n\n## 📁 Documentation Structure\n\nThis folder contains the complete timesheet process documentation organized by sub-process for methodical backend-first reconstruction.\n\n### 🎯 **Main Process: Timesheet Management**\nThe complete timesheet lifecycle from creation to billing, involving multiple user types and complex workflows.\n\n### 🏗️ **Backend-First Approach**\nThis documentation supports a complete architectural redesign focusing on:\n- **Backend Log\n…"
+      },
+      {
+        "id": "reference_04",
+        "role": "reference",
+        "path": "analysis/timesheet_process/CONTEXT-RESET-SUMMARY.md",
+        "modified": "2025-09-18T13:26:28.255241-05:00",
+        "summary": "🔄 Context Reset Summary - Timesheet Process Redesign",
+        "snippet": "# 🔄 Context Reset Summary - Timesheet Process Redesign\n\n*Complete summary of all work completed and next steps*\n\n## 🎯 **Project Status**\n\n**Current Phase:** Backend-First Architectural Redesign  \n**Focus:** Complete recreation of timesheet process with modern architecture  \n**Approach:** Backend logic first, then frontend interfaces  \n\n## 📊 **Completed Work**\n\n### **✅ 1. Complete Process Analysis**\n- **Documentation:** Comprehensive analysis of existing approval process\n- **Asset Inventory:** 25 assets documented with cross-references\n- **Property Mapping:** Complete data flow from Contact to\n…"
+      },
+      {
+        "id": "knowledge_01",
+        "role": "knowledge",
+        "path": "analysis/timesheet_process/shared/context-index.json",
+        "modified": "2025-09-18T21:55:44.610404-05:00",
+        "summary": "{",
+        "snippet": "{\n  \"generated_at\": \"2025-09-18T21:55:39.741573-05:00\",\n  \"timesheet_root\": \"analysis/timesheet_process\",\n  \"phases\": [\n    {\n      \"name\": \"shared\",\n      \"path\": \"analysis/timesheet_process/shared\",\n      \"subdirectories\": [\n        {\n          \"name\": \"assets\",\n          \"path\": \"analysis/timesheet_process/shared/assets\",\n          \"file_count\": 0,\n          \"modified\": \"2025-09-18T18:54:50.889338-05:00\"\n        },\n        {\n          \"name\": \"backend\",\n          \"path\": \"analysis/timesheet_process/shared/backend\",\n          \"file_count\": 1,\n          \"modified\": \"2025-09-18T18:\n…"
+      },
+      {
+        "id": "process_flow_01",
+        "role": "process-flow",
+        "path": "analysis/timesheet_process/phases/01-foundation/overview.md",
+        "modified": "2025-09-18T13:36:58.464387-05:00",
+        "summary": "Foundation Process Overview",
+        "snippet": "# Foundation Process Overview\n\n*Phase 1 of the timesheet management system - Project setup and configuration*\n\n## 🎯 **Process Purpose**\n\nThe foundation process establishes the groundwork for the entire timesheet system by:\n1. **Creating and configuring projects** with proper settings\n2. **Assigning approvers** (internal H&J staff or external customers)\n3. **Setting up company associations** and relationships\n4. **Configuring approval workflows** and business rules\n5. **Establishing data relationships** between all objects\n\n## 🔄 **Process Flow**\n\n```\nProject Creation → Approver Assignment → Com\n…"
+      },
+      {
+        "id": "process_flow_02",
+        "role": "process-flow",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/overview.md",
+        "modified": "2025-09-18T18:55:36.790890-05:00",
+        "summary": "AI-Generated Content Placeholder",
+        "snippet": "# AI-Generated Content Placeholder\n\nThis file would contain AI-generated content based on the prompt in: overview.md\n\n## Prompt Summary:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure and detail level\n- Follow the same comprehensive approach as the 03_approval documentation\n- Include real HubSpot dat...\n\n## Next Steps:\n1. Copy the prompt from overview.md\n2. Paste it into your AI tool (ChatGPT, Claude, etc.)\n3. Generate the content\n4. Save the result as overview.md\n\n## Context:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure\n…"
+      },
+      {
+        "id": "logs_01",
+        "role": "logs",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/agent-status.json",
+        "modified": "2025-09-18T18:41:20.522243-05:00",
+        "summary": "﻿{",
+        "snippet": "﻿{\n    \"timestamp\":  \"2025-09-18 18:41:20\",\n    \"sub_process\":  \"project_configuration\",\n    \"status\":  \"completed\",\n    \"phase\":  \"01_foundation\",\n    \"files_created\":  [\n                          \"overview.md\",\n                          \"agent.md\",\n                          \"backend/implementation-guide.md\",\n                          \"frontend/interface-specs.md\",\n                          \"properties/property-mapping.json\",\n                          \"workflows/workflow-sequence.md\",\n                          \"assets/asset-inventory.json\",\n                          \"issues/known-issues.md\",\n…"
+      },
+      {
+        "id": "back_end_01",
+        "role": "back-end",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/backend/backend-implementation.md",
+        "modified": "2025-09-18T18:22:26.885595-05:00",
+        "summary": "Workflow Configuration Backend Documentation",
+        "snippet": "# Workflow Configuration Backend Documentation\n\n## Overview\nThis document describes the backend implementation for workflow configuration in the timesheet management system.\n\n## Core Workflows\n\n### Approval Workflows\n\n#### Internal HJ Approval Workflow (567500453)\n- **Purpose:** Process internal H&J staff approvals\n- **Trigger:** HJ Approvals created with internal approver\n- **Actions:** Send internal approval notifications, update approval status\n\n#### External Customer Approval Workflow (567500454)\n- **Purpose:** Process external customer approvals\n- **Trigger:** HJ Approvals created with ex\n…"
+      },
+      {
+        "id": "back_end_02",
+        "role": "back-end",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md",
+        "modified": "2025-09-18T18:55:36.798405-05:00",
+        "summary": "AI-Generated Content Placeholder",
+        "snippet": "# AI-Generated Content Placeholder\n\nThis file would contain AI-generated content based on the prompt in: backend/implementation-guide.md\n\n## Prompt Summary:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure and detail level\n- Follow the same comprehensive approach as the 03_approval documentation\n- Include real HubSpot dat...\n\n## Next Steps:\n1. Copy the prompt from backend/implementation-guide.md\n2. Paste it into your AI tool (ChatGPT, Claude, etc.)\n3. Generate the content\n4. Save the result as backend/implementation-guide.md\n\n## Context:\n\nReference Documentati\n…"
+      },
+      {
+        "id": "front_end_01",
+        "role": "front-end",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/frontend/frontend-specification.md",
+        "modified": "2025-09-18T18:22:26.885595-05:00",
+        "summary": "Workflow Configuration Frontend Documentation",
+        "snippet": "# Workflow Configuration Frontend Documentation\n\n## Overview\nThis document describes the frontend implementation for workflow configuration in the timesheet management system.\n\n## User Interface Components\n\n### Workflow Management Interface\n- Workflow list and status display\n- Workflow configuration forms\n- Trigger and action configuration\n- Workflow testing interface\n\n### Notification Management\n- Notification template editor\n- Email template configuration\n- Notification scheduling\n- Delivery status monitoring\n\n## Form Validation\n- Workflow trigger validation\n- Action configuration validation\n…"
+      },
+      {
+        "id": "front_end_02",
+        "role": "front-end",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/frontend/interface-specs.md",
+        "modified": "2025-09-18T18:41:20.484120-05:00",
+        "summary": "﻿# project_configuration Frontend Specification",
+        "snippet": "﻿# project_configuration Frontend Specification\n\n## Overview\nThis document describes the frontend implementation for project_configuration in the timesheet management system.\n\n## User Interface Components\n\n### Component 1\n- Component description\n- Key features\n- User interactions\n\n### Component 2\n- Component description\n- Key features\n- User interactions\n\n## Form Validation\n- Validation rule 1\n- Validation rule 2\n- Validation rule 3\n\n## User Experience\n- UX requirement 1\n- UX requirement 2\n- UX requirement 3\n\nLast updated: 2025-09-18 18:41:20"
+      },
+      {
+        "id": "schema_01",
+        "role": "schema",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/properties/property-mapping.json",
+        "modified": "2025-09-18T18:41:20.510741-05:00",
+        "summary": "﻿{",
+        "snippet": "﻿{\n    \"object_properties\":  {\n                              \"object1\":  {\n                                              \"property1\":  \"Description\",\n                                              \"property2\":  \"Description\",\n                                              \"property3\":  \"Description\"\n                                          },\n                              \"object2\":  {\n                                              \"property1\":  \"Description\",\n                                              \"property2\":  \"Description\",\n                                              \"property3\":  \"D\n…"
+      },
+      {
+        "id": "workflow_01",
+        "role": "workflow",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/workflows/workflow-sequence.md",
+        "modified": "2025-09-18T18:41:20.511738-05:00",
+        "summary": "﻿# project_configuration Workflow Documentation",
+        "snippet": "﻿# project_configuration Workflow Documentation\n\n## Workflow Sequence\n\n### Workflow 1\n- **Trigger:** Trigger description\n- **Actions:** Action description\n- **Outcome:** Outcome description\n\n### Workflow 2\n- **Trigger:** Trigger description\n- **Actions:** Action description\n- **Outcome:** Outcome description\n\n## Branching Logic\n\n### Decision Point 1\n- **Condition:** Condition description\n- **True Path:** True path description\n- **False Path:** False path description\n\n## Error Handling\n\n### Error Type 1\n- **Cause:** Cause description\n- **Resolution:** Resolution description\n\nLast updated: 2025-\n…"
+      },
+      {
+        "id": "issue_01",
+        "role": "issue",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/issues/known-issues.md",
+        "modified": "2025-09-18T18:41:20.515243-05:00",
+        "summary": "﻿# Known Issues - project_configuration",
+        "snippet": "﻿# Known Issues - project_configuration\n\n## Current Issues\n\n### Issue 1\n- **Description:** Issue description\n- **Impact:** Impact description\n- **Status:** Status\n- **Resolution:** Resolution description\n\n### Issue 2\n- **Description:** Issue description\n- **Impact:** Impact description\n- **Status:** Status\n- **Resolution:** Resolution description\n\n## Resolved Issues\n\n### Resolved Issue 1\n- **Description:** Issue description\n- **Resolution:** Resolution description\n- **Date Resolved:** Date\n\nLast updated: 2025-09-18 18:41:20"
+      },
+      {
+        "id": "asset_01",
+        "role": "asset",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/assets/asset-inventory.json",
+        "modified": "2025-09-18T18:41:20.514242-05:00",
+        "summary": "﻿{",
+        "snippet": "﻿{\n    \"modules\":  [\n                    {\n                        \"name\":  \"Module Name 1\",\n                        \"purpose\":  \"Purpose description\"\n                    }\n                ],\n    \"forms\":  [\n                  {\n                      \"name\":  \"Form Name 1\",\n                      \"purpose\":  \"Purpose description\"\n                  }\n              ],\n    \"workflows\":  [\n                      {\n                          \"name\":  \"Workflow Name 1\",\n                          \"id\":  \"Workflow ID\",\n                          \"purpose\":  \"Purpose description\"\n                      },\n…"
+      },
+      {
+        "id": "reference_05",
+        "role": "reference",
+        "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/cross-references/dependency-matrix.md",
+        "modified": "2025-09-18T18:41:20.517244-05:00",
+        "summary": "﻿# Cross-References - project_configuration",
+        "snippet": "﻿# Cross-References - project_configuration\n\n## Dependencies\n\n### Upstream Dependencies\n- Dependency 1: Description\n- Dependency 2: Description\n\n### Downstream Dependencies\n- Dependency 1: Description\n- Dependency 2: Description\n\n## Integration Points\n\n### Integration Point 1\n- **Purpose:** Purpose description\n- **Data Flow:** Data flow description\n- **Validation:** Validation requirements\n\nLast updated: 2025-09-18 18:41:20"
+      }
+    ]
+  },
+  "constraints": {
+    "style": "Technical implementation manual with explicit callouts for APIs, workflows, and validation steps.",
+    "voice": "Principal engineer translating discovery notes into implementation-ready guidance.",
+    "checklist": [
+      "Summarize current architecture and HubSpot assets involved.",
+      "Document data flow with emphasis on critical associations and property usage.",
+      "Include setup or execution steps for scripts or APIs mentioned.",
+      "List validation procedures and diagnostic scripts available via Codex CLI.",
+      "Highlight open engineering risks or follow-up actions."
+    ],
+    "acceptance_tests": [
+      "Every workflow or module mentioned maps to a file in the context bundle.",
+      "Troubleshooting tips reference actual logs or scripts when applicable."
+    ]
+  },
+  "prompt": {
+    "system": "You are an engineering technical writer producing backend implementation guidance for the timesheet system.",
+    "user": "Create an updated `backend/implementation-guide.md` for `Foundation` ▸ `Project Configuration`.\n\n### Deliverable Requirements\n- Target path: `analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md`\n- Purpose: Document backend implementation details for engineers, covering integrations, data flow, and testing guidance.\n- Style: Technical implementation manual with explicit callouts for APIs, workflows, and validation steps.\n- Checklist:\n  - Summarize current architecture and HubSpot assets involved.\n  - Document data flow with emphasis on critical associations and property usage.\n  - Include setup or execution steps for scripts or APIs mentioned.\n  - List validation procedures and diagnostic scripts available via Codex CLI.\n  - Highlight open engineering risks or follow-up actions.\n\n- Acceptance tests:\n  - Every workflow or module mentioned maps to a file in the context bundle.\n  - Troubleshooting tips reference actual logs or scripts when applicable.\n\n\n### Context Bundle\n- **reference_01** (reference) → `analysis/timesheet_process/PROCESS-FLOW-COMPLETE.md`\n                  - Summary: Complete Timesheet Process Flow\n                  - Snippet:\n                    ```\n                    # Complete Timesheet Process Flow\n\n*End-to-end process flow for the entire timesheet management system*\n\n## 🎯 **Process Overview**\n\nThe timesheet management system consists of 4 main phases that handle the complete lifecycle from timesheet creation to approval. Notifications are integrated throughout all phases, and billing exists largely outside of HubSpot.\n\n## 🔄 **Complete Process Flow**\n\n```\nPhase 1: Foundation (Project Setup)\n    ↓\nPhase 2: Timesheet Creation\n    ↓\nPhase 3: Approval Process\n    ↓\nPhase 4: Billing Process (External to HubSpot)\n```\n\n## 🔔 **Notifications Integration**\n\nNotifi\n…\n                    ```\n- **reference_02** (reference) → `analysis/timesheet_process/STRUCTURE-STATUS-SUMMARY.md`\n                  - Summary: 📊 Timesheet Process Structure Status Summary\n                  - Snippet:\n                    ```\n                    # 📊 Timesheet Process Structure Status Summary\n\n*Current status of the timesheet process documentation structure*\n\n## 🎯 **Overall Status: COMPLETE ✅**\n\nThe timesheet process documentation structure is now complete and properly organized for backend-first implementation.\n\n## 📁 **Directory Structure Status**\n\n### **✅ Complete Directories**\n- **`01_foundation/`** - Project Foundation & Setup\n  - **Status:** Complete\n  - **Files:** `overview.md`\n  - **Next:** Add backend implementation files\n\n- **`02_timesheet_creation/`** - Timesheet Entry & Management\n  - **Status:** Complete\n  - **Files:** `ove\n…\n                    ```\n- **reference_03** (reference) → `analysis/timesheet_process/README.md`\n                  - Summary: 🗺️ H&J Petroleum Timesheet Process Documentation\n                  - Snippet:\n                    ```\n                    # 🗺️ H&J Petroleum Timesheet Process Documentation\n\n*Comprehensive documentation structure for backend-first reconstruction with modern architecture*\n\n## 📁 Documentation Structure\n\nThis folder contains the complete timesheet process documentation organized by sub-process for methodical backend-first reconstruction.\n\n### 🎯 **Main Process: Timesheet Management**\nThe complete timesheet lifecycle from creation to billing, involving multiple user types and complex workflows.\n\n### 🏗️ **Backend-First Approach**\nThis documentation supports a complete architectural redesign focusing on:\n- **Backend Log\n…\n                    ```\n- **reference_04** (reference) → `analysis/timesheet_process/CONTEXT-RESET-SUMMARY.md`\n                  - Summary: 🔄 Context Reset Summary - Timesheet Process Redesign\n                  - Snippet:\n                    ```\n                    # 🔄 Context Reset Summary - Timesheet Process Redesign\n\n*Complete summary of all work completed and next steps*\n\n## 🎯 **Project Status**\n\n**Current Phase:** Backend-First Architectural Redesign  \n**Focus:** Complete recreation of timesheet process with modern architecture  \n**Approach:** Backend logic first, then frontend interfaces  \n\n## 📊 **Completed Work**\n\n### **✅ 1. Complete Process Analysis**\n- **Documentation:** Comprehensive analysis of existing approval process\n- **Asset Inventory:** 25 assets documented with cross-references\n- **Property Mapping:** Complete data flow from Contact to\n…\n                    ```\n- **knowledge_01** (knowledge) → `analysis/timesheet_process/shared/context-index.json`\n                  - Summary: {\n                  - Snippet:\n                    ```\n                    {\n  \"generated_at\": \"2025-09-18T21:55:39.741573-05:00\",\n  \"timesheet_root\": \"analysis/timesheet_process\",\n  \"phases\": [\n    {\n      \"name\": \"shared\",\n      \"path\": \"analysis/timesheet_process/shared\",\n      \"subdirectories\": [\n        {\n          \"name\": \"assets\",\n          \"path\": \"analysis/timesheet_process/shared/assets\",\n          \"file_count\": 0,\n          \"modified\": \"2025-09-18T18:54:50.889338-05:00\"\n        },\n        {\n          \"name\": \"backend\",\n          \"path\": \"analysis/timesheet_process/shared/backend\",\n          \"file_count\": 1,\n          \"modified\": \"2025-09-18T18:\n…\n                    ```\n- **process_flow_01** (process-flow) → `analysis/timesheet_process/phases/01-foundation/overview.md`\n                  - Summary: Foundation Process Overview\n                  - Snippet:\n                    ```\n                    # Foundation Process Overview\n\n*Phase 1 of the timesheet management system - Project setup and configuration*\n\n## 🎯 **Process Purpose**\n\nThe foundation process establishes the groundwork for the entire timesheet system by:\n1. **Creating and configuring projects** with proper settings\n2. **Assigning approvers** (internal H&J staff or external customers)\n3. **Setting up company associations** and relationships\n4. **Configuring approval workflows** and business rules\n5. **Establishing data relationships** between all objects\n\n## 🔄 **Process Flow**\n\n```\nProject Creation → Approver Assignment → Com\n…\n                    ```\n- **process_flow_02** (process-flow) → `analysis/timesheet_process/phases/01-foundation/project_configuration/overview.md`\n                  - Summary: AI-Generated Content Placeholder\n                  - Snippet:\n                    ```\n                    # AI-Generated Content Placeholder\n\nThis file would contain AI-generated content based on the prompt in: overview.md\n\n## Prompt Summary:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure and detail level\n- Follow the same comprehensive approach as the 03_approval documentation\n- Include real HubSpot dat...\n\n## Next Steps:\n1. Copy the prompt from overview.md\n2. Paste it into your AI tool (ChatGPT, Claude, etc.)\n3. Generate the content\n4. Save the result as overview.md\n\n## Context:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure\n…\n                    ```\n- **logs_01** (logs) → `analysis/timesheet_process/phases/01-foundation/project_configuration/agent-status.json`\n                  - Summary: ﻿{\n                  - Snippet:\n                    ```\n                    ﻿{\n    \"timestamp\":  \"2025-09-18 18:41:20\",\n    \"sub_process\":  \"project_configuration\",\n    \"status\":  \"completed\",\n    \"phase\":  \"01_foundation\",\n    \"files_created\":  [\n                          \"overview.md\",\n                          \"agent.md\",\n                          \"backend/implementation-guide.md\",\n                          \"frontend/interface-specs.md\",\n                          \"properties/property-mapping.json\",\n                          \"workflows/workflow-sequence.md\",\n                          \"assets/asset-inventory.json\",\n                          \"issues/known-issues.md\",\n…\n                    ```\n- **back_end_01** (back-end) → `analysis/timesheet_process/phases/01-foundation/project_configuration/backend/backend-implementation.md`\n                  - Summary: Workflow Configuration Backend Documentation\n                  - Snippet:\n                    ```\n                    # Workflow Configuration Backend Documentation\n\n## Overview\nThis document describes the backend implementation for workflow configuration in the timesheet management system.\n\n## Core Workflows\n\n### Approval Workflows\n\n#### Internal HJ Approval Workflow (567500453)\n- **Purpose:** Process internal H&J staff approvals\n- **Trigger:** HJ Approvals created with internal approver\n- **Actions:** Send internal approval notifications, update approval status\n\n#### External Customer Approval Workflow (567500454)\n- **Purpose:** Process external customer approvals\n- **Trigger:** HJ Approvals created with ex\n…\n                    ```\n- **back_end_02** (back-end) → `analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md`\n                  - Summary: AI-Generated Content Placeholder\n                  - Snippet:\n                    ```\n                    # AI-Generated Content Placeholder\n\nThis file would contain AI-generated content based on the prompt in: backend/implementation-guide.md\n\n## Prompt Summary:\n\nReference Documentation:\n- Use the 03_approval folder as a template for structure and detail level\n- Follow the same comprehensive approach as the 03_approval documentation\n- Include real HubSpot dat...\n\n## Next Steps:\n1. Copy the prompt from backend/implementation-guide.md\n2. Paste it into your AI tool (ChatGPT, Claude, etc.)\n3. Generate the content\n4. Save the result as backend/implementation-guide.md\n\n## Context:\n\nReference Documentati\n…\n                    ```\n- **front_end_01** (front-end) → `analysis/timesheet_process/phases/01-foundation/project_configuration/frontend/frontend-specification.md`\n                  - Summary: Workflow Configuration Frontend Documentation\n                  - Snippet:\n                    ```\n                    # Workflow Configuration Frontend Documentation\n\n## Overview\nThis document describes the frontend implementation for workflow configuration in the timesheet management system.\n\n## User Interface Components\n\n### Workflow Management Interface\n- Workflow list and status display\n- Workflow configuration forms\n- Trigger and action configuration\n- Workflow testing interface\n\n### Notification Management\n- Notification template editor\n- Email template configuration\n- Notification scheduling\n- Delivery status monitoring\n\n## Form Validation\n- Workflow trigger validation\n- Action configuration validation\n…\n                    ```\n- **front_end_02** (front-end) → `analysis/timesheet_process/phases/01-foundation/project_configuration/frontend/interface-specs.md`\n                  - Summary: ﻿# project_configuration Frontend Specification\n                  - Snippet:\n                    ```\n                    ﻿# project_configuration Frontend Specification\n\n## Overview\nThis document describes the frontend implementation for project_configuration in the timesheet management system.\n\n## User Interface Components\n\n### Component 1\n- Component description\n- Key features\n- User interactions\n\n### Component 2\n- Component description\n- Key features\n- User interactions\n\n## Form Validation\n- Validation rule 1\n- Validation rule 2\n- Validation rule 3\n\n## User Experience\n- UX requirement 1\n- UX requirement 2\n- UX requirement 3\n\nLast updated: 2025-09-18 18:41:20\n                    ```\n- **schema_01** (schema) → `analysis/timesheet_process/phases/01-foundation/project_configuration/properties/property-mapping.json`\n                  - Summary: ﻿{\n                  - Snippet:\n                    ```\n                    ﻿{\n    \"object_properties\":  {\n                              \"object1\":  {\n                                              \"property1\":  \"Description\",\n                                              \"property2\":  \"Description\",\n                                              \"property3\":  \"Description\"\n                                          },\n                              \"object2\":  {\n                                              \"property1\":  \"Description\",\n                                              \"property2\":  \"Description\",\n                                              \"property3\":  \"D\n…\n                    ```\n- **workflow_01** (workflow) → `analysis/timesheet_process/phases/01-foundation/project_configuration/workflows/workflow-sequence.md`\n                  - Summary: ﻿# project_configuration Workflow Documentation\n                  - Snippet:\n                    ```\n                    ﻿# project_configuration Workflow Documentation\n\n## Workflow Sequence\n\n### Workflow 1\n- **Trigger:** Trigger description\n- **Actions:** Action description\n- **Outcome:** Outcome description\n\n### Workflow 2\n- **Trigger:** Trigger description\n- **Actions:** Action description\n- **Outcome:** Outcome description\n\n## Branching Logic\n\n### Decision Point 1\n- **Condition:** Condition description\n- **True Path:** True path description\n- **False Path:** False path description\n\n## Error Handling\n\n### Error Type 1\n- **Cause:** Cause description\n- **Resolution:** Resolution description\n\nLast updated: 2025-\n…\n                    ```\n- **issue_01** (issue) → `analysis/timesheet_process/phases/01-foundation/project_configuration/issues/known-issues.md`\n                  - Summary: ﻿# Known Issues - project_configuration\n                  - Snippet:\n                    ```\n                    ﻿# Known Issues - project_configuration\n\n## Current Issues\n\n### Issue 1\n- **Description:** Issue description\n- **Impact:** Impact description\n- **Status:** Status\n- **Resolution:** Resolution description\n\n### Issue 2\n- **Description:** Issue description\n- **Impact:** Impact description\n- **Status:** Status\n- **Resolution:** Resolution description\n\n## Resolved Issues\n\n### Resolved Issue 1\n- **Description:** Issue description\n- **Resolution:** Resolution description\n- **Date Resolved:** Date\n\nLast updated: 2025-09-18 18:41:20\n                    ```\n- **asset_01** (asset) → `analysis/timesheet_process/phases/01-foundation/project_configuration/assets/asset-inventory.json`\n                  - Summary: ﻿{\n                  - Snippet:\n                    ```\n                    ﻿{\n    \"modules\":  [\n                    {\n                        \"name\":  \"Module Name 1\",\n                        \"purpose\":  \"Purpose description\"\n                    }\n                ],\n    \"forms\":  [\n                  {\n                      \"name\":  \"Form Name 1\",\n                      \"purpose\":  \"Purpose description\"\n                  }\n              ],\n    \"workflows\":  [\n                      {\n                          \"name\":  \"Workflow Name 1\",\n                          \"id\":  \"Workflow ID\",\n                          \"purpose\":  \"Purpose description\"\n                      },\n…\n                    ```\n- **reference_05** (reference) → `analysis/timesheet_process/phases/01-foundation/project_configuration/cross-references/dependency-matrix.md`\n                  - Summary: ﻿# Cross-References - project_configuration\n                  - Snippet:\n                    ```\n                    ﻿# Cross-References - project_configuration\n\n## Dependencies\n\n### Upstream Dependencies\n- Dependency 1: Description\n- Dependency 2: Description\n\n### Downstream Dependencies\n- Dependency 1: Description\n- Dependency 2: Description\n\n## Integration Points\n\n### Integration Point 1\n- **Purpose:** Purpose description\n- **Data Flow:** Data flow description\n- **Validation:** Validation requirements\n\nLast updated: 2025-09-18 18:41:20\n                    ```\n\n### Output Expectations\n- Produce detailed Markdown ready to overwrite `analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md`.\n- Include sections: Overview, HubSpot Assets, Data Flow, Execution Steps, Validation, Troubleshooting, Open Risks.\n- Reference relevant Python helpers or CLI workflows when applicable."
+  },
+  "outputs": {
+    "format": "markdown",
+    "path": "analysis/timesheet_process/phases/01-foundation/project_configuration/backend/implementation-guide.md",
+    "append": false
+  },
+  "trace": {
+    "generated_at": "2025-09-18T21:55:51.536970-05:00",
+    "builder": "analysis/timesheet_process/shared/prompt_pack_builder.py",
+    "model_hint": "gpt-4.1 or claude-3.5-sonnet",
+    "notes": "Context index timestamp: 2025-09-18T21:55:39.741573-05:00"
+  }
+}
+
+

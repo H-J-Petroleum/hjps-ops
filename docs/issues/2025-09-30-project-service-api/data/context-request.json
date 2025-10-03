@@ -1,0 +1,17 @@
+{
+  "dealId": "16647461296",
+  "projectSearch": {
+    "property": "hj_project_id",
+    "value": "hjp-15911-37197"
+  },
+  "contactIds": [
+    "299151"
+  ],
+  "serviceSearch": {
+    "property": "hj_service_name",
+    "value": "Construction Supervisor III"
+  },
+  "timesheetIds": [
+    "35668239403"
+  ]
+}

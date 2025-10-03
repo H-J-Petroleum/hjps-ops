@@ -1,0 +1,727 @@
+{
+  "generatedAt": "2025-09-19",
+  "phases": [
+    {
+      "id": "01-foundation",
+      "folder": "01-foundation",
+      "label": "Phase 01 - Foundations",
+      "status": {
+        "lastUpdated": "2025-09-19",
+        "delivered": [
+          "project_configuration: backend+frontend playbooks, property inventory, workflow sequence, dependency coverage",
+          "approver_assignment: backend guide, implementation notes, property map, workflow catalogue, tooling references",
+          "company_associations: backend runbook, property mapping, workflow sequence, issues log, validate_wf04_wf05 automation",
+          "data_relationships: association inventory across wells/deals/projects, schema notes, cross-process dependency matrix",
+          "workflow_configuration: handoff overview, asset inventory, property map, Phase 03 activation placeholder",
+          "scope_management: core assets, issues log, workflow inventory for WF-01 handoff and WF-09 approvals",
+          "Methods, data architecture, UI/UX recommendations, and improvement plan refreshed for Foundations"
+        ],
+        "gaps": [
+          {
+            "subprocess": "scope_management",
+            "items": "Capture end-to-end QA evidence for the consultant scope flow (WF-01 -> CMS -> WF-09) and document acceptance steps"
+          },
+          {
+            "subprocess": "company_associations",
+            "items": "Schedule recurring runs of tools/validate_wf04_wf05.py and archive execution logs in shared verification"
+          },
+          {
+            "subprocess": "data_relationships",
+            "items": "Refresh schema exports and add a regression checklist that flags association/property drift"
+          },
+          {
+            "subprocess": "workflow_configuration",
+            "items": "Pull workflow exports from Phase 03 and document the activation plan for foundations-era prerequisites"
+          },
+          {
+            "subprocess": "cross-phase",
+            "items": "Align the overview checklist and global structure summary once validation artefacts are in place"
+          }
+        ],
+        "nextActions": [
+          "Fold the WF-04/WF-05 validation script into the QA cadence and track results in verification logs",
+          "Document the scope authoring + approval path, including WF-09 outputs and supporting evidence",
+          "Refresh association/property exports and update the comprehensive process map if relationships shift"
+        ]
+      },
+      "trace": {
+        "title": "Foundations End-to-End Trace",
+        "description": "Holistic view of Phase 01, covering automation, artefacts, and validation steps from project intake through workflow handoff.",
+        "overview": {
+          "processSummary": "analysis/timesheet_process/phases/01-foundation/docs/overview.md",
+          "status": "analysis/timesheet_process/phases/01-foundation/docs/STATUS.md",
+          "readiness": "analysis/timesheet_process/phases/01-foundation/docs/foundation-phase-status.md"
+        },
+        "sequenceNote": "Order of operations: project configuration -> scope management -> approver assignment -> company associations -> data relationships -> workflow configuration handoff.",
+        "sections": [
+          {
+            "key": "project-configuration",
+            "title": "Project Configuration (WF-01, WF-03, Project Creation)",
+            "purpose": "Validate sales deals, generate consultant handoff artefacts, and create hj_projects records.",
+            "workflows": [
+              {
+                "step": 1,
+                "name": "WF-01 Update Recruiting Deal",
+                "id": "567275018",
+                "trigger": "Recruiting deal enters qualified stage",
+                "actions": "Copy consultant details, generate assignment + portal URLs",
+                "result": "Recruiting deal mirrors consultant context"
+              },
+              {
+                "step": 2,
+                "name": "WF-03 Update Sales Deal & Create Custom Project Object",
+                "id": "567293814",
+                "trigger": "Sales deal enters Quote Review or Closed Won",
+                "actions": "Validate customer/operator/approver/primary/owner, write project-ready properties, set missing_important_info/deal_error_note_id",
+                "result": "Deal cleared (or blocked) for project creation"
+              },
+              {
+                "step": 3,
+                "name": "Project Creation Workflow",
+                "id": "n/a",
+                "trigger": "WF-03 completes without errors",
+                "actions": "Create hj_projects, copy validated properties, set associations",
+                "result": "Project record instantiated"
+              }
+            ],
+            "properties": [
+              {
+                "object": "Deal",
+                "property": "hj_customer_id",
+                "purpose": "Customer company ID saved during WF-03"
+              },
+              {
+                "object": "Deal",
+                "property": "hj_operator_id",
+                "purpose": "Operator company ID saved during WF-03"
+              },
+              {
+                "object": "Deal",
+                "property": "assign_consultant_to_a_new_sales_deal",
+                "purpose": "Consultant assignment URL from WF-01"
+              },
+              {
+                "object": "Deal",
+                "property": "link_for_consultant",
+                "purpose": "Consultant portal token from WF-01"
+              },
+              {
+                "object": "Deal",
+                "property": "create_associate_well",
+                "purpose": "Well creation CMS link from WF-03"
+              },
+              {
+                "object": "Deal",
+                "property": "scope_of_work_and_pricing",
+                "purpose": "Scope creation button generated during WF-01"
+              },
+              {
+                "object": "Deal",
+                "property": "missing_important_info",
+                "purpose": "WF-03 validation flag"
+              },
+              {
+                "object": "Deal",
+                "property": "deal_error_note_id",
+                "purpose": "Note ID describing validation failure"
+              },
+              {
+                "object": "Company",
+                "property": "hj_terms",
+                "purpose": "Customer billing terms reused downstream"
+              },
+              {
+                "object": "Company",
+                "property": "hj_taxable",
+                "purpose": "Tax flag reused downstream"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_project_name",
+                "purpose": "Project display name"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_approver_email",
+                "purpose": "Approver email stored on project"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_customer",
+                "purpose": "Customer name copied from company"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_operator",
+                "purpose": "Operator name copied from company"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_sales_deal_owner_name",
+                "purpose": "Deal owner name retained"
+              },
+              {
+                "object": "HJ Projects",
+                "property": "hj_project_id",
+                "purpose": "Unique project identifier created during workflow"
+              }
+            ],
+            "urls": [
+              {
+                "property": "assign_consultant_to_a_new_sales_deal",
+                "pattern": "https://app.hubspot.com/l/consultant-assignment?dealId={deal_id}&consultantId={consultant_vid}",
+                "source": "WF-01"
+              },
+              {
+                "property": "link_for_consultant",
+                "pattern": "https://portal.hjpetroleum.com/timesheets/{token}",
+                "source": "WF-01"
+              },
+              {
+                "property": "scope_of_work_and_pricing",
+                "pattern": "https://hjpetro-1230608.hs-sites.com/prepare-consultants-start?consultant_deal_id={deal_id}&consultant_unique_id={consultant_id}&consultant_name={encoded_name}&consultant_email={email}",
+                "source": "WF-01"
+              },
+              {
+                "property": "create_associate_well",
+                "pattern": "https://portal.hjpetroleum.com/wells/new?dealId={deal_id}",
+                "source": "WF-03"
+              }
+            ]
+          },
+          {
+            "key": "scope-management",
+            "title": "Scope Management (Scope Creation & Approval)",
+            "purpose": "Generate consultant scope packages and capture approval decisions before project activation.",
+            "workflows": [
+              {
+                "step": 1,
+                "name": "WF-01 Update Recruiting Deal (Action 3)",
+                "id": "567275018",
+                "trigger": "Recruiting deal enters qualified stage",
+                "actions": "Writes the scope creation button with deal and consultant parameters",
+                "result": "Consultant receives scope launch link"
+              },
+              {
+                "step": 2,
+                "name": "Consultant scope authoring flow",
+                "id": "CMS",
+                "trigger": "Consultant follows scope URL",
+                "actions": "Captures pricing arrays and notes on contact/custom object properties prefixed with sof_",
+                "result": "Scope request staged for approval"
+              },
+              {
+                "step": 3,
+                "name": "WF-09 Scope of Work - Approval",
+                "id": "567402589",
+                "trigger": "Scope approval form submitted",
+                "actions": "Updates consultant records with pricing + status, creates deal note, patches approver contact with view button",
+                "result": "Approval decision stored and shared"
+              }
+            ],
+            "properties": [
+              {
+                "object": "Deal",
+                "property": "scope_of_work_and_pricing",
+                "purpose": "Scope creation button displayed on recruiting deal"
+              },
+              {
+                "object": "Contact",
+                "property": "sof_consultant_id",
+                "purpose": "Consultant unique ID referenced during approval"
+              },
+              {
+                "object": "Contact",
+                "property": "sof_project_id",
+                "purpose": "Project identifier linked to scope"
+              },
+              {
+                "object": "Contact",
+                "property": "sof_approval_unique_id",
+                "purpose": "Approval tracking ID stored for WF-09"
+              }
+            ],
+            "notes": [
+              "Scope authoring uses the prepare-consultants CMS modules located in data/raw/hubspot-cms-assets/",
+              "WF-09 requires approver contact to be labeled Approver and distinct from consultant and primary contact",
+              "missing_important_info must return to 'No' before project activation"
+            ]
+          },
+          {
+            "key": "company-associations",
+            "title": "Company Associations (WF-04, WF-05)",
+            "purpose": "Ensure wells are linked to operators and sales deals prior to approvals and billing.",
+            "workflows": [
+              {
+                "step": 1,
+                "name": "WF-04 Associate Created Well to Sales Deal",
+                "id": "567358311",
+                "trigger": "Create Well form submission (b682c714-e395-4677-bbfb-1a32fad5f04b) creates HJ Well",
+                "actions": "Use hj_well_operator_id/hj_well_deal_id to create associations (types 126/128)",
+                "result": "New well linked to operator and deal"
+              },
+              {
+                "step": 2,
+                "name": "WF-05 Associate Existing Wells to Sales Deal",
+                "id": "567358566",
+                "trigger": "Associate Existing Wells form submission (3876c3f0-6363-4958-a3be-500a64bd6431)",
+                "actions": "Loop through associate_existing_wells_ids_array to associate wells to deal",
+                "result": "Existing wells linked to deal"
+              }
+            ],
+            "properties": [
+              {
+                "object": "HJ Wells",
+                "property": "hj_well_operator_id",
+                "purpose": "Operator ID required for WF-04"
+              },
+              {
+                "object": "HJ Wells",
+                "property": "hj_well_deal_id",
+                "purpose": "Deal ID required for WF-04"
+              },
+              {
+                "object": "Deal",
+                "property": "associate_existing_wells_sales_deal_id",
+                "purpose": "Deal target for WF-05"
+              },
+              {
+                "object": "Contact",
+                "property": "associate_existing_wells_ids_array",
+                "purpose": "Well IDs selected on form"
+              }
+            ],
+            "notes": [
+              "Workflow URL create_associate_well must match the CMS route for well creation",
+              "tools/validate_wf04_wf05.py validates association coverage"
+            ]
+          },
+          {
+            "key": "data-relationships",
+            "title": "Data Relationships (Association Registry)",
+            "purpose": "Maintain the shared association and schema catalogue used across Foundations workflows.",
+            "associations": [
+              {
+                "type": 4,
+                "relationship": "Deal -> Consultant"
+              },
+              {
+                "type": 126,
+                "relationship": "Company -> HJ Well"
+              },
+              {
+                "type": 128,
+                "relationship": "Deal -> HJ Well"
+              },
+              {
+                "type": 197,
+                "relationship": "Deal -> HJ Project (primary)"
+              },
+              {
+                "type": 205,
+                "relationship": "Project -> Operator company"
+              },
+              {
+                "type": 207,
+                "relationship": "Project -> Customer company"
+              },
+              {
+                "type": 209,
+                "relationship": "Project -> Consultant contact"
+              }
+            ],
+            "notes": [
+              "Schema exports live in data/raw/ai-context/ai-context-export/data-model/",
+              "workflow references summarised in agents/data_relationships/workflows/workflow-sequence.md"
+            ]
+          },
+          {
+            "key": "workflow-configuration",
+            "title": "Workflow Configuration Handoff (Approval Readiness)",
+            "purpose": "Record disabled approval workflows and readiness requirements prior to Phase 03 activation.",
+            "notes": [
+              "Workflows tracked: 1680618036 and 1682422902 - see agents/workflow_configuration/assets/asset-inventory.json",
+              "Readiness properties documented in agents/workflow_configuration/properties/property-mapping.json",
+              "Activation steps outlined in agents/workflow_configuration/workflows/workflow-sequence.md"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "02-timesheet-creation",
+      "folder": "02-timesheet-creation",
+      "label": "Phase 02 - Timesheet Creation",
+      "status": {
+        "lastUpdated": "2025-09-19",
+        "delivered": [
+          "TRACE map across portal modules, WF-10/11/12 automation, and approval handoff",
+          "DATA-ARCHITECTURE and METHODS comparison updated for timesheet arrays and portal objects",
+          "UI/UX recommendations covering portal states, navigation, polling behaviour, accessibility",
+          "Improvement plan logging workflow gaps (update/delete coverage, delegated edits)",
+          "Agent guides per subprocess aligned with consultant portal responsibilities"
+        ],
+        "gaps": [
+          {
+            "subprocess": "portal-management",
+            "items": "Document workflow exports for timesheet update/delete paths and confirm automation IDs"
+          },
+          {
+            "subprocess": "approval-handoff",
+            "items": "Clarify WF-08/WF-09 expectations for submitted timesheet arrays and add test evidence"
+          },
+          {
+            "subprocess": "data-quality",
+            "items": "Add regression checks for cg_* array parsing and delegated timesheet contact scenarios"
+          }
+        ],
+        "nextActions": [
+          "Export and archive WF-11, WF-12, and any supporting webhooks before the next doc refresh",
+          "Capture screenshots of portal navigation (Step 0-4) and thread them into the overview",
+          "Extend verification script to validate timesheet status transitions and portal lock rules"
+        ]
+      },
+      "trace": {
+        "title": "Timesheet Creation End-to-End Trace",
+        "description": "Comprehensive walkthrough of Phase 02, covering the consultant portal, HubSpot workflows, and custom object writes that culminate in the approval handoff.",
+        "overview": {
+          "processSummary": "analysis/timesheet_process/phases/02-timesheet-creation/docs/overview.md",
+          "sourceData": [
+            "data/raw/workflows/",
+            "data/raw/hubspot-cms-assets/Timesheets-Theme/modules/",
+            "data/raw/hubspot-cms-api/forms/cms_forms_data.json"
+          ],
+          "dependencies": [
+            "WF-01 consultant URL generation (link_for_consultant)",
+            "WF-03 project validation (hj_project_* + hj_notify_* properties)",
+            "WF-10 notification trigger for consultant access"
+          ]
+        },
+        "sequenceNote": "Operational sequence: consultant portal access -> project context load -> line-item authoring -> WF-11 timesheet creation -> portal management & approval request handoff.",
+        "sections": [
+          {
+            "key": "portal-access",
+            "title": "Portal Access & Authentication",
+            "purpose": "Deliver encrypted portal entry, associate consultant with the approved project, and surface the My Projects view.",
+            "workflows": [
+              {
+                "step": 1,
+                "name": "WF-10 Notify Consultant and Associate to Project",
+                "id": "567406596",
+                "trigger": "Contact submits Notify Consultant form (4d7f4f8d-5ed7-42d9-bb3e-81255c0fc2db)",
+                "actions": "Parse hj_notify_project_* properties, associate contact -> project (210), encrypt consultant ID, write hj_notify_timesheet_link, send email",
+                "result": "Consultant receives /insert-timesheet-step-0 URL with encrypted parameters"
+              },
+              {
+                "step": 2,
+                "name": "Module hjp-insert-timesheet-0-select-project",
+                "id": "module",
+                "trigger": "Consultant opens /insert-timesheet-step-0",
+                "actions": "Decrypt consultant ID, resolve delegated contacts, load projects via association 210, block locked projects",
+                "result": "Consultant sees authorised project list"
+              }
+            ],
+            "urls": [
+              {
+                "label": "Portal entry",
+                "pattern": "https://hjpetro-1230608.hs-sites.com/insert-timesheet-step-0?consultant_id={{encrypted}}&consultant_email={{email}}&consultant_name={{encoded}}"
+              }
+            ]
+          },
+          {
+            "key": "line-item-authoring",
+            "title": "Project Context & Line-Item Authoring",
+            "purpose": "Capture billable work, normalise units, and stage arrays for workflow ingestion.",
+            "workflows": [
+              {
+                "step": 3,
+                "name": "Module hjp-insert-timesheet-01",
+                "id": "module",
+                "trigger": "Consultant advances to /insert-timesheet-step-1",
+                "actions": "Load consultant record to retrieve deal IDs and wells, enforce project lock checks",
+                "result": "Context pre-populated for entry"
+              },
+              {
+                "step": 4,
+                "name": "Module hjp-insert-timesheet-02-01",
+                "id": "module",
+                "trigger": "Consultant moves to step 2",
+                "actions": "Pull consultant defaults, render entry form, capture units/quantity/notes",
+                "result": "Consultant composes one or multiple line items"
+              },
+              {
+                "step": 5,
+                "name": "Module hjp-new-timesheet-entry-03",
+                "id": "module",
+                "trigger": "Entry count validation",
+                "actions": "Read hj_timesheets records, verify portal unlocked, poll for expected count",
+                "result": "Ensures newly requested entries materialise before redirect"
+              },
+              {
+                "step": 6,
+                "name": "Module hjp-new-timesheet-entry-04-redirect",
+                "id": "module",
+                "trigger": "Completion redirect",
+                "actions": "Validate created count, expose navigation to Step 0 or All Timesheets overview",
+                "result": "Consultant returns to dashboard or management view"
+              }
+            ],
+            "notes": [
+              "Hidden fields populate contact properties prefixed cg_* for WF-11",
+              "Project locks enforced via hj_project_is_locked checks at each step"
+            ]
+          },
+          {
+            "key": "wf11",
+            "title": "Workflow 11 - Timesheet Object Creation",
+            "purpose": "Convert staged arrays into structured hj_timesheets records and stamp billing metadata.",
+            "workflows": [
+              {
+                "step": 7,
+                "name": "WF-11 Timesheet Object Creation",
+                "id": "567497868",
+                "trigger": "Contact submits Insert Line Items form (f2b89ea4-cae8-42ad-845b-ff5a25dc299a)",
+                "actions": "Resolve direct vs delegated contacts, derive pricing from hj_consultants, normalise arrays, guard against duplicates, batch create, set timesheet_unique_id",
+                "result": "hj_timesheets records created with pricing and approval status"
+              }
+            ],
+            "inputs": [
+              "cg_* arrays (dates, wells, units, quantities)",
+              "quote_* billing terms",
+              "hj_terms and hj_taxable from company feed",
+              "submitted_as_timesheet_contact flag"
+            ],
+            "outputs": [
+              "hj_timesheets populated with project, consultant, pricing, quantity, start/end dates & times",
+              "Billing metadata (bill_account, bill_description, terms__number_format_)",
+              "timesheet_approval_status = Created",
+              "timesheet_unique_id = {project_id}-{objectId}"
+            ]
+          },
+          {
+            "key": "portal-management",
+            "title": "Portal Management & Approval Handoff",
+            "purpose": "Allow consultants to review, edit, delete, and request approval without touching Phase 03 assets.",
+            "workflows": [
+              {
+                "step": 8,
+                "name": "Module hjp-insert-timesheet-06-my-timesheets",
+                "id": "module",
+                "trigger": "Consultant opens My Timesheets view",
+                "actions": "Aggregate hj_timesheets by status, auto-refresh, surface CTA buttons",
+                "result": "Consultant manages entries and triggers approval requests"
+              },
+              {
+                "step": 9,
+                "name": "Delete Timesheet form",
+                "id": "ed044ad9-806e-4c94-b227-e2ae3b0f1a78",
+                "trigger": "Consultant requests deletion",
+                "actions": "Sets timesheet_trigger_status for WF-12",
+                "result": "WF-12 removes the targeted hj_timesheets record"
+              },
+              {
+                "step": 10,
+                "name": "WF-12 Delete Line Items",
+                "id": "567296849",
+                "trigger": "timesheet_trigger_status = Delete Existing",
+                "actions": "Deletes hj_timesheets record by hs_object_id",
+                "result": "Timesheet entry removed"
+              }
+            ],
+            "notes": [
+              "Approval request CTA posts selected timesheets into Phase 03 workflows (WF-08/WF-09)",
+              "Status transitions: Created -> Submitted -> Approved/Rejected -> Resubmitted"
+            ]
+          },
+          {
+            "key": "handoff",
+            "title": "Handoff to Phase 03",
+            "purpose": "Clarify data passed forward and restrictions on downstream assets.",
+            "notes": [
+              "Output properties: approval_timesheet_ids_array, response_approval_timesheet_ids_array, timesheet_approval_status, timesheet_approval_request_id",
+              "Phase 02 must not alter Phase 03 workflows; document entry points instead"
+            ]
+          },
+          {
+            "key": "validation",
+            "title": "Validation Touchpoints",
+            "purpose": "Verification activities to run after documentation updates.",
+            "notes": [
+              "Run python3 analysis/timesheet_process/shared/verification/verify_phase.py --phase 02-timesheet-creation",
+              "Confirm exports for WF-11, WF-12, and relevant modules remain in sync before closing tasks"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "03-approval",
+      "folder": "03-approval",
+      "label": "Phase 03 - Approval",
+      "status": {
+        "lastUpdated": "2025-09-19",
+        "delivered": [
+          "Request, decision, and re-approval agents documented under phases/03-approval/agents with live forms (5dd64adc, 31f4d567) and modules (161468337269, 96919533807, 96920867313).",
+          "Contact → HJ Approvals property mapping defined in docs/properties and validated against workflow exports.",
+          "Generator-driven STATUS/TRACE now sourced from shared/source/phases.json for approval coverage."
+        ],
+        "gaps": [
+          {
+            "subprocess": "request_for_approval",
+            "items": "Confirm workflow 567500453 enrollment matches updated form parameters and capture screenshots in verification plan."
+          },
+          {
+            "subprocess": "approve_reject",
+            "items": "Sync internal (1682422902) vs external (1680618036) decision workflows and document status change evidence."
+          },
+          {
+            "subprocess": "re_approval_request",
+            "items": "Add reminder cadence/run history for workflows 567466561 & 567463273 to the verification checklist."
+          }
+        ],
+        "nextActions": [
+          "Export latest approval workflows into data/raw/workflows and link the run history from verification logs.",
+          "Embed approval interface screenshots in docs/overview.md to clarify internal vs external paths.",
+          "Coordinate with notifications phase to document outbound approval emails and escalation rules."
+        ]
+      },
+      "trace": {
+        "title": "Approval End-to-End Trace",
+        "description": "End-to-end coverage of the timesheet approval pipeline across request intake, decision handling, and re-approval reminders.",
+        "overview": {
+          "processSummary": "analysis/timesheet_process/phases/03-approval/docs/overview.md",
+          "status": "analysis/timesheet_process/phases/03-approval/docs/STATUS.md",
+          "dependencies": [
+            "Consumes approval payload from Phase 02 (approval_timesheet_ids_array, submitted_as_timesheet_contact).",
+            "Requires Phase 01 project metadata (hj_approver_email, hj_approver_is, association 210 contact ↔ project)."
+          ]
+        },
+        "sequenceNote": "Operational sequence: request intake → decision handling → reminders & re-approval → downstream notification/billing handoff.",
+        "sections": [
+          {
+            "key": "request-intake",
+            "title": "Approval Request Intake",
+            "purpose": "Capture consultant-selected timesheets and create the HJ Approval record.",
+            "workflows": [
+              {
+                "step": 1,
+                "name": "Consultant Approval Request",
+                "id": "567500453",
+                "trigger": "Contact submits Request for Approval form (5dd64adc)",
+                "actions": "Validates selection, copies approval_* fields to contact, creates HJ Approvals record, queues notifications",
+                "result": "HJ Approval created with pending status and approver metadata."
+              }
+            ],
+            "inputs": [
+              "Form 5dd64adc-request-for-approval (target: Contact 0-1)",
+              "Module 161468337269-timesheet-management-approval (exposes selection UI)",
+              "Contact approval_timesheet_ids_array, approval_project_id, approver_* fields"
+            ],
+            "outputs": [
+              "HJ Approvals record populated with project, consultant, and timesheet arrays",
+              "Contact approval_status set to Submitted and approval_request_id stored"
+            ],
+            "notes": [
+              "Contact remains the enrollment object; ensure approver properties exist before submission.",
+              "Workflow writes approval links for both internal and customer approvers."
+            ]
+          },
+          {
+            "key": "decision-handling",
+            "title": "Internal & External Decision Handling",
+            "purpose": "Record approval outcomes and update related timesheets/projects.",
+            "workflows": [
+              {
+                "step": 2,
+                "name": "Customer Approval Response",
+                "id": "1680618036",
+                "trigger": "External approver submits approval response form (31f4d567)",
+                "actions": "Updates approval outcome, stamps decision metadata, emails consultant and HJ owner",
+                "result": "Timesheet status moves to Approved/Rejected and customer notifications sent."
+              },
+              {
+                "step": 3,
+                "name": "HJ Approval Response",
+                "id": "1682422902",
+                "trigger": "Internal approver completes internal approval module (96919533807)",
+                "actions": "Persists decision details, handles delegation, updates approval outcome fields",
+                "result": "Internal approvals logged with audit trail and escalation options."
+              }
+            ],
+            "notes": [
+              "Decision routing driven by approver_is (HJPetro vs PrimaryContact).",
+              "Both workflows patch HJ Approvals and related timesheet records with approval_outcome, approval_notes, approval_processed_date."
+            ]
+          },
+          {
+            "key": "reminders-and-reapproval",
+            "title": "Reminders & Re-Approval Loop",
+            "purpose": "Nudge approvers and recycle rejected/expired approvals.",
+            "workflows": [
+              {
+                "step": 4,
+                "name": "Reminder 1",
+                "id": "567466561",
+                "trigger": "Approval remains Pending after configured delay",
+                "actions": "Emails approver, flags contact for follow-up",
+                "result": "Approver reminded to act on pending approvals."
+              },
+              {
+                "step": 5,
+                "name": "Reminder 3 / Re-Approval",
+                "id": "567463273",
+                "trigger": "Approval pending after additional delay or resubmitted by consultant",
+                "actions": "Escalates reminder cadence, flips approval_status to Re-Submitted when applicable",
+                "result": "Resubmission path engaged with updated approval_request_id."
+              }
+            ],
+            "notes": [
+              "Reminder cadence adjustable via workflow delays; ensure business hours logic matches SLA.",
+              "Re-approval relies on consultants triggering a new request from the portal, reusing approval_timesheet_ids_array."
+            ]
+          },
+          {
+            "key": "data-sync",
+            "title": "Data Synchronization & Notifications",
+            "purpose": "Synchronize approvals with related timesheets, projects, and notification workflows.",
+            "notes": [
+              "Timesheet records receive approval_outcome and response_approval_timesheet_ids_array for downstream billing.",
+              "Approval outcomes trigger notification workflows (Phase 05) for consultant and internal stakeholders.",
+              "Verified properties documented in docs/properties/contact-to-approval-mapping.md."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "04-billing",
+      "folder": "04-billing",
+      "label": "Phase 04 - Billing",
+      "status": {
+        "lastUpdated": "2025-09-19",
+        "delivered": [
+          "Initial billing overview captured under docs/overview.md"
+        ],
+        "gaps": [
+          {
+            "subprocess": "billing_pipeline",
+            "items": "Document workflows and data sources driving invoicing"
+          }
+        ],
+        "nextActions": [
+          "Import billing workflow metadata into phases.json and regenerate docs",
+          "Establish verification plan once billing exports are available"
+        ]
+      },
+      "trace": {
+        "title": "Billing Trace Outline",
+        "description": "Placeholder trace until billing automation is documented.",
+        "overview": {
+          "processSummary": "analysis/timesheet_process/phases/04-billing/docs/overview.md"
+        },
+        "sequenceNote": "Define billing data flow once automation is reverse-engineered.",
+        "sections": []
+      }
+    }
+  ]
+}

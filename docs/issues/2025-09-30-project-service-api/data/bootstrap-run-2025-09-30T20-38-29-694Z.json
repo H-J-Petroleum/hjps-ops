@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2025-09-30T20:38:24.815Z",
+  "dryRun": true,
+  "stages": {
+    "seedCompanyCustomer": true,
+    "seedSalesDeal": true,
+    "seedConsultant": true,
+    "createProject": true,
+    "assignConsultants": true,
+    "createService": true,
+    "assignService": true,
+    "createScope": true,
+    "collectSnapshots": true
+  },
+  "summaries": [
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/seed-company-2025-09-30T20-38-24-872Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/seed-sales-deal-2025-09-30T20-38-24-941Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/seed-consultant-contact-2025-09-30T20-38-25-011Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/project-consultant-run-2025-09-30T20-38-25-603Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/service-run-2025-09-30T20-38-25-670Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/service-association-run-2025-09-30T20-38-25-735Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/scope-run-2025-09-30T20-38-25-802Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/upstream-context-2025-09-30T20-38-28-124Z.json",
+    "/mnt/d/code/hjpshubspot/analysis/issues/2025-09-30-project-service-api/data/project-service-context-2025-09-30T20-38-29-677Z.json"
+  ]
+}

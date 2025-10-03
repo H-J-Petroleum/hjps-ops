@@ -1,0 +1,27 @@
+{
+  "hj_timesheets": {
+    "timesheet_project_id": "Links line items to hj_projects for reporting and approvals.",
+    "timesheet_project_name": "Human readable project label displayed in dashboard.",
+    "timesheet_payment_deal_id": "Well/AFE identifier used for billing associations.",
+    "timesheet_sales_deal_id": "Sales deal ID used for invoice and revenue linkage.",
+    "timesheet_consultant_id": "Consultant contact ID for association 280.",
+    "timesheet_consultant_email": "Consultant email stored for notifications.",
+    "timesheet_well": "Well name retained for approval context.",
+    "timesheet_role": "Role captured for pricing and approval clarity.",
+    "timesheet_job_service": "Job/service string from consultant configuration.",
+    "timesheet_trigger_status": "Control property for delete workflow (Delete Existing)."
+  },
+  "contact": {
+    "cg_project_id": "Project ID staged before WF-11.",
+    "cg_wells_array": "Comma-separated well list used by WF-11.",
+    "cg_sales_deal_id": "Sales deal ID mirrored from consultant record.",
+    "cg_consultant_id": "Consultant contact ID (unencrypted) used during WF-11 lookup.",
+    "hj_notify_project_object_id": "Project object ID used by WF-10 to build association (prereq for Step 0)."
+  },
+  "associations": {
+    "contact_to_hj_projects": "User-defined association 210 created in WF-10.",
+    "contact_to_hj_timesheets": "User-defined association 280 created implicitly when WF-11 writes consultant ID.",
+    "deal_to_hj_timesheets": "Implicit relationship through stored deal IDs (no direct association object)."
+  },
+  "last_updated": "2025-09-19"
+}

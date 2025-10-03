@@ -1,0 +1,394 @@
+{
+  "generatedAt": "2025-09-19T22:28:12.603Z",
+  "stageCount": 4,
+  "stages": [
+    {
+      "stage": "consultant_request",
+      "moduleCount": 2,
+      "totals": {
+        "inlineStyleBytes": 27560,
+        "crmObjects": 6,
+        "queryParams": 12,
+        "externalScripts": 4
+      },
+      "averages": {
+        "inlineStyleBytes": 13780,
+        "crmObjects": 3,
+        "queryParams": 6,
+        "externalScripts": 2
+      },
+      "issueFrequency": [
+        {
+          "issue": "All styling is inline; module.css is empty",
+          "count": 2
+        },
+        {
+          "issue": "module.js is empty; logic embedded directly inside HTML",
+          "count": 2
+        },
+        {
+          "issue": "fields.json is empty; module relies entirely on query parameters",
+          "count": 2
+        },
+        {
+          "issue": "Several external scripts loaded inside module.html; move to shared asset bundle",
+          "count": 1
+        },
+        {
+          "issue": "Base64 payload detected; consider moving to separate asset or API response",
+          "count": 1
+        }
+      ],
+      "modules": [
+        {
+          "module": "hjp-consultants-line-item-request-approval-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-01.module",
+          "inlineStyleBytes": 17748,
+          "crmObjects": 3,
+          "queryParams": 6,
+          "externalScripts": 3,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "Several external scripts loaded inside module.html; move to shared asset bundle",
+            "Base64 payload detected; consider moving to separate asset or API response"
+          ]
+        },
+        {
+          "module": "hjp-consultants-line-item-request-approval-02",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-consultants-line-item-request-approval-02.module",
+          "inlineStyleBytes": 9812,
+          "crmObjects": 3,
+          "queryParams": 6,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "customer_response",
+      "moduleCount": 2,
+      "totals": {
+        "inlineStyleBytes": 38973,
+        "crmObjects": 4,
+        "queryParams": 10,
+        "externalScripts": 2
+      },
+      "averages": {
+        "inlineStyleBytes": 19486.5,
+        "crmObjects": 2,
+        "queryParams": 5,
+        "externalScripts": 1
+      },
+      "issueFrequency": [
+        {
+          "issue": "All styling is inline; module.css is empty",
+          "count": 2
+        },
+        {
+          "issue": "module.js is empty; logic embedded directly inside HTML",
+          "count": 2
+        },
+        {
+          "issue": "fields.json is empty; module relies entirely on query parameters",
+          "count": 2
+        }
+      ],
+      "modules": [
+        {
+          "module": "hjp-customer-approval-response-customer-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-customer-01.module",
+          "inlineStyleBytes": 23007,
+          "crmObjects": 2,
+          "queryParams": 5,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters"
+          ]
+        },
+        {
+          "module": "hjp-customer-approval-response-hjpetro-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-customer-approval-response-hjpetro-01.module",
+          "inlineStyleBytes": 15966,
+          "crmObjects": 2,
+          "queryParams": 5,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "field_ticket_flow",
+      "moduleCount": 8,
+      "totals": {
+        "inlineStyleBytes": 43130,
+        "crmObjects": 20,
+        "queryParams": 54,
+        "externalScripts": 18
+      },
+      "averages": {
+        "inlineStyleBytes": 5391.25,
+        "crmObjects": 2.5,
+        "queryParams": 6.75,
+        "externalScripts": 2.25
+      },
+      "issueFrequency": [
+        {
+          "issue": "All styling is inline; module.css is empty",
+          "count": 8
+        },
+        {
+          "issue": "module.js is empty; logic embedded directly inside HTML",
+          "count": 8
+        },
+        {
+          "issue": "fields.json is empty; module relies entirely on query parameters",
+          "count": 6
+        },
+        {
+          "issue": "Several external scripts loaded inside module.html; move to shared asset bundle",
+          "count": 3
+        },
+        {
+          "issue": "High number of query parameters; consider structured module fields or shared data layer",
+          "count": 2
+        },
+        {
+          "issue": "Base64 payload detected; consider moving to separate asset or API response",
+          "count": 2
+        },
+        {
+          "issue": "Multiple crm_objects calls; evaluate for consolidation or helper macros",
+          "count": 2
+        }
+      ],
+      "modules": [
+        {
+          "module": "hjp-field-ticket-for-approval-01-secure",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01-secure.module",
+          "inlineStyleBytes": 4527,
+          "crmObjects": 3,
+          "queryParams": 6,
+          "externalScripts": 2,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML"
+          ]
+        },
+        {
+          "module": "hjp-field-ticket-for-approval-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-01.module",
+          "inlineStyleBytes": 4733,
+          "crmObjects": 3,
+          "queryParams": 6,
+          "externalScripts": 2,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters"
+          ]
+        },
+        {
+          "module": "hjp-field-ticket-for-approval-02",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-02.module",
+          "inlineStyleBytes": 2196,
+          "crmObjects": 2,
+          "queryParams": 11,
+          "externalScripts": 4,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "High number of query parameters; consider structured module fields or shared data layer",
+            "Several external scripts loaded inside module.html; move to shared asset bundle",
+            "Base64 payload detected; consider moving to separate asset or API response"
+          ]
+        },
+        {
+          "module": "hjp-field-ticket-for-approval-03",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-03.module",
+          "inlineStyleBytes": 2196,
+          "crmObjects": 2,
+          "queryParams": 9,
+          "externalScripts": 4,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "High number of query parameters; consider structured module fields or shared data layer",
+            "Several external scripts loaded inside module.html; move to shared asset bundle",
+            "Base64 payload detected; consider moving to separate asset or API response"
+          ]
+        },
+        {
+          "module": "hjp-field-ticket-for-approval-autosubmit-test",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-field-ticket-for-approval-autosubmit-test.module",
+          "inlineStyleBytes": 17912,
+          "crmObjects": 2,
+          "queryParams": 4,
+          "externalScripts": 3,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "Several external scripts loaded inside module.html; move to shared asset bundle"
+          ]
+        },
+        {
+          "module": "hjp-filed-ticket-for-approval-04-thank-you",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-filed-ticket-for-approval-04-thank-you.module",
+          "inlineStyleBytes": 2306,
+          "crmObjects": 0,
+          "queryParams": 6,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters"
+          ]
+        },
+        {
+          "module": "hjp-h-and-j-field-ticket-for-approval-01-secure",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01-secure.module",
+          "inlineStyleBytes": 4527,
+          "crmObjects": 4,
+          "queryParams": 6,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "Multiple crm_objects calls; evaluate for consolidation or helper macros"
+          ]
+        },
+        {
+          "module": "hjp-h-and-j-field-ticket-for-approval-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-h-and-j-field-ticket-for-approval-01.module",
+          "inlineStyleBytes": 4733,
+          "crmObjects": 4,
+          "queryParams": 6,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "Multiple crm_objects calls; evaluate for consolidation or helper macros"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "line_items_flow",
+      "moduleCount": 2,
+      "totals": {
+        "inlineStyleBytes": 38875,
+        "crmObjects": 6,
+        "queryParams": 9,
+        "externalScripts": 2
+      },
+      "averages": {
+        "inlineStyleBytes": 19437.5,
+        "crmObjects": 3,
+        "queryParams": 4.5,
+        "externalScripts": 1
+      },
+      "issueFrequency": [
+        {
+          "issue": "All styling is inline; module.css is empty",
+          "count": 2
+        },
+        {
+          "issue": "module.js is empty; logic embedded directly inside HTML",
+          "count": 1
+        },
+        {
+          "issue": "fields.json is empty; module relies entirely on query parameters",
+          "count": 1
+        },
+        {
+          "issue": "High number of query parameters; consider structured module fields or shared data layer",
+          "count": 1
+        }
+      ],
+      "modules": [
+        {
+          "module": "hjp-line-items-approval-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-01.module",
+          "inlineStyleBytes": 18665,
+          "crmObjects": 3,
+          "queryParams": 0,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": true,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty"
+          ]
+        },
+        {
+          "module": "hjp-line-items-approval-re-01",
+          "path": "data/raw/themes/Timesheets-Theme/modules/hjp-line-items-approval-re-01.module",
+          "inlineStyleBytes": 20210,
+          "crmObjects": 3,
+          "queryParams": 9,
+          "externalScripts": 1,
+          "hasModuleCss": false,
+          "hasModuleJs": false,
+          "hasInlineStyle": true,
+          "potentialIssues": [
+            "All styling is inline; module.css is empty",
+            "module.js is empty; logic embedded directly inside HTML",
+            "fields.json is empty; module relies entirely on query parameters",
+            "High number of query parameters; consider structured module fields or shared data layer"
+          ]
+        }
+      ]
+    }
+  ]
+}

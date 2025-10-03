@@ -1,0 +1,41 @@
+{
+  "modules": [
+    {
+      "name": "hjp-assign-consultant-to-new-deal-01.module",
+      "purpose": "Start page for consultant/approver intake; surfaces consultant metadata and approver requirements from WF-01 outputs."
+    },
+    {
+      "name": "hjp-assign-consultant-to-new-deal-02.module",
+      "purpose": "Collects consultant assignment confirmation and exposes the approver selection instructions."
+    },
+    {
+      "name": "hjp-assign-consultant-to-new-deal-03.module",
+      "purpose": "Final confirmation view; links to the Create/Associate Well experience and reiterates approver conflict checks."
+    }
+  ],
+  "forms": [
+    {
+      "name": "Consultant Assignment Form",
+      "id": "f1784acd-d74d-441e-b5e5-c0c4fbbf2f5e",
+      "purpose": "Collects consultant + deal IDs, triggering WF-06 to create association type 4 while keeping approver distinct."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "01. Update Recruiting Deal",
+      "id": "567275018",
+      "purpose": "Populates consultant metadata, generates assignment URLs, and guards against consultants doubling as approvers."
+    },
+    {
+      "name": "03. Update Sales Deal & Create Custom Project Object",
+      "id": "567293814",
+      "purpose": "Validation gate that requires an Approver-labelled contact before the deal can remain Closed Won."
+    },
+    {
+      "name": "06. Associate Consultant to a New Sales Deal",
+      "id": "567363849",
+      "purpose": "Creates the consultant association after the assignment form submits and double-checks for approver conflicts."
+    }
+  ],
+  "last_updated": "2025-09-18"
+}

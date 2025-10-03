@@ -1,0 +1,1784 @@
+{
+  "contactId": "299151",
+  "timestamp": "2025-09-30T16:37:20.977Z",
+  "contact": {
+    "approval_consultant_name": "Justin Lott",
+    "approval_customer": "Vital Energy",
+    "approval_from_date": "09/14/2025",
+    "approval_object_record_id": "35694806035",
+    "approval_operator": "Vital Energy",
+    "approval_processed_date": "2025-09-30",
+    "approval_project_id": "hjp-15911-37197",
+    "approval_project_name": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+    "approval_request_id": "hjp-15911-37197-299151-1759247245326",
+    "approval_sales_deal_id": "16647461296",
+    "approval_sales_deal_owner_email": "jpoe@hjpetro.com",
+    "approval_sales_deal_owner_full_name": "Jon-Lucas Poe",
+    "approval_timesheet_ids_array": "35668239455,35668239443,35668239420,35668239451,35668239399,35668239393,35668239430,35668239389,35668239409,35668239447,35668239418,35668239416,35668239422,35668239412,35668239426,35668239392,35668239421,35668239414,35668239400,35668239395,35668239385,35668239458,35668239406,35668239401,35668239396,35668239405,35668239407,35668239411,35668239386,35668239390,35668239423,35668239463,35668239461,35668239454,35668239394,35668239428,35668239397,35668239456,35668239453,35668239452,35668239427,35668239387,35668239448,35668239442,35668239434,35668239402,35668239462,35668239383,35668239388,35668239439,35668239410,35668239464,35668239429,35668239431,35668239391,35668239424,35668239460,35668239382,35668239450,35668239446,35668239457,35668239441,35668239438,35668239459,35668239444,35668239435,35668239403,35668239384,35668239381,35668239404,35668239436,35668239425,35668239417,35668239432,35668239437,35668239419,35668239445,35668239449,35668239440,35668239413,35668239408,35668239433,35668239398,35668239415",
+    "approval_until_date": "09/25/2025",
+    "approver_email": "tc.willis@vitalenergy.com",
+    "approver_full_name": "TC Willis",
+    "approver_is": "Primary Contact",
+    "approver_unique_id": "437851",
+    "createdate": "2023-05-15T17:46:23.298Z",
+    "hs_object_id": "299151",
+    "lastmodifieddate": "2025-09-30T15:51:47.861Z",
+    "main_contact_email": null,
+    "main_contact_id": null,
+    "quote_customer_name": "0690",
+    "submitted_as_timesheet_contact": "No"
+  },
+  "timesheetIds": [
+    "35668239455",
+    "35668239443",
+    "35668239420",
+    "35668239451",
+    "35668239399",
+    "35668239393",
+    "35668239430",
+    "35668239389",
+    "35668239409",
+    "35668239447",
+    "35668239418",
+    "35668239416",
+    "35668239422",
+    "35668239412",
+    "35668239426",
+    "35668239392",
+    "35668239421",
+    "35668239414",
+    "35668239400",
+    "35668239395",
+    "35668239385",
+    "35668239458",
+    "35668239406",
+    "35668239401",
+    "35668239396",
+    "35668239405",
+    "35668239407",
+    "35668239411",
+    "35668239386",
+    "35668239390",
+    "35668239423",
+    "35668239463",
+    "35668239461",
+    "35668239454",
+    "35668239394",
+    "35668239428",
+    "35668239397",
+    "35668239456",
+    "35668239453",
+    "35668239452",
+    "35668239427",
+    "35668239387",
+    "35668239448",
+    "35668239442",
+    "35668239434",
+    "35668239402",
+    "35668239462",
+    "35668239383",
+    "35668239388",
+    "35668239439",
+    "35668239410",
+    "35668239464",
+    "35668239429",
+    "35668239431",
+    "35668239391",
+    "35668239424",
+    "35668239460",
+    "35668239382",
+    "35668239450",
+    "35668239446",
+    "35668239457",
+    "35668239441",
+    "35668239438",
+    "35668239459",
+    "35668239444",
+    "35668239435",
+    "35668239403",
+    "35668239384",
+    "35668239381",
+    "35668239404",
+    "35668239436",
+    "35668239425",
+    "35668239417",
+    "35668239432",
+    "35668239437",
+    "35668239419",
+    "35668239445",
+    "35668239449",
+    "35668239440",
+    "35668239413",
+    "35668239408",
+    "35668239433",
+    "35668239398",
+    "35668239415"
+  ],
+  "timesheets": [
+    {
+      "id": "35668239420",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.224Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:00.557Z",
+        "hs_object_id": "35668239420",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239403",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:17.914Z",
+        "hs_object_id": "35668239403",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239442",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:12.547Z",
+        "hs_object_id": "35668239442",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239416",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:03.852Z",
+        "hs_object_id": "35668239416",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239434",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:12.725Z",
+        "hs_object_id": "35668239434",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239424",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:15.350Z",
+        "hs_object_id": "35668239424",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239427",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:11.793Z",
+        "hs_object_id": "35668239427",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.73",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.73",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239463",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:09.363Z",
+        "hs_object_id": "35668239463",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239429",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:14.652Z",
+        "hs_object_id": "35668239429",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239428",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:10.360Z",
+        "hs_object_id": "35668239428",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239446",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.152Z",
+        "hs_object_id": "35668239446",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239436",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:33.775Z",
+        "hs_object_id": "35668239436",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239435",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:17.630Z",
+        "hs_object_id": "35668239435",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    },
+    {
+      "id": "35668239390",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:08.738Z",
+        "hs_object_id": "35668239390",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239464",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:14.328Z",
+        "hs_object_id": "35668239464",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239426",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:04.631Z",
+        "hs_object_id": "35668239426",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239454",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:09.826Z",
+        "hs_object_id": "35668239454",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239412",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:04.298Z",
+        "hs_object_id": "35668239412",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239444",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:17.235Z",
+        "hs_object_id": "35668239444",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    },
+    {
+      "id": "35668239418",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:03.452Z",
+        "hs_object_id": "35668239418",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239393",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:01.488Z",
+        "hs_object_id": "35668239393",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239430",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:01.961Z",
+        "hs_object_id": "35668239430",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239410",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:14.070Z",
+        "hs_object_id": "35668239410",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239457",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.371Z",
+        "hs_object_id": "35668239457",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239413",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:35.760Z",
+        "hs_object_id": "35668239413",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239392",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:05.012Z",
+        "hs_object_id": "35668239392",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239460",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:15.544Z",
+        "hs_object_id": "35668239460",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239447",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:02.960Z",
+        "hs_object_id": "35668239447",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239389",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:02.269Z",
+        "hs_object_id": "35668239389",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239411",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:08.332Z",
+        "hs_object_id": "35668239411",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239401",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:07.299Z",
+        "hs_object_id": "35668239401",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    },
+    {
+      "id": "35668239417",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:34.344Z",
+        "hs_object_id": "35668239417",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239443",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.224Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:00.288Z",
+        "hs_object_id": "35668239443",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239384",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:33.222Z",
+        "hs_object_id": "35668239384",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239461",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:09.595Z",
+        "hs_object_id": "35668239461",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239381",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:33.383Z",
+        "hs_object_id": "35668239381",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239391",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:15.098Z",
+        "hs_object_id": "35668239391",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239395",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:06.256Z",
+        "hs_object_id": "35668239395",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239459",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.981Z",
+        "hs_object_id": "35668239459",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    },
+    {
+      "id": "35668239388",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:13.653Z",
+        "hs_object_id": "35668239388",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239462",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:13.138Z",
+        "hs_object_id": "35668239462",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239432",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:34.575Z",
+        "hs_object_id": "35668239432",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239400",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:05.937Z",
+        "hs_object_id": "35668239400",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239406",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:06.981Z",
+        "hs_object_id": "35668239406",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    },
+    {
+      "id": "35668239394",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:10.087Z",
+        "hs_object_id": "35668239394",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239419",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:34.928Z",
+        "hs_object_id": "35668239419",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239414",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:05.677Z",
+        "hs_object_id": "35668239414",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239396",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:07.543Z",
+        "hs_object_id": "35668239396",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239452",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:11.388Z",
+        "hs_object_id": "35668239452",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.88",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.59",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239402",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:12.953Z",
+        "hs_object_id": "35668239402",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239445",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:35.190Z",
+        "hs_object_id": "35668239445",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239421",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:05.435Z",
+        "hs_object_id": "35668239421",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239397",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:10.634Z",
+        "hs_object_id": "35668239397",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239409",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:02.561Z",
+        "hs_object_id": "35668239409",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239448",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:12.279Z",
+        "hs_object_id": "35668239448",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239383",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:13.374Z",
+        "hs_object_id": "35668239383",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239405",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:07.760Z",
+        "hs_object_id": "35668239405",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239450",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.004Z",
+        "hs_object_id": "35668239450",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239455",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.224Z",
+        "hs_lastmodifieddate": "2025-09-30T15:46:59.956Z",
+        "hs_object_id": "35668239455",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "BLACK BEAR STATE H 13TB"
+      }
+    },
+    {
+      "id": "35668239441",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.608Z",
+        "hs_object_id": "35668239441",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239433",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:51:57.333Z",
+        "hs_object_id": "35668239433",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.88",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.59",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239453",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:11.129Z",
+        "hs_object_id": "35668239453",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239422",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:04.060Z",
+        "hs_object_id": "35668239422",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "DC Klipspringer State Unit 3B"
+      }
+    },
+    {
+      "id": "35668239439",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:13.856Z",
+        "hs_object_id": "35668239439",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "GRISSOM WHITE D 11TB"
+      }
+    },
+    {
+      "id": "35668239408",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:51:56.918Z",
+        "hs_object_id": "35668239408",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239456",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:10.921Z",
+        "hs_object_id": "35668239456",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239438",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:16.802Z",
+        "hs_object_id": "35668239438",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239398",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:51:57.578Z",
+        "hs_object_id": "35668239398",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.73",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.73",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239449",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:35.386Z",
+        "hs_object_id": "35668239449",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Woods 3A"
+      }
+    },
+    {
+      "id": "35668239382",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:15.772Z",
+        "hs_object_id": "35668239382",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "DC Klipspringer State Unit 4A"
+      }
+    },
+    {
+      "id": "35668239425",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:33.988Z",
+        "hs_object_id": "35668239425",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239431",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.228Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:14.851Z",
+        "hs_object_id": "35668239431",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "GRISSOM WHITE E 12B"
+      }
+    },
+    {
+      "id": "35668239385",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:06.457Z",
+        "hs_object_id": "35668239385",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 B 4J"
+      }
+    },
+    {
+      "id": "35668239407",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:08.017Z",
+        "hs_object_id": "35668239407",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "REBECCA 37-5 E 6J"
+      }
+    },
+    {
+      "id": "35668239404",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:33.572Z",
+        "hs_object_id": "35668239404",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239387",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.227Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:12.087Z",
+        "hs_object_id": "35668239387",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.69",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.91",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239440",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:35.588Z",
+        "hs_object_id": "35668239440",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "Woods 4A"
+      }
+    },
+    {
+      "id": "35668239437",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.229Z",
+        "hs_lastmodifieddate": "2025-09-30T15:48:34.729Z",
+        "hs_object_id": "35668239437",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.72",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.93",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239423",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:09.064Z",
+        "hs_object_id": "35668239423",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "SCHWARTZ Q 7A"
+      }
+    },
+    {
+      "id": "35668239399",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.225Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:01.213Z",
+        "hs_object_id": "35668239399",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239415",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.230Z",
+        "hs_lastmodifieddate": "2025-09-30T15:51:57.851Z",
+        "hs_object_id": "35668239415",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "160.69",
+        "timesheet_job_service": "Mileage",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "133.91",
+        "timesheet_well": "Woods 5TB"
+      }
+    },
+    {
+      "id": "35668239386",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:08.566Z",
+        "hs_object_id": "35668239386",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "26.79",
+        "timesheet_job_service": "Per Diem",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "26.79",
+        "timesheet_well": "Schwartz J 1A"
+      }
+    },
+    {
+      "id": "35668239451",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.224Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:00.948Z",
+        "hs_object_id": "35668239451",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "BLACK BEAR STATE A 9TB"
+      }
+    },
+    {
+      "id": "35668239458",
+      "properties": {
+        "approval_object_record_id": "35694806035",
+        "hs_createdate": "2025-09-30T15:30:41.226Z",
+        "hs_lastmodifieddate": "2025-09-30T15:47:06.765Z",
+        "hs_object_id": "35668239458",
+        "invoice_number_second_part": "0690",
+        "processed_date": "2025-09-30",
+        "timesheet_approval_request_id": "hjp-15911-37197-299151-1759247245326",
+        "timesheet_approval_status": "Submitted",
+        "timesheet_hj_total_price": "392.86",
+        "timesheet_job_service": "Construction Supervisor III",
+        "timesheet_project_id": "hjp-15911-37197",
+        "timesheet_total_price": "353.57",
+        "timesheet_well": "REBECCA 37-5 C 5MS"
+      }
+    }
+  ],
+  "uniqueWells": [
+    "BLACK BEAR STATE H 13TB",
+    "REBECCA 37-5 E 6J",
+    "GRISSOM WHITE E 12B",
+    "DC Klipspringer State Unit 3B",
+    "Woods 5TB",
+    "SCHWARTZ Q 7A",
+    "Woods 3A",
+    "DC Klipspringer State Unit 4A",
+    "Schwartz J 1A",
+    "REBECCA 37-5 C 5MS",
+    "BLACK BEAR STATE A 9TB",
+    "GRISSOM WHITE D 11TB",
+    "REBECCA 37-5 B 4J",
+    "Woods 4A"
+  ],
+  "approvalObject": {
+    "approval_approval_from": "09/14/2025",
+    "approval_approval_status": "Submitted",
+    "approval_approval_until": "09/25/2025",
+    "approval_hj_task_id": null,
+    "approval_request_id": "hjp-15911-37197-299151-1759247245326",
+    "approval_status_date": "2025-09-30",
+    "approval_wells": null,
+    "hs_createdate": "2025-09-30T15:46:54.270Z",
+    "hs_lastmodifieddate": "2025-09-30T15:48:12.513Z",
+    "hs_object_id": "35694806035"
+  },
+  "approverContact": {
+    "id": "437851",
+    "properties": {
+      "createdate": "2023-12-15T16:04:17.518Z",
+      "email": "tc.willis@vitalenergy.com",
+      "firstname": "TC",
+      "hs_object_id": "148614099249",
+      "lastmodifieddate": "2025-09-16T05:34:25.352Z",
+      "lastname": "Willis",
+      "line_items_approval_link": "",
+      "send_approval_consultant_name": "Justin Lott",
+      "send_approval_customer": "Vital Energy",
+      "send_approval_from_date": "09/07/2025",
+      "send_approval_operator": "Vital Energy",
+      "send_approval_reminder": "FirstTime",
+      "send_approval_until_date": "09/11/2025",
+      "send_approval_well_names": "BLACK BEAR STATE A 9TB, BLACK BEAR STATE H 13TB, DC Klipspringer State Unit 3B, DC Klipspringer State Unit 4A, GRISSOM WHITE D 11TB, REBECCA 37-5 B 4J, REBECCA 37-5 C 5MS, REBECCA 37-5 E 6J, Schwartz J 1A, SCHWARTZ Q 7A, Woods 3A, Woods 4A, Woods 5TB"
+    }
+  },
+  "salesDeal": {
+    "id": "16647461296",
+    "properties": {
+      "createdate": "2023-12-22T20:41:39.776Z",
+      "dealname": "Vital - Drilling Construction Supervisor (Charlie Replacement)",
+      "hj_approver_is": "HJPetro",
+      "hj_primary_customer_contact_id": "437851",
+      "hs_lastmodifieddate": "2025-09-30T15:53:00.968Z",
+      "hs_object_id": "16647461296",
+      "hubspot_owner_id": "151497314",
+      "owner_email": "jpoe@hjpetro.com"
+    }
+  },
+  "salesDealOwner": {
+    "id": "5355789",
+    "email": "mhood@hjpetro.com",
+    "type": "PERSON",
+    "firstName": "Matt",
+    "lastName": "Hood",
+    "userId": 1666564,
+    "userIdIncludingInactive": 1666564,
+    "createdAt": "2015-08-20T17:21:56.107Z",
+    "updatedAt": "2022-02-22T21:00:04.647Z",
+    "archived": false,
+    "teams": [
+      {
+        "id": "15858635",
+        "name": "H&J and PS",
+        "primary": true
+      },
+      {
+        "id": "36146",
+        "name": "H&J Sales",
+        "primary": false
+      },
+      {
+        "id": "52057964",
+        "name": "H&J Timesheets & Approvals",
+        "primary": false
+      },
+      {
+        "id": "63714041",
+        "name": "PS Form Submission Team",
+        "primary": false
+      },
+      {
+        "id": "52057946",
+        "name": "H&J Recruiting",
+        "primary": false
+      },
+      {
+        "id": "52057945",
+        "name": "H&J Marketing",
+        "primary": false
+      },
+      {
+        "id": "52057949",
+        "name": "H&J Qualification",
+        "primary": false
+      },
+      {
+        "id": "52057971",
+        "name": "PS Marketing",
+        "primary": false
+      },
+      {
+        "id": "11658618",
+        "name": "PS Sales",
+        "primary": false
+      },
+      {
+        "id": "52057972",
+        "name": "PS Operations",
+        "primary": false
+      },
+      {
+        "id": "52057962",
+        "name": "H&J Job Placement",
+        "primary": false
+      },
+      {
+        "id": "52057963",
+        "name": "H&J Appreciation",
+        "primary": false
+      },
+      {
+        "id": "54014891",
+        "name": "PS Contact Owner",
+        "primary": false
+      },
+      {
+        "id": "52057958",
+        "name": "H&J Compliance",
+        "primary": false
+      },
+      {
+        "id": "52057957",
+        "name": "H&J Onboarding",
+        "primary": false
+      }
+    ]
+  },
+  "primaryCustomerContact": {
+    "id": "437851",
+    "email": "tc.willis@vitalenergy.com"
+  }
+}
